@@ -1,0 +1,10 @@
+\chapter{Podsumowanie}
+W niniejszej pracy dokonano zestawienia grupy najpopularniejszych algorytmów służących lokalizowaniu i opisywaniu lokalnych cech charakterystycznych obrazów. Metody te zostały w dokładny sposób opisane i przebadane.
+
+Do oceny jakości działań algorytmów wykorzystano często stosowany w ewaluacji zbiór Mikołajczyka oraz opracowany na potrzeby niniejszej pracy autorski zbiór obrazów skalnych. Stabilność kryteriów czasowych i ilościowych pozwala wysnuć wniosek o poprawnym doborze obrazów wchodzącym w skład zbioru autorskiego.
+
+W ramach badań sprawdzono odporność algorytmów na transformacje obrazu. Większość algorytmów w sposób umiarkowanie dobry radzi sobie z przekształceniami takimi jak rozmycie obrazu czy zmiana oświetlenia. Największe wyzwanie dla algorytmów stanowią obrazy, w których zmienia się sposób patrzenia na scenę. Zarówno w przypadku obrazów skalnych i Mikołajczyka algorytmy są wrażliwe na przekształcenia rotacji, zmianę skali lub położenia obserwatora. Na tym tle najlepiej wypadają algorytmy ORB i SIFT oraz kombinacja STAR-SIFT.
+
+Algorytm SIFT w większości przypadków okazuje się bardziej dokładnym od algorytmu ORB. Różnica ta jednak często jest znikoma, dlatego w większości aplikacji, w których istotnymi są parametry czasowe lepszym rozwiązaniem wydaje się algorytm ORB. Należy jednak pamiętać, że w zależności od badanej sceny szybszym może się okazywać algorytm SIFT. Ciekawym rozwiązaniem wydaje się również kombinacja STAR-SIFT. W rankingach czasowych osiąga ona wyniki o rząd wielkości gorsze wyniki niż pozostałe algorytmy. Kombinacja ta jednak działa w sytuacjach, gdy pozostałe metody zawodzą.
+
+Reasumując wyniki badań nie ma jednego idealnego algorytmu pozwalającego lokalizować cechy obrazu do rozpoznawania. Osiągi algorytmów różnią się w zależności od rodzaju sceny i transformacji. Rozwiązaniem przyszłościowym może być opracowanie metody operującej na wyższym stopniu abstrakcji, działającej na kompleksach cech zamiast na pojedynczych punktach.

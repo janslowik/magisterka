@@ -1,0 +1,64 @@
+\chapter{Opis badań}
+Omówione w cześci teoretycznej algorytmy zostały przebadane pod kątem efektywności działania.
+W tym celu został napisany program komputerowy, którego szerszy opis można znaleść w dodatku \ref{dodatek_program}.
+\FloatBarrier 
+\section{Badane algorytmy}
+Problem poprawnego rozpoznawania obrazów opartego o cechy charakterystyczne można zdekomponować na dwa mniejsze jakimi są:
+\begin{itemize}
+\item lokalizowanie punktów charakterystycznych,
+\item opisywanie punktów charakterystycznych.
+\end{itemize}
+Oba aspekty są kluczowe dla realizacji postawionego zadania, a efekt finalny jest wypadkową pracy detektorów i deskryptorów. Z tego względu przyjęto założenie, że algorytmy kompletne tj. zawierające zarówno detektor jak i deskryptor zostaną zestawione z algorytmami mieszanymi. W przypadku algorytmów nie posiadających własnych mechanizmów opisu cech, pulę dostępnych deskryptorów wzbogacono o metody algorytmów kompletnych. Zastosowane podejście pozwoliło porównać ze sobą niezależnie stosowane detektory i deskryptory.
+Postanowiono przebadać następujące algorytmy:
+\begin{itemize}
+\item ORB
+\item SIFT
+\item SURF
+\item detektor STAR + deskryptor BRIEF
+\item detektor STAR + deskryptor ORB (\textit{wł. rBRIEF})
+\item detektor STAR + deskryptor SIFT
+\item detektor STAR + deskryptor SURF
+\item detektor FAST + deskryptor BRIEF $^1$
+\item detektor FAST + deskryptor ORB (\textit{wł. rBRIEF}) $^1$
+\item detektor FAST + deskryptor SIFT $^1$
+\item detektor FAST + deskryptor SURF $^1$
+\end{itemize}
+\footnote{Pierwsze testy wykazały jednakże, że ilość punktów charakterystycznych lokalizowanych przez algorytm FAST jest zbyt duża, aby można było dokonać dopasowania w rozsądnym czasie pracy maszyny.W związku z powyższym badany zrezygnowano z opisywania i dopasowywania cech lokalizowanych przez ten algorytm}
+
+\FloatBarrier
+\section{Kryteria badań}
+W porównywaniu algorytmów wzięto pod uwagę następujące kryteria:
+\begin{itemize}
+\item ilość lokalizowanych cech
+\item czas potrzebny na zlokalizowanie pojedynczego punktu charakterystycznego
+\item czas potrzebny na wygenerowanie deskryptora pojedynczego punktu charakterystycznego
+\item powtarzalność zlokalizowanych cech
+\item procent poprawnych dopasowań
+\end{itemize}
+
+
+
+Ze względu na to że algorytmy różnią się czasem działania i ilością lokalizowanych cech w rożnych obrazach, wszystkie kryteria czasowe zdecydowano się odnieść do pojedynczego punktu.
+
+
+Powtarzalność zlokalizowanych cech jest rozumiana jako:
+\begin{equation}
+p_{AB}  = \frac{d_{AB}}{i_{AB}}
+\end{equation}
+gdzie:\\
+$p_{AB}$ - powtarzalność lokalizowanych cech między obrazami A i B\\
+$d_{AB}$ - ilość dopasowanych cech między obrazami A i B metodą k najbliższych sąsiadów\\
+$i_{AB}$ - średnia arytmetyczna ilości punktów zlokalizowanych w obrazach A i B\\
+
+
+Do oceny jakości parowania cech wykorzystano algorytm RANSAC \cite{ransac}. Pozwala on wyeliminować błędne dopasowania nie pasujące do estymowanego wzorca. Za procent poprawnych dopasowań rozumiemy stosunek ilość par punktów po zastosowaniu algorytmu RANSAC do ilości wstępnie dopasowanych punktów.
+\FloatBarrier
+\section{Zbiory testowe}
+Do oceny pracy algorytmów wykorzystano dwa zbiory testowe:
+\begin{itemize}
+\item zbiór testowy Mikołajczyka
+\item autorski zbiór testowy przedstawiający obrazy skalne
+\end{itemize}
+W skład obu zbiorów wchodzą zestawy obrazów pogrupowane wg, przekształceń takich jak rotacja, zmiana skali, zmiana oświetlenie lub położenia obserwatora. Każdy pojedynczy zestaw składa się z 6 zdjęć. Pierwsze zdjęcie jest obiektem referencyjnym względem którego dokonywane są dopasowania. Kolejne zdjęcia zestawu są poddawane coraz mocniejszym przekształceniom.
+
+\FloatBarrier

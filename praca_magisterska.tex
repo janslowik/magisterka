@@ -1,0 +1,69 @@
+\documentclass[oneside]{mgr}
+\usepackage[section] {placeins}
+
+
+\usepackage{polski}      
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{psfrag}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{supertabular}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{hhline}
+
+\usepackage{showlabels}% w finalnej do usuniecia
+\newcommand{\R}{I\!\!R} 
+\newtheorem{theorem}{Twierdzenie}[section] 
+\title{Wybór cech do rozpoznawania \\złożonych form przestrzennych}
+\engtitle{Selection of features \\for recognizing complicated shapes}
+\author{inż. Jan Słowik}
+\supervisor{Prof. dr hab. inż. Ewaryst Rafajłowicz, I-6}
+\date{2012} 
+\field{Informatyka (INF)} 
+\specialisation{Inżynieria systemów informatycznych (INS)}
+\begin{document}
+\bibliographystyle{plabbrv} 
+\maketitle 
+\dedication{6cm}{Dedykuję moim rodzicom.}
+\tableofcontents 
+
+\include{rozdzialy/wstep}
+\part{Teoria}
+\include{rozdzialy/przeglad}
+\part{Badania}
+\include{rozdzialy/badania_opis}
+\include{rozdzialy/badania_mikolajczyk}
+\include{rozdzialy/badania_slowik}
+\include{rozdzialy/podsumowanie}
+
+\appendix
+\chapter{Opis aplikacji testowej}
+\chapter{Zawartość płyty DVD}
+Do pracy została dołączona płyta DVD zawierająca:
+\begin{itemize}
+\item wersje elektroniczną niniejszej pracy zapisaną w formacie PDF
+\item zbiory testowe Mikołajczyka i obrazów skalnych
+\item projekt MS Visual Studio aplikacji testowej
+\end{itemize}
+
+
+
+
+\addcontentsline{toc}{chapter}{Bibliografia} %utworzenie w
+                                             %spisietreÄšÂci pozycji
+                                             %Bibliografia
+
+\bibliography{bibi} % wstawia bibliografiĂÂ korzystajĂÂc z pliku
+                            % bibliografia.bib - dotyczy BibTeXa,
+                            % jeÄšĹşeli nie korzystamy z BibTeXa naleÄšĹşy
+                            % uÄšĹşyĂÂ otoczenia thebibliography
+
+%opcjonalnie moÄšĹşe siĂÂ tu pojawiĂÂ spis rysunkÄĹw i tabel
+ \listoffigures
+ \listoftables
+\end{document}
+
