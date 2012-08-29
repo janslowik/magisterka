@@ -6,7 +6,7 @@
 *.bbl
 *.blg
 *.dvi
-*.lof
+*.lot
 *.synctex.gz
 *.toc
 

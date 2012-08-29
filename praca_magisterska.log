@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  29 AUG 2012 20:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  29 AUG 2012 21:39
 entering extended mode
 **praca_magisterska.tex
-(E:\magisterka-jana\praca_magisterska.tex
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(E:\magisterka-jana\mgr.cls
+(C:\Users\jslowik\Documents\GitHub\magisterka\mgr.cls
 Document Class: mgr 2005/12/01 Non-Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -478,13 +478,13 @@ with amsmath equation tags
 \SL@labelposition=\count109
 )
 \c@theorem=\count110
- (E:\magisterka-jana\praca_magisterska.aux
-(E:\magisterka-jana\rozdzialy/wstep.aux)
-(E:\magisterka-jana\rozdzialy/przeglad.aux)
-(E:\magisterka-jana\rozdzialy/badania_opis.aux)
-(E:\magisterka-jana\rozdzialy/badania_mikolajczyk.aux)
-(E:\magisterka-jana\rozdzialy/badania_slowik.aux)
-(E:\magisterka-jana\rozdzialy/podsumowanie.aux))
+ (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.aux
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/wstep.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/przeglad.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_opis.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_mikolajczyk.aux
+) (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_slowik.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/podsumowanie.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
@@ -569,15 +569,15 @@ Non-PDF special ignored!
 [1
 
 
-] (E:\magisterka-jana\praca_magisterska.toc [1
+] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.toc
+[1
 
 
 
 
 ])
 \tf@toc=\write4
- [2]
-(E:\magisterka-jana\rozdzialy/wstep.tex
+ [2] (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/wstep.tex
 Rozdzia\PlPrIeC {\l } 1.
 ) [3
 
@@ -587,7 +587,7 @@ Rozdzia\PlPrIeC {\l } 1.
 
 
 
-] (E:\magisterka-jana\rozdzialy/przeglad.tex
+] (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/przeglad.tex
 Rozdzia\PlPrIeC {\l } 2.
 
 LaTeX Warning: Citation `IK111' on page 5 undefined on input line 3.
@@ -657,12 +657,14 @@ nput line 44.
 
 
 
- <E:/magisterka-jana/pict/01/barbara_thumb.jpg> <E:/magisterka-jana/pict/01/len
-a_thumb.jpg> <E:/magisterka-jana/pict/01/peppers_thumb.jpg> <E:/magisterka-jana
-/pict/01/mandril_thumb.jpg> <E:/magisterka-jana/pict/01/Number-of-detected-feat
-ures_thumb.png>]
-[6 <E:/magisterka-jana/pict/01/Detection-cost_thumb.png> <E:/magisterka-jana/pi
-ct/01/Percent-of-tracked-feature_thumb.png>]
+ <C:/Users/jslowik/Documents/GitHub/magisterka/pict/01/barbara_thumb.jpg> <C:/U
+sers/jslowik/Documents/GitHub/magisterka/pict/01/lena_thumb.jpg> <C:/Users/jslo
+wik/Documents/GitHub/magisterka/pict/01/peppers_thumb.jpg> <C:/Users/jslowik/Do
+cuments/GitHub/magisterka/pict/01/mandril_thumb.jpg> <C:/Users/jslowik/Document
+s/GitHub/magisterka/pict/01/Number-of-detected-features_thumb.png>] [6 <C:/User
+s/jslowik/Documents/GitHub/magisterka/pict/01/Detection-cost_thumb.png> <C:/Use
+rs/jslowik/Documents/GitHub/magisterka/pict/01/Percent-of-tracked-feature_thumb
+.png>]
 
 LaTeX Warning: Citation `DGL99' on page 7 undefined on input line 61.
 
@@ -676,7 +678,8 @@ File: pict/02/sift/sift_ais_octave.jpg Graphic file (type jpg)
 Package pdftex.def Info: pict/02/sift/sift_ais_octave.jpg used on input line 86
 .
 (pdftex.def)             Requested size: 364.19664pt x 582.7225pt.
- [7] [8 <E:/magisterka-jana/pict/02/sift/sift_ais_octave.jpg>]
+ [7] [8 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_oct
+ave.jpg>]
 <pict/02/sift/sift_dgl_octave.png, id=65, 733.23938pt x 541.27219pt>
 File: pict/02/sift/sift_dgl_octave.png Graphic file (type png)
 
@@ -692,7 +695,8 @@ File: pict/02/sift/sift_dgl_extremum.png Graphic file (type png)
 Package pdftex.def Info: pict/02/sift/sift_dgl_extremum.png used on input line 
 123.
 (pdftex.def)             Requested size: 155.8318pt x 126.09578pt.
- [9 <E:/magisterka-jana/pict/02/sift/sift_dgl_octave.png>]
+ [9 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_dgl_octave.
+png>]
 <pict/02/sift/sift_ais_extremum.jpg, id=70, 642.4pt x 1027.84pt>
 File: pict/02/sift/sift_ais_extremum.jpg Graphic file (type jpg)
 
@@ -704,11 +708,13 @@ Package pdftex.def Info: pict/02/sift/sift_ais_extremum.jpg used on input line
 
 LaTeX Warning: Citation `DGL04' on page 10 undefined on input line 152.
 
-[10 <E:/magisterka-jana/pict/02/sift/sift_dgl_extremum.png>]
+[10 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_dgl_extremu
+m.png>]
 
 LaTeX Warning: Citation `HIS88' on page 11 undefined on input line 171.
 
-[11 <E:/magisterka-jana/pict/02/sift/sift_ais_extremum.jpg>]
+[11 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_extremu
+m.jpg>]
 
 LaTeX Warning: Citation `DGL04' on page 12 undefined on input line 194.
 
@@ -761,18 +767,20 @@ File: pict/02/sift/sift_ais_des.jpg Graphic file (type jpg)
 <use pict/02/sift/sift_ais_des.jpg>
 Package pdftex.def Info: pict/02/sift/sift_ais_des.jpg used on input line 250.
 (pdftex.def)             Requested size: 364.19664pt x 117.60912pt.
- [13 <E:/magisterka-jana/pict/02/sift/sift_ais_orientation_1.jpg> <E:/magisterk
-a-jana/pict/02/sift/sift_ais_orientation_2.jpg>] [14 <E:/magisterka-jana/pict/0
-2/sift/sift_ais_orientation_histogram.jpg> <E:/magisterka-jana/pict/02/sift/sif
-t_ais_16_16_128.jpg>]
+ [13 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_orient
+ation_1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ai
+s_orientation_2.jpg>] [14 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02
+/sift/sift_ais_orientation_histogram.jpg> <C:/Users/jslowik/Documents/GitHub/ma
+gisterka/pict/02/sift/sift_ais_16_16_128.jpg>]
 
 LaTeX Warning: Citation `HB06' on page 15 undefined on input line 272.
 
 
 LaTeX Warning: Citation `HB08' on page 15 undefined on input line 272.
 
-[15 <E:/magisterka-jana/pict/02/sift/sift_ais_4_4_8.jpg> <E:/magisterka-jana/pi
-ct/02/sift/sift_ais_des.jpg>]
+[15 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_4_4_8.j
+pg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_des.jpg
+>]
 <pict/02/surf/surf_bay_integral_image.png, id=98, 335.75438pt x 257.46187pt>
 File: pict/02/surf/surf_bay_integral_image.png Graphic file (type png)
 
@@ -816,7 +824,8 @@ File: pict/02/surf/surf_bay_gaussian_discretization.png Graphic file (type png)
 Package pdftex.def Info: pict/02/surf/surf_bay_gaussian_discretization.png used
  on input line 326.
 (pdftex.def)             Requested size: 364.19664pt x 141.63615pt.
- [16 <E:/magisterka-jana/pict/02/surf/surf_bay_integral_image.png>]
+ [16 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_integr
+al_image.png>]
 <pict/02/surf/surf_bay_gaussian_approximation.png, id=107, 402.00188pt x 158.09
 062pt>
 File: pict/02/surf/surf_bay_gaussian_approximation.png Graphic file (type png)
@@ -824,10 +833,12 @@ File: pict/02/surf/surf_bay_gaussian_approximation.png Graphic file (type png)
 Package pdftex.def Info: pict/02/surf/surf_bay_gaussian_approximation.png used 
 on input line 335.
 (pdftex.def)             Requested size: 364.19664pt x 143.22342pt.
- [17 <E:/magisterka-jana/pict/02/surf/dxx.png (PNG copy)> <E:/magisterka-jana/p
-ict/02/surf/dyy.png (PNG copy)> <E:/magisterka-jana/pict/02/surf/dxy.png (PNG c
-opy)> <E:/magisterka-jana/pict/02/surf/surf_bay_gaussian_discretization.png> <E
-:/magisterka-jana/pict/02/surf/surf_bay_gaussian_approximation.png>]
+ [17 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dxx.png (PNG co
+py)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dyy.png (PNG co
+py)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dxy.png (PNG co
+py)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_gaussi
+an_discretization.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/su
+rf/surf_bay_gaussian_approximation.png>]
 
 LaTeX Warning: Citation `HB06' on page 18 undefined on input line 358.
 
@@ -862,7 +873,8 @@ File: pict/02/surf/surf_bay_prescale_gaussian_2.png Graphic file (type png)
 Package pdftex.def Info: pict/02/surf/surf_bay_prescale_gaussian_2.png used on 
 input line 390.
 (pdftex.def)             Requested size: 217.50032pt x 113.41754pt.
- [18 <E:/magisterka-jana/pict/02/surf/surf_bay_compare_fast.png>]
+ [18 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_compar
+e_fast.png>]
 <pict/02/surf/dyy_prescale.png, id=121, 155.07938pt x 203.25937pt>
 File: pict/02/surf/dyy_prescale.png Graphic file (type png)
 
@@ -884,9 +896,10 @@ File: pict/02/surf/surf_bay_octave_scale.png Graphic file (type png)
 Package pdftex.def Info: pict/02/surf/surf_bay_octave_scale.png used on input l
 ine 507.
 (pdftex.def)             Requested size: 364.19664pt x 178.73512pt.
- [19 <E:/magisterka-jana/pict/02/surf/surf_bay_scale_piramid.png> <E:/magisterk
-a-jana/pict/02/surf/surf_bay_prescale_gaussian_1.png> <E:/magisterka-jana/pict/
-02/surf/surf_bay_prescale_gaussian_2.png>]
+ [19 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
+piramid.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_ba
+y_prescale_gaussian_1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/0
+2/surf/surf_bay_prescale_gaussian_2.png>]
 <pict/02/surf/surf_bay_scale_histogram.png, id=127, 588.69937pt x 417.05812pt>
 File: pict/02/surf/surf_bay_scale_histogram.png Graphic file (type png)
 
@@ -894,9 +907,10 @@ File: pict/02/surf/surf_bay_scale_histogram.png Graphic file (type png)
 Package pdftex.def Info: pict/02/surf/surf_bay_scale_histogram.png used on inpu
 t line 516.
 (pdftex.def)             Requested size: 412.08675pt x 291.93869pt.
- [20 <E:/magisterka-jana/pict/02/surf/dyy_prescale.png> <E:/magisterka-jana/pic
-t/02/surf/dxy_prescale.png> <E:/magisterka-jana/pict/02/surf/surf_bay_octave_sc
-ale.png>]
+ [20 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dyy_prescale.pn
+g> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dxy_prescale.png>
+ <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_octave_sca
+le.png>]
 <pict/02/surf/surf_bay_orientation_assignment_1.png, id=131, 206.27063pt x 205.
 5178pt>
 File: pict/02/surf/surf_bay_orientation_assignment_1.png Graphic file (type png
@@ -923,8 +937,9 @@ File: pict/02/surf/surf_bay_orientation_assignment_3.png Graphic file (type png
 Package pdftex.def Info: pict/02/surf/surf_bay_orientation_assignment_3.png use
 d on input line 544.
 (pdftex.def)             Requested size: 128.73192pt x 123.31163pt.
- [21 <E:/magisterka-jana/pict/02/surf/surf_bay_scale_histogram.png>]
-<pict/02/surf/surf_bay_example.png, id=137, 364.36125pt x 292.84406pt>
+ [21 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
+histogram.png>] <pict/02/surf/surf_bay_example.png, id=137, 364.36125pt x 292.8
+4406pt>
 File: pict/02/surf/surf_bay_example.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_example.png>
@@ -938,10 +953,11 @@ File: pict/02/surf/surf_bay_scale_descriptor.png Graphic file (type png)
 Package pdftex.def Info: pict/02/surf/surf_bay_scale_descriptor.png used on inp
 ut line 565.
 (pdftex.def)             Requested size: 364.19664pt x 222.57112pt.
- [22 <E:/magisterka-jana/pict/02/surf/surf_bay_orientation_assignment_1.png> <E
-:/magisterka-jana/pict/02/surf/surf_bay_orientation_assignment_2.png> <E:/magis
-terka-jana/pict/02/surf/surf_bay_orientation_assignment_3.png> <E:/magisterka-j
-ana/pict/02/surf/surf_bay_example.png>]
+ [22 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_orient
+ation_assignment_1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/s
+urf/surf_bay_orientation_assignment_2.png> <C:/Users/jslowik/Documents/GitHub/m
+agisterka/pict/02/surf/surf_bay_orientation_assignment_3.png> <C:/Users/jslowik
+/Documents/GitHub/magisterka/pict/02/surf/surf_bay_example.png>]
 <pict/02/surf/surf_bay_gradient.png, id=142, 396.7322pt x 155.07938pt>
 File: pict/02/surf/surf_bay_gradient.png Graphic file (type png)
 
@@ -968,13 +984,15 @@ File: pict/02/surf/surf_bay_clean_noisy.png Graphic file (type png)
 Package pdftex.def Info: pict/02/surf/surf_bay_clean_noisy.png used on input li
 ne 595.
 (pdftex.def)             Requested size: 364.19664pt x 206.58298pt.
- [23 <E:/magisterka-jana/pict/02/surf/surf_bay_scale_descriptor.png> <E:/magist
-erka-jana/pict/02/surf/surf_bay_gradient.png>]
+ [23 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
+descriptor.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf
+_bay_gradient.png>]
 
 LaTeX Warning: Citation `CENS' on page 24 undefined on input line 602.
 
-[24 <E:/magisterka-jana/pict/02/surf/surf_bay_compare_dim.png> <E:/magisterka-j
-ana/pict/02/surf/surf_bay_clean_noisy.png>]
+[24 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_compare
+_dim.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_c
+lean_noisy.png>]
 <pict/02/star/cs_integral_image_a.png, id=152, 129.48375pt x 123.46124pt>
 File: pict/02/star/cs_integral_image_a.png Graphic file (type png)
 
@@ -997,9 +1015,10 @@ File: pict/02/star/wg_haar.png Graphic file (type png)
 <use pict/02/star/wg_haar.png>
 Package pdftex.def Info: pict/02/star/wg_haar.png used on input line 644.
 (pdftex.def)             Requested size: 71.89342pt x 67.75294pt.
- [25 <E:/magisterka-jana/pict/02/star/cs_integral_image_a.png> <E:/magisterka-j
-ana/pict/02/star/cs_integral_image_b.png> <E:/magisterka-jana/pict/02/star/wg_h
-aar.png>]
+ [25 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_integral_ima
+ge_a.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_integra
+l_image_b.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/wg_ha
+ar.png>]
 <pict/02/star/cs_circle_aprox_a.png, id=158, 127.22531pt x 137.7647pt>
 File: pict/02/star/cs_circle_aprox_a.png Graphic file (type png)
 
@@ -1039,10 +1058,12 @@ File: pict/02/star/wg_circle_aprox.png Graphic file (type png)
 Package pdftex.def Info: pict/02/star/wg_circle_aprox.png used on input line 67
 7.
 (pdftex.def)             Requested size: 96.835pt x 99.58464pt.
- [26 <E:/magisterka-jana/pict/02/star/cs_circle_aprox_a.png> <E:/magisterka-jan
-a/pict/02/star/cs_circle_aprox_b.png> <E:/magisterka-jana/pict/02/star/cs_circl
-e_aprox_c.png> <E:/magisterka-jana/pict/02/star/cs_circle_aprox_d.png> <E:/magi
-sterka-jana/pict/02/star/wg_circle_aprox.png>] [27]
+ [26 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_aprox
+_a.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_ap
+rox_b.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle
+_aprox_c.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_cir
+cle_aprox_d.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/wg_
+circle_aprox.png>] [27]
 
 LaTeX Warning: Citation `rosten_2006_machine' on page 28 undefined on input lin
 e 717.
@@ -1062,11 +1083,11 @@ Package pdftex.def Info: pict/02/fast/fast_test_segment.png used on input line
 
 LaTeX Warning: Citation `ID3' on page 29 undefined on input line 789.
 
-[29 <E:/magisterka-jana/pict/02/fast/fast_test_segment.png>]
+[29 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/fast/fast_test_segmen
+t.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 828.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -1104,8 +1125,8 @@ Package pdftex.def Info: pict/02/brief/sigma_comp.png used on input line 908.
 LaTeX Warning: Reference `fig:brief_promien' on page 33 undefined on input line
  914.
 
-[33 <E:/magisterka-jana/pict/02/brief/sigma_comp.png>]
-<pict/02/brief/G1.png, id=194, 184.43906pt x 184.43906pt>
+[33 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/sigma_comp.png>
+] <pict/02/brief/G1.png, id=194, 184.43906pt x 184.43906pt>
 File: pict/02/brief/G1.png Graphic file (type png)
 
 <use pict/02/brief/G1.png>
@@ -1146,9 +1167,11 @@ File: pict/02/brief/G_comp.png Graphic file (type png)
 <use pict/02/brief/G_comp.png>
 Package pdftex.def Info: pict/02/brief/G_comp.png used on input line 953.
 (pdftex.def)             Requested size: 368.87721pt x 203.25887pt.
- [34] [35 <E:/magisterka-jana/pict/02/brief/G1.png> <E:/magisterka-jana/pict/02
-/brief/G2.png> <E:/magisterka-jana/pict/02/brief/G3.png> <E:/magisterka-jana/pi
-ct/02/brief/G4.png> <E:/magisterka-jana/pict/02/brief/G5.png>]
+ [34] [35 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G1.png> <
+C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G2.png> <C:/Users/js
+lowik/Documents/GitHub/magisterka/pict/02/brief/G3.png> <C:/Users/jslowik/Docum
+ents/GitHub/magisterka/pict/02/brief/G4.png> <C:/Users/jslowik/Documents/GitHub
+/magisterka/pict/02/brief/G5.png>]
 
 LaTeX Warning: Citation `ORB11' on page 36 undefined on input line 961.
 
@@ -1200,12 +1223,14 @@ File: pict/02/orb/orb_wykres_8.png Graphic file (type png)
 <use pict/02/orb/orb_wykres_8.png>
 Package pdftex.def Info: pict/02/orb/orb_wykres_8.png used on input line 1017.
 (pdftex.def)             Requested size: 364.19664pt x 253.12576pt.
- [36 <E:/magisterka-jana/pict/02/brief/G_comp.png> <E:/magisterka-jana/pict/02/
-orb/orb_wykres_2.png>] [37 <E:/magisterka-jana/pict/02/orb/orb_wykres_3.png> <E
-:/magisterka-jana/pict/02/orb/orb_wykres_4.png>] [38 <E:/magisterka-jana/pict/0
-2/orb/orb_wykres_5.png> <E:/magisterka-jana/pict/02/orb/orb_wykres_6.png>] [39 
-<E:/magisterka-jana/pict/02/orb/orb_wykres_7.png> <E:/magisterka-jana/pict/02/o
-rb/orb_wykres_8.png>]
+ [36 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G_comp.png> <C
+:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_2.png>] [37 
+<C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_3.png> <C:
+/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_4.png>] [38 <
+C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_5.png> <C:/
+Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_6.png>] [39 <C
+:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_7.png> <C:/U
+sers/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_8.png>]
 
 LaTeX Warning: Citation `centroid' on page 40 undefined on input line 1030.
 
@@ -1240,7 +1265,8 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 
 
 
-] (E:\magisterka-jana\rozdzialy/badania_opis.tex
+]
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_opis.tex
 Rozdzia\PlPrIeC {\l } 3.
 
 LaTeX Warning: Reference `dodatek_program' on page 44 undefined on input line 3
@@ -1258,7 +1284,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--52
 
 LaTeX Warning: Citation `ransac' on page 45 undefined on input line 54.
 
-) [45] (E:\magisterka-jana\rozdzialy/badania_mikolajczyk.tex
+) [45]
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_mikolajczyk.tex
 Rozdzia\PlPrIeC {\l } 4.
 [46
 
@@ -1359,14 +1386,18 @@ File: pict/mikolajczyk/bikes/m2.png Graphic file (type png)
 <use pict/mikolajczyk/bikes/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/bikes/m2.png used on input line 185.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [47 <E:/magisterka-jana/pict/mikolajczyk/bikes/img1.jpg> <E:/magisterka-jana/p
-ict/mikolajczyk/bikes/img2.jpg> <E:/magisterka-jana/pict/mikolajczyk/bikes/img3
-.jpg> <E:/magisterka-jana/pict/mikolajczyk/bikes/img4.jpg> <E:/magisterka-jana/
-pict/mikolajczyk/bikes/img5.jpg> <E:/magisterka-jana/pict/mikolajczyk/bikes/img
-6.jpg>] [48 <E:/magisterka-jana/pict/mikolajczyk/bikes/F1.png>] [49 <E:/magiste
-rka-jana/pict/mikolajczyk/bikes/f2.png> <E:/magisterka-jana/pict/mikolajczyk/bi
-kes/f3.png>] [50 <E:/magisterka-jana/pict/mikolajczyk/bikes/m1.png> <E:/magiste
-rka-jana/pict/mikolajczyk/bikes/m2.png>]
+ [47 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img1.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img2.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img3.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img4.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img5.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img6.
+jpg>] [48 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/
+F1.png>] [49 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bik
+es/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes
+/f3.png>] [50 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bi
+kes/m1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bike
+s/m2.png>]
 <pict/mikolajczyk/trees/img1.jpg, id=276, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/trees/img1.jpg Graphic file (type jpg)
 
@@ -1461,13 +1492,17 @@ File: pict/mikolajczyk/trees/m2.png Graphic file (type png)
 <use pict/mikolajczyk/trees/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/trees/m2.png used on input line 368.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [51 <E:/magisterka-jana/pict/mikolajczyk/trees/img1.jpg> <E:/magisterka-jana/p
-ict/mikolajczyk/trees/img2.jpg> <E:/magisterka-jana/pict/mikolajczyk/trees/img3
-.jpg> <E:/magisterka-jana/pict/mikolajczyk/trees/img4.jpg> <E:/magisterka-jana/
-pict/mikolajczyk/trees/img5.jpg> <E:/magisterka-jana/pict/mikolajczyk/trees/img
-6.jpg>] [52 <E:/magisterka-jana/pict/mikolajczyk/trees/F1.png>] [53 <E:/magiste
-rka-jana/pict/mikolajczyk/trees/f2.png> <E:/magisterka-jana/pict/mikolajczyk/tr
-ees/f3.png>] [54 <E:/magisterka-jana/pict/mikolajczyk/trees/m1.png>]
+ [51 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img1.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img2.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img3.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img4.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img5.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img6.
+jpg>] [52 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/
+F1.png>] [53 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/tre
+es/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees
+/f3.png>] [54 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/tr
+ees/m1.png>]
 
 LaTeX Warning: Reference `fig:tree_f1' on page 55 undefined on input line 374.
 
@@ -1478,8 +1513,9 @@ File: pict/badania/trees_fast_1_3.png Graphic file (type png)
 Package pdftex.def Info: pict/badania/trees_fast_1_3.png used on input line 392
 .
 (pdftex.def)             Requested size: 364.19664pt x 127.46411pt.
- [55 <E:/magisterka-jana/pict/mikolajczyk/trees/m2.png>] <pict/mikolajczyk/graf
-f/img1.jpg, id=309, 602.25pt x 481.8pt>
+ [55 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/m2.pn
+g>]
+<pict/mikolajczyk/graff/img1.jpg, id=309, 602.25pt x 481.8pt>
 File: pict/mikolajczyk/graff/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/graff/img1.jpg>
@@ -1573,15 +1609,19 @@ File: pict/mikolajczyk/graff/m2.png Graphic file (type png)
 <use pict/mikolajczyk/graff/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/graff/m2.png used on input line 568.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [56 <E:/magisterka-jana/pict/badania/trees_fast_1_3.png (PNG copy)> <E:/magist
-erka-jana/pict/mikolajczyk/graff/img1.jpg> <E:/magisterka-jana/pict/mikolajczyk
-/graff/img2.jpg> <E:/magisterka-jana/pict/mikolajczyk/graff/img3.jpg> <E:/magis
-terka-jana/pict/mikolajczyk/graff/img4.jpg> <E:/magisterka-jana/pict/mikolajczy
-k/graff/img5.jpg> <E:/magisterka-jana/pict/mikolajczyk/graff/img6.jpg>] [57 <E:
-/magisterka-jana/pict/mikolajczyk/graff/F1.png>] [58 <E:/magisterka-jana/pict/m
-ikolajczyk/graff/f2.png> <E:/magisterka-jana/pict/mikolajczyk/graff/f3.png>] [5
-9 <E:/magisterka-jana/pict/mikolajczyk/graff/m1.png>] <pict/mikolajczyk/wall/im
-g1.jpg, id=337, 1003.75pt x 702.625pt>
+ [56 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/badania/trees_fast_1_3.
+png (PNG copy)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+graff/img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+graff/img2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+graff/img3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+graff/img4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+graff/img5.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+graff/img6.jpg>] [57 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolaj
+czyk/graff/F1.png>] [58 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/miko
+lajczyk/graff/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikola
+jczyk/graff/f3.png>] [59 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mik
+olajczyk/graff/m1.png>]
+<pict/mikolajczyk/wall/img1.jpg, id=337, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/wall/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/wall/img1.jpg>
@@ -1675,15 +1715,19 @@ File: pict/mikolajczyk/wall/m2.png Graphic file (type png)
 <use pict/mikolajczyk/wall/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/wall/m2.png used on input line 742.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [60 <E:/magisterka-jana/pict/mikolajczyk/graff/m2.png>] [61] [62 <E:/magisterk
-a-jana/pict/mikolajczyk/wall/img1.jpg> <E:/magisterka-jana/pict/mikolajczyk/wal
-l/img2.jpg> <E:/magisterka-jana/pict/mikolajczyk/wall/img3.jpg> <E:/magisterka-
-jana/pict/mikolajczyk/wall/img4.jpg> <E:/magisterka-jana/pict/mikolajczyk/wall/
-img5.jpg> <E:/magisterka-jana/pict/mikolajczyk/wall/img6.jpg> <E:/magisterka-ja
-na/pict/mikolajczyk/wall/F1.png>] [63 <E:/magisterka-jana/pict/mikolajczyk/wall
-/f2.png> <E:/magisterka-jana/pict/mikolajczyk/wall/f3.png>] [64 <E:/magisterka-
-jana/pict/mikolajczyk/wall/m1.png> <E:/magisterka-jana/pict/mikolajczyk/wall/m2
-.png>]
+ [60 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/graff/m2.pn
+g>] [61] [62 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wal
+l/img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall
+/img2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/
+img3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/i
+mg4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/im
+g5.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/img
+6.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/F1.p
+ng>] [63 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/f2
+.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/f3.pn
+g>] [64 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/m1.
+png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/m2.png
+>]
 Overfull \hbox (5.58958pt too wide) in paragraph at lines 752--753
 []\T1/cmr/m/n/12 Najkorzystniejszy wspóª-czyn-nik cza-su ge-ne-ro-wa-nia de-skr
 yp-to-ra osi¡-ga al-go-rytm BRIEF
@@ -1785,14 +1829,18 @@ Package pdftex.def Info: pict/mikolajczyk/bark/m2.png used on input line 933.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
  [65
 
-] [66] [67 <E:/magisterka-jana/pict/mikolajczyk/bark/img1.jpg> <E:/magisterka-j
-ana/pict/mikolajczyk/bark/img2.jpg> <E:/magisterka-jana/pict/mikolajczyk/bark/i
-mg3.jpg> <E:/magisterka-jana/pict/mikolajczyk/bark/img4.jpg> <E:/magisterka-jan
-a/pict/mikolajczyk/bark/img5.jpg> <E:/magisterka-jana/pict/mikolajczyk/bark/img
-6.jpg> <E:/magisterka-jana/pict/mikolajczyk/bark/F1.png>] [68 <E:/magisterka-ja
-na/pict/mikolajczyk/bark/f2.png> <E:/magisterka-jana/pict/mikolajczyk/bark/f3.p
-ng>] [69 <E:/magisterka-jana/pict/mikolajczyk/bark/m1.png> <E:/magisterka-jana/
-pict/mikolajczyk/bark/m2.png>]
+] [66] [67 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/
+img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/i
+mg2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/im
+g3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/img
+4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/img5
+.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/img6.
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/F1.png
+>] [68 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/f2.p
+ng> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/f3.png>
+] [69 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/m1.pn
+g> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/m2.png>]
+
 <pict/mikolajczyk/boat/img1.jpg, id=400, 639.89063pt x 511.9125pt>
 File: pict/mikolajczyk/boat/img1.jpg Graphic file (type jpg)
 
@@ -1889,13 +1937,16 @@ Package pdftex.def Info: pict/mikolajczyk/boat/m2.png used on input line 1110.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
  [70
 
- <E:/magisterka-jana/pict/mikolajczyk/boat/img1.jpg> <E:/magisterka-jana/pict/m
-ikolajczyk/boat/img2.jpg> <E:/magisterka-jana/pict/mikolajczyk/boat/img3.jpg> <
-E:/magisterka-jana/pict/mikolajczyk/boat/img4.jpg> <E:/magisterka-jana/pict/mik
-olajczyk/boat/img5.jpg> <E:/magisterka-jana/pict/mikolajczyk/boat/img6.jpg>] [7
-1 <E:/magisterka-jana/pict/mikolajczyk/boat/F1.png>] [72 <E:/magisterka-jana/pi
-ct/mikolajczyk/boat/f2.png> <E:/magisterka-jana/pict/mikolajczyk/boat/f3.png>] 
-[73 <E:/magisterka-jana/pict/mikolajczyk/boat/m1.png>]
+ <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img1.jpg> 
+<C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img2.jpg> <
+C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img3.jpg> <C
+:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img4.jpg> <C:
+/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img5.jpg> <C:/
+Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img6.jpg>] [71 
+<C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/F1.png>] [7
+2 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/f2.png> <
+C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/f3.png>] [73
+ <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/m1.png>]
 <pict/mikolajczyk/light/img1.jpg, id=428, 677.53125pt x 451.6875pt>
 File: pict/mikolajczyk/light/img1.jpg Graphic file (type jpg)
 
@@ -1995,18 +2046,22 @@ File: pict/mikolajczyk/light/m2.png Graphic file (type png)
 Package pdftex.def Info: pict/mikolajczyk/light/m2.png used on input line 1296.
 
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [74 <E:/magisterka-jana/pict/mikolajczyk/boat/m2.png>] [75] [76 <E:/magisterka
--jana/pict/mikolajczyk/light/img1.jpg> <E:/magisterka-jana/pict/mikolajczyk/lig
-ht/img2.jpg> <E:/magisterka-jana/pict/mikolajczyk/light/img3.jpg> <E:/magisterk
-a-jana/pict/mikolajczyk/light/img4.jpg> <E:/magisterka-jana/pict/mikolajczyk/li
-ght/img5.jpg> <E:/magisterka-jana/pict/mikolajczyk/light/img6.jpg> <E:/magister
-ka-jana/pict/mikolajczyk/light/F1.png>]
-[77 <E:/magisterka-jana/pict/mikolajczyk/light/f2.png> <E:/magisterka-jana/pict
-/mikolajczyk/light/f3.png>] [78 <E:/magisterka-jana/pict/mikolajczyk/light/m1.p
-ng> <E:/magisterka-jana/pict/mikolajczyk/light/m2.png>]) [79
+ [74 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/m2.png
+>] [75] [76 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+t/img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+t/img2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+t/img3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+t/img4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+t/img5.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+t/img6.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+t/F1.png>] [77 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/l
+ight/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/lig
+ht/f3.png>] [78 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+light/m1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/li
+ght/m2.png>]) [79
 
 ]
-(E:\magisterka-jana\rozdzialy/badania_slowik.tex
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_slowik.tex
 Rozdzia\PlPrIeC {\l } 5.
 [80
 
@@ -2101,13 +2156,17 @@ File: pict/slowik/r1/m2.png Graphic file (type png)
 <use pict/slowik/r1/m2.png>
 Package pdftex.def Info: pict/slowik/r1/m2.png used on input line 182.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [81] [82 <E:/magisterka-jana/pict/slowik/r1/img1.jpg> <E:/magisterka-jana/pict
-/slowik/r1/img2.jpg> <E:/magisterka-jana/pict/slowik/r1/img3.jpg> <E:/magisterk
-a-jana/pict/slowik/r1/img4.jpg> <E:/magisterka-jana/pict/slowik/r1/img5.jpg> <E
-:/magisterka-jana/pict/slowik/r1/img6.jpg>] [83 <E:/magisterka-jana/pict/slowik
-/r1/F1.png> <E:/magisterka-jana/pict/slowik/r1/f2.png>] [84 <E:/magisterka-jana
-/pict/slowik/r1/f3.png> <E:/magisterka-jana/pict/slowik/r1/m1.png>] <pict/slowi
-k/r2/img1.jpg, id=495, 578.16pt x 770.88pt>
+ [81] [82 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/img1.jpg
+> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/img2.jpg> <C:/Us
+ers/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/img3.jpg> <C:/Users/jslo
+wik/Documents/GitHub/magisterka/pict/slowik/r1/img4.jpg> <C:/Users/jslowik/Docu
+ments/GitHub/magisterka/pict/slowik/r1/img5.jpg> <C:/Users/jslowik/Documents/Gi
+tHub/magisterka/pict/slowik/r1/img6.jpg>] [83 <C:/Users/jslowik/Documents/GitHu
+b/magisterka/pict/slowik/r1/F1.png> <C:/Users/jslowik/Documents/GitHub/magister
+ka/pict/slowik/r1/f2.png>] [84 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
+ct/slowik/r1/f3.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
+r1/m1.png>]
+<pict/slowik/r2/img1.jpg, id=495, 578.16pt x 770.88pt>
 File: pict/slowik/r2/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/r2/img1.jpg>
@@ -2195,17 +2254,21 @@ File: pict/slowik/r2/m2.png Graphic file (type png)
 <use pict/slowik/r2/m2.png>
 Package pdftex.def Info: pict/slowik/r2/m2.png used on input line 364.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [85 <E:/magisterka-jana/pict/slowik/r1/m2.png>]
-[86]
+ [85 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/m2.png>] [86]
+
 
 LaTeX Warning: Text page 87 contains only floats.
 
-[87 <E:/magisterka-jana/pict/slowik/r2/img1.jpg> <E:/magisterka-jana/pict/slowi
-k/r2/img2.jpg> <E:/magisterka-jana/pict/slowik/r2/img3.jpg> <E:/magisterka-jana
-/pict/slowik/r2/img4.jpg> <E:/magisterka-jana/pict/slowik/r2/img5.jpg> <E:/magi
-sterka-jana/pict/slowik/r2/img6.jpg>] [88 <E:/magisterka-jana/pict/slowik/r2/F1
-.png> <E:/magisterka-jana/pict/slowik/r2/f2.png>] [89 <E:/magisterka-jana/pict/
-slowik/r2/f3.png> <E:/magisterka-jana/pict/slowik/r2/m1.png>]
+[87 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/img1.jpg> <C:/
+Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/img2.jpg> <C:/Users/js
+lowik/Documents/GitHub/magisterka/pict/slowik/r2/img3.jpg> <C:/Users/jslowik/Do
+cuments/GitHub/magisterka/pict/slowik/r2/img4.jpg> <C:/Users/jslowik/Documents/
+GitHub/magisterka/pict/slowik/r2/img5.jpg> <C:/Users/jslowik/Documents/GitHub/m
+agisterka/pict/slowik/r2/img6.jpg>] [88 <C:/Users/jslowik/Documents/GitHub/magi
+sterka/pict/slowik/r2/F1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pic
+t/slowik/r2/f2.png>] [89 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slo
+wik/r2/f3.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/m1.
+png>]
 Underfull \hbox (badness 10000) in paragraph at lines 375--380
 
  []
@@ -2298,14 +2361,17 @@ File: pict/slowik/r3/m2.png Graphic file (type png)
 <use pict/slowik/r3/m2.png>
 Package pdftex.def Info: pict/slowik/r3/m2.png used on input line 546.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [90 <E:/magisterka-jana/pict/slowik/r2/m2.png>]
-[91] [92 <E:/magisterka-jana/pict/slowik/r3/img1.jpg> <E:/magisterka-jana/pict/
-slowik/r3/img2.jpg> <E:/magisterka-jana/pict/slowik/r3/img3.jpg> <E:/magisterka
--jana/pict/slowik/r3/img4.jpg> <E:/magisterka-jana/pict/slowik/r3/img5.jpg> <E:
-/magisterka-jana/pict/slowik/r3/img6.jpg> <E:/magisterka-jana/pict/slowik/r3/F1
-.png>] [93 <E:/magisterka-jana/pict/slowik/r3/f2.png> <E:/magisterka-jana/pict/
-slowik/r3/f3.png>] [94 <E:/magisterka-jana/pict/slowik/r3/m1.png> <E:/magisterk
-a-jana/pict/slowik/r3/m2.png>] [95
+ [90 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/m2.png>] [91]
+ [92 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/img1.jpg> <C:
+/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/img2.jpg> <C:/Users/j
+slowik/Documents/GitHub/magisterka/pict/slowik/r3/img3.jpg> <C:/Users/jslowik/D
+ocuments/GitHub/magisterka/pict/slowik/r3/img4.jpg> <C:/Users/jslowik/Documents
+/GitHub/magisterka/pict/slowik/r3/img5.jpg> <C:/Users/jslowik/Documents/GitHub/
+magisterka/pict/slowik/r3/img6.jpg> <C:/Users/jslowik/Documents/GitHub/magister
+ka/pict/slowik/r3/F1.png>] [93 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
+ct/slowik/r3/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
+r3/f3.png>] [94 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/m1
+.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/m2.png>] [95
 
 ]
 <pict/slowik/v1/img1.jpg, id=563, 440.39531pt x 770.88pt>
@@ -2396,13 +2462,17 @@ File: pict/slowik/v1/m2.png Graphic file (type png)
 <use pict/slowik/v1/m2.png>
 Package pdftex.def Info: pict/slowik/v1/m2.png used on input line 746.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [96 <E:/magisterka-jana/pict/slowik/v1/img1.jpg> <E:/magisterka-jana/pict/slow
-ik/v1/img2.jpg> <E:/magisterka-jana/pict/slowik/v1/img3.jpg> <E:/magisterka-jan
-a/pict/slowik/v1/img4.jpg> <E:/magisterka-jana/pict/slowik/v1/img5.jpg> <E:/mag
-isterka-jana/pict/slowik/v1/img6.jpg>] [97 <E:/magisterka-jana/pict/slowik/v1/F
-1.png>] [98 <E:/magisterka-jana/pict/slowik/v1/f2.png> <E:/magisterka-jana/pict
-/slowik/v1/f3.png>] [99 <E:/magisterka-jana/pict/slowik/v1/m1.png>] <pict/slowi
-k/v2/img1.jpg, id=590, 770.88pt x 578.16pt>
+ [96 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/img1.jpg> <C:
+/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/img2.jpg> <C:/Users/j
+slowik/Documents/GitHub/magisterka/pict/slowik/v1/img3.jpg> <C:/Users/jslowik/D
+ocuments/GitHub/magisterka/pict/slowik/v1/img4.jpg> <C:/Users/jslowik/Documents
+/GitHub/magisterka/pict/slowik/v1/img5.jpg> <C:/Users/jslowik/Documents/GitHub/
+magisterka/pict/slowik/v1/img6.jpg>] [97 <C:/Users/jslowik/Documents/GitHub/mag
+isterka/pict/slowik/v1/F1.png>] [98 <C:/Users/jslowik/Documents/GitHub/magister
+ka/pict/slowik/v1/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/sl
+owik/v1/f3.png>] [99 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
+v1/m1.png>]
+<pict/slowik/v2/img1.jpg, id=590, 770.88pt x 578.16pt>
 File: pict/slowik/v2/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/v2/img1.jpg>
@@ -2490,13 +2560,17 @@ File: pict/slowik/v2/m2.png Graphic file (type png)
 <use pict/slowik/v2/m2.png>
 Package pdftex.def Info: pict/slowik/v2/m2.png used on input line 929.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [100 <E:/magisterka-jana/pict/slowik/v1/m2.png>]
-[101] [102 <E:/magisterka-jana/pict/slowik/v2/img1.jpg> <E:/magisterka-jana/pic
-t/slowik/v2/img2.jpg> <E:/magisterka-jana/pict/slowik/v2/img3.jpg> <E:/magister
-ka-jana/pict/slowik/v2/img4.jpg> <E:/magisterka-jana/pict/slowik/v2/img5.jpg> <
-E:/magisterka-jana/pict/slowik/v2/img6.jpg>] [103 <E:/magisterka-jana/pict/slow
-ik/v2/F1.png> <E:/magisterka-jana/pict/slowik/v2/f2.png>] [104 <E:/magisterka-j
-ana/pict/slowik/v2/f3.png> <E:/magisterka-jana/pict/slowik/v2/m1.png>]
+ [100 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/m2.png>] [10
+1] [102 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img1.jpg> 
+<C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img2.jpg> <C:/User
+s/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img3.jpg> <C:/Users/jslowi
+k/Documents/GitHub/magisterka/pict/slowik/v2/img4.jpg> <C:/Users/jslowik/Docume
+nts/GitHub/magisterka/pict/slowik/v2/img5.jpg> <C:/Users/jslowik/Documents/GitH
+ub/magisterka/pict/slowik/v2/img6.jpg>] [103 <C:/Users/jslowik/Documents/GitHub
+/magisterka/pict/slowik/v2/F1.png> <C:/Users/jslowik/Documents/GitHub/magisterk
+a/pict/slowik/v2/f2.png>] [104 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
+ct/slowik/v2/f3.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
+v2/m1.png>]
 <pict/slowik/z1/img1.jpg, id=622, 770.88pt x 578.16pt>
 File: pict/slowik/z1/img1.jpg Graphic file (type jpg)
 
@@ -2585,17 +2659,21 @@ File: pict/slowik/z1/m2.png Graphic file (type png)
 <use pict/slowik/z1/m2.png>
 Package pdftex.def Info: pict/slowik/z1/m2.png used on input line 1125.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [105 <E:/magisterka-jana/pict/slowik/v2/m2.png>]
-[106] [107 <E:/magisterka-jana/pict/slowik/z1/img1.jpg> <E:/magisterka-jana/pic
-t/slowik/z1/img2.jpg> <E:/magisterka-jana/pict/slowik/z1/img3.jpg> <E:/magister
-ka-jana/pict/slowik/z1/img4.jpg> <E:/magisterka-jana/pict/slowik/z1/img5.jpg> <
-E:/magisterka-jana/pict/slowik/z1/img6.jpg> <E:/magisterka-jana/pict/slowik/z1/
-F1.png>] [108 <E:/magisterka-jana/pict/slowik/z1/f2.png> <E:/magisterka-jana/pi
-ct/slowik/z1/f3.png>] [109 <E:/magisterka-jana/pict/slowik/z1/m1.png> <E:/magis
-terka-jana/pict/slowik/z1/m2.png>]) [110
+ [105 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/m2.png>] [10
+6] [107 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/img1.jpg> 
+<C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/img2.jpg> <C:/User
+s/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/img3.jpg> <C:/Users/jslowi
+k/Documents/GitHub/magisterka/pict/slowik/z1/img4.jpg> <C:/Users/jslowik/Docume
+nts/GitHub/magisterka/pict/slowik/z1/img5.jpg> <C:/Users/jslowik/Documents/GitH
+ub/magisterka/pict/slowik/z1/img6.jpg> <C:/Users/jslowik/Documents/GitHub/magis
+terka/pict/slowik/z1/F1.png>] [108 <C:/Users/jslowik/Documents/GitHub/magisterk
+a/pict/slowik/z1/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slo
+wik/z1/f3.png>] [109 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
+z1/m1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/m2.png>
+]) [110
 
 ]
-(E:\magisterka-jana\rozdzialy/podsumowanie.tex
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/podsumowanie.tex
 Rozdzia\PlPrIeC {\l } 6.
 ) [111
 
@@ -2610,36 +2688,37 @@ Dodatek A.
 
 ]
 Dodatek B.
-(E:\magisterka-jana\praca_magisterska.bbl) [113
+No file praca_magisterska.bbl.
+[113
 
 
-]
-(E:\magisterka-jana\praca_magisterska.lof [114
+] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lof
+[114
 
 
 ] [115] [116])
 \tf@lof=\write5
  [117]
-(E:\magisterka-jana\praca_magisterska.lot [118
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lot [118
 
 
 ])
 \tf@lot=\write6
- [119]
-(E:\magisterka-jana\praca_magisterska.aux
-(E:\magisterka-jana\rozdzialy/wstep.aux)
-(E:\magisterka-jana\rozdzialy/przeglad.aux)
-(E:\magisterka-jana\rozdzialy/badania_opis.aux)
-(E:\magisterka-jana\rozdzialy/badania_mikolajczyk.aux)
-(E:\magisterka-jana\rozdzialy/badania_slowik.aux)
-(E:\magisterka-jana\rozdzialy/podsumowanie.aux))
+
+[119] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.aux
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/wstep.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/przeglad.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_opis.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_mikolajczyk.aux
+) (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_slowik.aux)
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/podsumowanie.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4312 strings out of 494045
- 73176 string characters out of 3148381
+ 4310 strings out of 494045
+ 74448 string characters out of 3148381
  118909 words of memory out of 3000000
  7357 multiletter control sequences out of 15000+200000
  29379 words of font info for 68 fonts, out of 3000000 for 9000
@@ -2676,7 +2755,7 @@ pe1/public/pl/plr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr8.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/pl/plsy8.pfb>
-Output written on praca_magisterska.pdf (121 pages, 19176693 bytes).
+Output written on praca_magisterska.pdf (121 pages, 19176770 bytes).
 PDF statistics:
  1401 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
