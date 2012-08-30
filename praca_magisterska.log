@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  29 AUG 2012 21:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  30 AUG 2012 13:53
 entering extended mode
 **praca_magisterska.tex
 (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.tex
@@ -589,22 +589,13 @@ Rozdzia\PlPrIeC {\l } 1.
 
 ] (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/przeglad.tex
 Rozdzia\PlPrIeC {\l } 2.
-
-LaTeX Warning: Citation `IK111' on page 5 undefined on input line 3.
-
-
-LaTeX Warning: Citation `IK112' on page 5 undefined on input line 3.
-
-
-LaTeX Warning: Citation `LIFDAS' on page 5 undefined on input line 3.
-
 <pict/01/barbara_thumb.jpg, id=30, 93.34875pt x 93.34875pt>
 File: pict/01/barbara_thumb.jpg Graphic file (type jpg)
 
 <use pict/01/barbara_thumb.jpg>
-Package pdftex.def Info: pict/01/barbara_thumb.jpg used on input line 11.
+Package pdftex.def Info: pict/01/barbara_thumb.jpg used on input line 10.
 (pdftex.def)             Requested size: 93.34851pt x 93.34851pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 10.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -613,21 +604,21 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 File: pict/01/lena_thumb.jpg Graphic file (type jpg)
 
 <use pict/01/lena_thumb.jpg>
-Package pdftex.def Info: pict/01/lena_thumb.jpg used on input line 15.
+Package pdftex.def Info: pict/01/lena_thumb.jpg used on input line 14.
 (pdftex.def)             Requested size: 93.34851pt x 93.34851pt.
 
 <pict/01/peppers_thumb.jpg, id=32, 93.34875pt x 93.34875pt>
 File: pict/01/peppers_thumb.jpg Graphic file (type jpg)
 
 <use pict/01/peppers_thumb.jpg>
-Package pdftex.def Info: pict/01/peppers_thumb.jpg used on input line 19.
+Package pdftex.def Info: pict/01/peppers_thumb.jpg used on input line 18.
 (pdftex.def)             Requested size: 93.34851pt x 93.34851pt.
 
 <pict/01/mandril_thumb.jpg, id=33, 93.34875pt x 93.34875pt>
 File: pict/01/mandril_thumb.jpg Graphic file (type jpg)
 
 <use pict/01/mandril_thumb.jpg>
-Package pdftex.def Info: pict/01/mandril_thumb.jpg used on input line 23.
+Package pdftex.def Info: pict/01/mandril_thumb.jpg used on input line 22.
 (pdftex.def)             Requested size: 93.34851pt x 93.34851pt.
 
 <pict/01/Number-of-detected-features_thumb.png, id=34, 371.88937pt x 214.55156p
@@ -635,14 +626,14 @@ t>
 File: pict/01/Number-of-detected-features_thumb.png Graphic file (type png)
  <use pict/01/Number-of-detected-features_thumb.png>
 Package pdftex.def Info: pict/01/Number-of-detected-features_thumb.png used on 
-input line 31.
+input line 30.
 (pdftex.def)             Requested size: 325.50453pt x 187.78818pt.
 
 <pict/01/Detection-cost_thumb.png, id=36, 367.3725pt x 214.55156pt>
 File: pict/01/Detection-cost_thumb.png Graphic file (type png)
 
 <use pict/01/Detection-cost_thumb.png>
-Package pdftex.def Info: pict/01/Detection-cost_thumb.png used on input line 38
+Package pdftex.def Info: pict/01/Detection-cost_thumb.png used on input line 37
 .
 (pdftex.def)             Requested size: 321.55103pt x 187.78818pt.
 
@@ -651,7 +642,7 @@ Package pdftex.def Info: pict/01/Detection-cost_thumb.png used on input line 38
 File: pict/01/Percent-of-tracked-feature_thumb.png Graphic file (type png)
  <use pict/01/Percent-of-tracked-feature_thumb.png>
 Package pdftex.def Info: pict/01/Percent-of-tracked-feature_thumb.png used on i
-nput line 44.
+nput line 43.
 (pdftex.def)             Requested size: 277.69199pt x 187.78818pt.
  [5
 
@@ -665,17 +656,11 @@ s/GitHub/magisterka/pict/01/Number-of-detected-features_thumb.png>] [6 <C:/User
 s/jslowik/Documents/GitHub/magisterka/pict/01/Detection-cost_thumb.png> <C:/Use
 rs/jslowik/Documents/GitHub/magisterka/pict/01/Percent-of-tracked-feature_thumb
 .png>]
-
-LaTeX Warning: Citation `DGL99' on page 7 undefined on input line 61.
-
-
-LaTeX Warning: Citation `DGL04' on page 7 undefined on input line 61.
-
 <pict/02/sift/sift_ais_octave.jpg, id=50, 642.4pt x 1027.84pt>
 File: pict/02/sift/sift_ais_octave.jpg Graphic file (type jpg)
 
 <use pict/02/sift/sift_ais_octave.jpg>
-Package pdftex.def Info: pict/02/sift/sift_ais_octave.jpg used on input line 86
+Package pdftex.def Info: pict/02/sift/sift_ais_octave.jpg used on input line 85
 .
 (pdftex.def)             Requested size: 364.19664pt x 582.7225pt.
  [7] [8 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_oct
@@ -685,7 +670,7 @@ File: pict/02/sift/sift_dgl_octave.png Graphic file (type png)
 
 <use pict/02/sift/sift_dgl_octave.png>
 Package pdftex.def Info: pict/02/sift/sift_dgl_octave.png used on input line 11
-2.
+1.
 (pdftex.def)             Requested size: 364.19664pt x 268.85144pt.
 
 <pict/02/sift/sift_dgl_extremum.png, id=66, 311.66437pt x 252.19218pt>
@@ -693,586 +678,483 @@ File: pict/02/sift/sift_dgl_extremum.png Graphic file (type png)
 
 <use pict/02/sift/sift_dgl_extremum.png>
 Package pdftex.def Info: pict/02/sift/sift_dgl_extremum.png used on input line 
-123.
+122.
 (pdftex.def)             Requested size: 155.8318pt x 126.09578pt.
  [9 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_dgl_octave.
-png>]
-<pict/02/sift/sift_ais_extremum.jpg, id=70, 642.4pt x 1027.84pt>
-File: pict/02/sift/sift_ais_extremum.jpg Graphic file (type jpg)
-
-<use pict/02/sift/sift_ais_extremum.jpg>
-Package pdftex.def Info: pict/02/sift/sift_ais_extremum.jpg used on input line 
-141.
-(pdftex.def)             Requested size: 364.19664pt x 582.7225pt.
-
-
-LaTeX Warning: Citation `DGL04' on page 10 undefined on input line 152.
-
-[10 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_dgl_extremu
-m.png>]
-
-LaTeX Warning: Citation `HIS88' on page 11 undefined on input line 171.
-
-[11 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_extremu
-m.jpg>]
-
-LaTeX Warning: Citation `DGL04' on page 12 undefined on input line 194.
-
-<pict/02/sift/sift_ais_orientation_1.jpg, id=80, 448.67625pt x 278.03876pt>
+png>] [10 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_dgl_e
+xtremum.png>]
+<pict/02/sift/sift_ais_orientation_1.jpg, id=75, 448.67625pt x 278.03876pt>
 File: pict/02/sift/sift_ais_orientation_1.jpg Graphic file (type jpg)
 
 <use pict/02/sift/sift_ais_orientation_1.jpg>
 Package pdftex.def Info: pict/02/sift/sift_ais_orientation_1.jpg used on input 
-line 207.
+line 197.
 (pdftex.def)             Requested size: 364.19664pt x 225.6938pt.
 
-<pict/02/sift/sift_ais_orientation_2.jpg, id=81, 424.58624pt x 278.03876pt>
+<pict/02/sift/sift_ais_orientation_2.jpg, id=76, 424.58624pt x 278.03876pt>
 File: pict/02/sift/sift_ais_orientation_2.jpg Graphic file (type jpg)
 
 <use pict/02/sift/sift_ais_orientation_2.jpg>
 Package pdftex.def Info: pict/02/sift/sift_ais_orientation_2.jpg used on input 
-line 213.
+line 203.
 (pdftex.def)             Requested size: 364.19664pt x 238.50198pt.
 
-
-LaTeX Warning: Citation `DGL04' on page 12 undefined on input line 217.
-
-<pict/02/sift/sift_ais_orientation_histogram.jpg, id=82, 481.8pt x 321.2pt>
+<pict/02/sift/sift_ais_orientation_histogram.jpg, id=77, 481.8pt x 321.2pt>
 File: pict/02/sift/sift_ais_orientation_histogram.jpg Graphic file (type jpg)
 
 <use pict/02/sift/sift_ais_orientation_histogram.jpg>
 Package pdftex.def Info: pict/02/sift/sift_ais_orientation_histogram.jpg used o
-n input line 220.
+n input line 210.
 (pdftex.def)             Requested size: 364.19664pt x 242.80594pt.
 
-<pict/02/sift/sift_ais_16_16_128.jpg, id=83, 642.4pt x 321.2pt>
+<pict/02/sift/sift_ais_16_16_128.jpg, id=78, 642.4pt x 321.2pt>
 File: pict/02/sift/sift_ais_16_16_128.jpg Graphic file (type jpg)
 
 <use pict/02/sift/sift_ais_16_16_128.jpg>
 Package pdftex.def Info: pict/02/sift/sift_ais_16_16_128.jpg used on input line
- 230.
+ 220.
 (pdftex.def)             Requested size: 364.19664pt x 182.10077pt.
- [12]
-<pict/02/sift/sift_ais_4_4_8.jpg, id=87, 642.4pt x 321.2pt>
+ [11]
+<pict/02/sift/sift_ais_4_4_8.jpg, id=83, 642.4pt x 321.2pt>
 File: pict/02/sift/sift_ais_4_4_8.jpg Graphic file (type jpg)
 
 <use pict/02/sift/sift_ais_4_4_8.jpg>
-Package pdftex.def Info: pict/02/sift/sift_ais_4_4_8.jpg used on input line 241
+Package pdftex.def Info: pict/02/sift/sift_ais_4_4_8.jpg used on input line 231
 .
 (pdftex.def)             Requested size: 364.19664pt x 182.10077pt.
 
-<pict/02/sift/sift_ais_des.jpg, id=88, 481.8pt x 155.58125pt>
+<pict/02/sift/sift_ais_des.jpg, id=84, 481.8pt x 155.58125pt>
 File: pict/02/sift/sift_ais_des.jpg Graphic file (type jpg)
 
 <use pict/02/sift/sift_ais_des.jpg>
-Package pdftex.def Info: pict/02/sift/sift_ais_des.jpg used on input line 250.
+Package pdftex.def Info: pict/02/sift/sift_ais_des.jpg used on input line 240.
 (pdftex.def)             Requested size: 364.19664pt x 117.60912pt.
- [13 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_orient
+ [12 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_orient
 ation_1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ai
-s_orientation_2.jpg>] [14 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02
+s_orientation_2.jpg>] [13 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02
 /sift/sift_ais_orientation_histogram.jpg> <C:/Users/jslowik/Documents/GitHub/ma
-gisterka/pict/02/sift/sift_ais_16_16_128.jpg>]
-
-LaTeX Warning: Citation `HB06' on page 15 undefined on input line 272.
-
-
-LaTeX Warning: Citation `HB08' on page 15 undefined on input line 272.
-
-[15 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_4_4_8.j
-pg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/sift/sift_ais_des.jpg
->]
-<pict/02/surf/surf_bay_integral_image.png, id=98, 335.75438pt x 257.46187pt>
+gisterka/pict/02/sift/sift_ais_16_16_128.jpg>] [14 <C:/Users/jslowik/Documents/
+GitHub/magisterka/pict/02/sift/sift_ais_4_4_8.jpg> <C:/Users/jslowik/Documents/
+GitHub/magisterka/pict/02/sift/sift_ais_des.jpg>]
+<pict/02/surf/surf_bay_integral_image.png, id=94, 335.75438pt x 257.46187pt>
 File: pict/02/surf/surf_bay_integral_image.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_integral_image.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_integral_image.png used on input
- line 292.
+ line 282.
 (pdftex.def)             Requested size: 364.19664pt x 279.2725pt.
 
-<pict/02/surf/dxx.png, id=99, 243.91125pt x 243.91125pt>
+<pict/02/surf/dxx.png, id=95, 243.91125pt x 243.91125pt>
 File: pict/02/surf/dxx.png Graphic file (type png)
 
 <use pict/02/surf/dxx.png>
-Package pdftex.def Info: pict/02/surf/dxx.png used on input line 314.
+Package pdftex.def Info: pict/02/surf/dxx.png used on input line 304.
 (pdftex.def)             Requested size: 121.95532pt x 121.95532pt.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 314.
+(Font)              <10> on input line 304.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 314.
+(Font)              <7> on input line 304.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 314.
+(Font)              <5> on input line 304.
 
-<pict/02/surf/dyy.png, id=100, 243.91125pt x 243.91125pt>
+<pict/02/surf/dyy.png, id=96, 243.91125pt x 243.91125pt>
 File: pict/02/surf/dyy.png Graphic file (type png)
 
 <use pict/02/surf/dyy.png>
-Package pdftex.def Info: pict/02/surf/dyy.png used on input line 316.
+Package pdftex.def Info: pict/02/surf/dyy.png used on input line 306.
 (pdftex.def)             Requested size: 121.95532pt x 121.95532pt.
 
-<pict/02/surf/dxy.png, id=101, 243.91125pt x 243.91125pt>
+<pict/02/surf/dxy.png, id=97, 243.91125pt x 243.91125pt>
 File: pict/02/surf/dxy.png Graphic file (type png)
 
 <use pict/02/surf/dxy.png>
-Package pdftex.def Info: pict/02/surf/dxy.png used on input line 318.
+Package pdftex.def Info: pict/02/surf/dxy.png used on input line 308.
 (pdftex.def)             Requested size: 121.95532pt x 121.95532pt.
 
-<pict/02/surf/surf_bay_gaussian_discretization.png, id=102, 406.51875pt x 158.0
-9062pt>
+<pict/02/surf/surf_bay_gaussian_discretization.png, id=98, 406.51875pt x 158.09
+062pt>
 File: pict/02/surf/surf_bay_gaussian_discretization.png Graphic file (type png)
 
  <use pict/02/surf/surf_bay_gaussian_discretization.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_gaussian_discretization.png used
- on input line 326.
+ on input line 316.
 (pdftex.def)             Requested size: 364.19664pt x 141.63615pt.
- [16 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_integr
+ [15 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_integr
 al_image.png>]
-<pict/02/surf/surf_bay_gaussian_approximation.png, id=107, 402.00188pt x 158.09
+<pict/02/surf/surf_bay_gaussian_approximation.png, id=103, 402.00188pt x 158.09
 062pt>
 File: pict/02/surf/surf_bay_gaussian_approximation.png Graphic file (type png)
  <use pict/02/surf/surf_bay_gaussian_approximation.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_gaussian_approximation.png used 
-on input line 335.
+on input line 325.
 (pdftex.def)             Requested size: 364.19664pt x 143.22342pt.
- [17 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dxx.png (PNG co
+ [16 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dxx.png (PNG co
 py)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dyy.png (PNG co
 py)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dxy.png (PNG co
 py)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_gaussi
 an_discretization.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/su
 rf/surf_bay_gaussian_approximation.png>]
-
-LaTeX Warning: Citation `HB06' on page 18 undefined on input line 358.
-
-<pict/02/surf/surf_bay_compare_fast.png, id=114, 331.99031pt x 239.39438pt>
+<pict/02/surf/surf_bay_compare_fast.png, id=109, 331.99031pt x 239.39438pt>
 File: pict/02/surf/surf_bay_compare_fast.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_compare_fast.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_compare_fast.png used on input l
-ine 365.
+ine 355.
 (pdftex.def)             Requested size: 265.59259pt x 191.51575pt.
 
-<pict/02/surf/surf_bay_scale_piramid.png, id=115, 846.91406pt x 313.9228pt>
+<pict/02/surf/surf_bay_scale_piramid.png, id=110, 846.91406pt x 313.9228pt>
 File: pict/02/surf/surf_bay_scale_piramid.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_scale_piramid.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_scale_piramid.png used on input 
-line 374.
+line 364.
 (pdftex.def)             Requested size: 364.19664pt x 134.99374pt.
 
-<pict/02/surf/surf_bay_prescale_gaussian_1.png, id=116, 350.81062pt x 182.93344
+<pict/02/surf/surf_bay_prescale_gaussian_1.png, id=111, 350.81062pt x 182.93344
 pt>
 File: pict/02/surf/surf_bay_prescale_gaussian_1.png Graphic file (type png)
  <use pict/02/surf/surf_bay_prescale_gaussian_1.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_prescale_gaussian_1.png used on 
-input line 388.
+input line 378.
 (pdftex.def)             Requested size: 217.50032pt x 113.41754pt.
 
-<pict/02/surf/surf_bay_prescale_gaussian_2.png, id=117, 350.81062pt x 182.93344
+<pict/02/surf/surf_bay_prescale_gaussian_2.png, id=112, 350.81062pt x 182.93344
 pt>
 File: pict/02/surf/surf_bay_prescale_gaussian_2.png Graphic file (type png)
  <use pict/02/surf/surf_bay_prescale_gaussian_2.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_prescale_gaussian_2.png used on 
-input line 390.
+input line 380.
 (pdftex.def)             Requested size: 217.50032pt x 113.41754pt.
- [18 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_compar
+ [17 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_compar
 e_fast.png>]
-<pict/02/surf/dyy_prescale.png, id=121, 155.07938pt x 203.25937pt>
+<pict/02/surf/dyy_prescale.png, id=117, 155.07938pt x 203.25937pt>
 File: pict/02/surf/dyy_prescale.png Graphic file (type png)
 
 <use pict/02/surf/dyy_prescale.png>
-Package pdftex.def Info: pict/02/surf/dyy_prescale.png used on input line 454.
+Package pdftex.def Info: pict/02/surf/dyy_prescale.png used on input line 446.
 (pdftex.def)             Requested size: 155.07898pt x 203.25887pt.
 
-<pict/02/surf/dxy_prescale.png, id=122, 173.14688pt x 203.25937pt>
+<pict/02/surf/dxy_prescale.png, id=118, 173.14688pt x 203.25937pt>
 File: pict/02/surf/dxy_prescale.png Graphic file (type png)
 
 <use pict/02/surf/dxy_prescale.png>
-Package pdftex.def Info: pict/02/surf/dxy_prescale.png used on input line 456.
+Package pdftex.def Info: pict/02/surf/dxy_prescale.png used on input line 448.
 (pdftex.def)             Requested size: 173.14645pt x 203.25887pt.
 
-<pict/02/surf/surf_bay_octave_scale.png, id=123, 447.92343pt x 219.82124pt>
+<pict/02/surf/surf_bay_octave_scale.png, id=119, 447.92343pt x 219.82124pt>
 File: pict/02/surf/surf_bay_octave_scale.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_octave_scale.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_octave_scale.png used on input l
-ine 507.
+ine 499.
 (pdftex.def)             Requested size: 364.19664pt x 178.73512pt.
- [19 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
+ [18 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
 piramid.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_ba
 y_prescale_gaussian_1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/0
 2/surf/surf_bay_prescale_gaussian_2.png>]
-<pict/02/surf/surf_bay_scale_histogram.png, id=127, 588.69937pt x 417.05812pt>
+<pict/02/surf/surf_bay_scale_histogram.png, id=123, 588.69937pt x 417.05812pt>
 File: pict/02/surf/surf_bay_scale_histogram.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_scale_histogram.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_scale_histogram.png used on inpu
-t line 516.
+t line 508.
 (pdftex.def)             Requested size: 412.08675pt x 291.93869pt.
- [20 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dyy_prescale.pn
+ [19 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dyy_prescale.pn
 g> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/dxy_prescale.png>
  <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_octave_sca
-le.png>]
-<pict/02/surf/surf_bay_orientation_assignment_1.png, id=131, 206.27063pt x 205.
+le.png>] [20 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_ba
+y_scale_histogram.png>]
+<pict/02/surf/surf_bay_orientation_assignment_1.png, id=130, 206.27063pt x 205.
 5178pt>
 File: pict/02/surf/surf_bay_orientation_assignment_1.png Graphic file (type png
 )
  <use pict/02/surf/surf_bay_orientation_assignment_1.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_orientation_assignment_1.png use
-d on input line 539.
+d on input line 531.
 (pdftex.def)             Requested size: 123.76332pt x 123.31163pt.
 
-<pict/02/surf/surf_bay_orientation_assignment_2.png, id=132, 203.25937pt x 205.
+<pict/02/surf/surf_bay_orientation_assignment_2.png, id=131, 203.25937pt x 205.
 5178pt>
 File: pict/02/surf/surf_bay_orientation_assignment_2.png Graphic file (type png
 )
  <use pict/02/surf/surf_bay_orientation_assignment_2.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_orientation_assignment_2.png use
-d on input line 541.
+d on input line 533.
 (pdftex.def)             Requested size: 121.95656pt x 123.31163pt.
 
-<pict/02/surf/surf_bay_orientation_assignment_3.png, id=133, 214.55156pt x 205.
+<pict/02/surf/surf_bay_orientation_assignment_3.png, id=132, 214.55156pt x 205.
 5178pt>
 File: pict/02/surf/surf_bay_orientation_assignment_3.png Graphic file (type png
 )
  <use pict/02/surf/surf_bay_orientation_assignment_3.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_orientation_assignment_3.png use
-d on input line 544.
+d on input line 536.
 (pdftex.def)             Requested size: 128.73192pt x 123.31163pt.
- [21 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
-histogram.png>] <pict/02/surf/surf_bay_example.png, id=137, 364.36125pt x 292.8
-4406pt>
+
+<pict/02/surf/surf_bay_example.png, id=133, 364.36125pt x 292.84406pt>
 File: pict/02/surf/surf_bay_example.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_example.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_example.png used on input line 5
-57.
+49.
 (pdftex.def)             Requested size: 291.48938pt x 234.27556pt.
 
-<pict/02/surf/surf_bay_scale_descriptor.png, id=138, 677.53125pt x 414.04688pt>
+<pict/02/surf/surf_bay_scale_descriptor.png, id=134, 677.53125pt x 414.04688pt>
 File: pict/02/surf/surf_bay_scale_descriptor.png Graphic file (type png)
 <use pict/02/surf/surf_bay_scale_descriptor.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_scale_descriptor.png used on inp
-ut line 565.
+ut line 557.
 (pdftex.def)             Requested size: 364.19664pt x 222.57112pt.
- [22 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_orient
+ [21 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_orient
 ation_assignment_1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/s
 urf/surf_bay_orientation_assignment_2.png> <C:/Users/jslowik/Documents/GitHub/m
 agisterka/pict/02/surf/surf_bay_orientation_assignment_3.png> <C:/Users/jslowik
 /Documents/GitHub/magisterka/pict/02/surf/surf_bay_example.png>]
-<pict/02/surf/surf_bay_gradient.png, id=142, 396.7322pt x 155.07938pt>
+<pict/02/surf/surf_bay_gradient.png, id=138, 396.7322pt x 155.07938pt>
 File: pict/02/surf/surf_bay_gradient.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_gradient.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_gradient.png used on input line 
-578.
+570.
 (pdftex.def)             Requested size: 364.19664pt x 142.36475pt.
 
-
-LaTeX Warning: Citation `HB08' on page 23 undefined on input line 583.
-
-<pict/02/surf/surf_bay_compare_dim.png, id=143, 496.10344pt x 353.06906pt>
+<pict/02/surf/surf_bay_compare_dim.png, id=139, 496.10344pt x 353.06906pt>
 File: pict/02/surf/surf_bay_compare_dim.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_compare_dim.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_compare_dim.png used on input li
-ne 586.
+ne 578.
 (pdftex.def)             Requested size: 364.19664pt x 259.19286pt.
 
-<pict/02/surf/surf_bay_clean_noisy.png, id=144, 487.06969pt x 276.28218pt>
+<pict/02/surf/surf_bay_clean_noisy.png, id=140, 487.06969pt x 276.28218pt>
 File: pict/02/surf/surf_bay_clean_noisy.png Graphic file (type png)
 
 <use pict/02/surf/surf_bay_clean_noisy.png>
 Package pdftex.def Info: pict/02/surf/surf_bay_clean_noisy.png used on input li
-ne 595.
+ne 587.
 (pdftex.def)             Requested size: 364.19664pt x 206.58298pt.
- [23 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
+ [22 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_scale_
 descriptor.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf
-_bay_gradient.png>]
-
-LaTeX Warning: Citation `CENS' on page 24 undefined on input line 602.
-
-[24 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_compare
-_dim.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/surf/surf_bay_c
-lean_noisy.png>]
-<pict/02/star/cs_integral_image_a.png, id=152, 129.48375pt x 123.46124pt>
+_bay_gradient.png>] [23 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/s
+urf/surf_bay_compare_dim.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pic
+t/02/surf/surf_bay_clean_noisy.png>] <pict/02/star/cs_integral_image_a.png, id=
+148, 129.48375pt x 123.46124pt>
 File: pict/02/star/cs_integral_image_a.png Graphic file (type png)
 
 <use pict/02/star/cs_integral_image_a.png>
 Package pdftex.def Info: pict/02/star/cs_integral_image_a.png used on input lin
-e 622.
+e 614.
 (pdftex.def)             Requested size: 103.58711pt x 98.7691pt.
 
-<pict/02/star/cs_integral_image_b.png, id=153, 130.23656pt x 123.46124pt>
+<pict/02/star/cs_integral_image_b.png, id=149, 130.23656pt x 123.46124pt>
 File: pict/02/star/cs_integral_image_b.png Graphic file (type png)
 
 <use pict/02/star/cs_integral_image_b.png>
 Package pdftex.def Info: pict/02/star/cs_integral_image_b.png used on input lin
-e 624.
+e 616.
 (pdftex.def)             Requested size: 104.18938pt x 98.7691pt.
 
-<pict/02/star/wg_haar.png, id=154, 143.78719pt x 135.50626pt>
+<pict/02/star/wg_haar.png, id=150, 143.78719pt x 135.50626pt>
 File: pict/02/star/wg_haar.png Graphic file (type png)
 
 <use pict/02/star/wg_haar.png>
-Package pdftex.def Info: pict/02/star/wg_haar.png used on input line 644.
+Package pdftex.def Info: pict/02/star/wg_haar.png used on input line 636.
 (pdftex.def)             Requested size: 71.89342pt x 67.75294pt.
- [25 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_integral_ima
+ [24 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_integral_ima
 ge_a.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_integra
-l_image_b.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/wg_ha
-ar.png>]
-<pict/02/star/cs_circle_aprox_a.png, id=158, 127.22531pt x 137.7647pt>
+l_image_b.png>]
+<pict/02/star/cs_circle_aprox_a.png, id=154, 127.22531pt x 137.7647pt>
 File: pict/02/star/cs_circle_aprox_a.png Graphic file (type png)
 
 <use pict/02/star/cs_circle_aprox_a.png>
 Package pdftex.def Info: pict/02/star/cs_circle_aprox_a.png used on input line 
-659.
+651.
 (pdftex.def)             Requested size: 65.69162pt x 71.13188pt.
 
-<pict/02/star/cs_circle_aprox_b.png, id=159, 155.07938pt x 137.7647pt>
+<pict/02/star/cs_circle_aprox_b.png, id=155, 155.07938pt x 137.7647pt>
 File: pict/02/star/cs_circle_aprox_b.png Graphic file (type png)
 
 <use pict/02/star/cs_circle_aprox_b.png>
 Package pdftex.def Info: pict/02/star/cs_circle_aprox_b.png used on input line 
-663.
+655.
 (pdftex.def)             Requested size: 80.0738pt x 71.13188pt.
 
-<pict/02/star/cs_circle_aprox_c.png, id=160, 126.4725pt x 137.7647pt>
+<pict/02/star/cs_circle_aprox_c.png, id=156, 126.4725pt x 137.7647pt>
 File: pict/02/star/cs_circle_aprox_c.png Graphic file (type png)
 
 <use pict/02/star/cs_circle_aprox_c.png>
 Package pdftex.def Info: pict/02/star/cs_circle_aprox_c.png used on input line 
-666.
+658.
 (pdftex.def)             Requested size: 65.30292pt x 71.13188pt.
 
-<pict/02/star/cs_circle_aprox_d.png, id=161, 111.41624pt x 137.7647pt>
+<pict/02/star/cs_circle_aprox_d.png, id=157, 111.41624pt x 137.7647pt>
 File: pict/02/star/cs_circle_aprox_d.png Graphic file (type png)
 
 <use pict/02/star/cs_circle_aprox_d.png>
 Package pdftex.def Info: pict/02/star/cs_circle_aprox_d.png used on input line 
-669.
+661.
 (pdftex.def)             Requested size: 57.52876pt x 71.13188pt.
 
-<pict/02/star/wg_circle_aprox.png, id=162, 238.64156pt x 245.41687pt>
+<pict/02/star/wg_circle_aprox.png, id=158, 238.64156pt x 245.41687pt>
 File: pict/02/star/wg_circle_aprox.png Graphic file (type png)
 
 <use pict/02/star/wg_circle_aprox.png>
-Package pdftex.def Info: pict/02/star/wg_circle_aprox.png used on input line 67
-7.
+Package pdftex.def Info: pict/02/star/wg_circle_aprox.png used on input line 66
+9.
 (pdftex.def)             Requested size: 96.835pt x 99.58464pt.
- [26 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_aprox
-_a.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_ap
-rox_b.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle
-_aprox_c.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_cir
-cle_aprox_d.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/wg_
-circle_aprox.png>] [27]
-
-LaTeX Warning: Citation `rosten_2006_machine' on page 28 undefined on input lin
-e 717.
-
-
-LaTeX Warning: Citation `rosten_2008_faster' on page 28 undefined on input line
- 717.
-
-<pict/02/fast/fast_test_segment.png, id=169, 578.16pt x 277.33612pt>
+ [25 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/wg_haar.png> <C
+:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_aprox_a.png>
+ <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_aprox_b.p
+ng> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_aprox_
+c.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/cs_circle_apr
+ox_d.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/star/wg_circle_
+aprox.png>] [26]
+<pict/02/fast/fast_test_segment.png, id=165, 578.16pt x 277.33612pt>
 File: pict/02/fast/fast_test_segment.png Graphic file (type png)
 
 <use pict/02/fast/fast_test_segment.png>
 Package pdftex.def Info: pict/02/fast/fast_test_segment.png used on input line 
-742.
+735.
 (pdftex.def)             Requested size: 364.19664pt x 174.69728pt.
- [28]
+ [27] [28 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/fast/fast_test_
+segment.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 821.
 
-LaTeX Warning: Citation `ID3' on page 29 undefined on input line 789.
 
-[29 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/fast/fast_test_segmen
-t.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 828.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 828.
- [30] [31]
-
-LaTeX Warning: Citation `B1' on page 32 undefined on input line 855.
-
-
-LaTeX Warning: Citation `B2' on page 32 undefined on input line 855.
-
-
-LaTeX Warning: Citation `PCA' on page 32 undefined on input line 862.
-
-
-LaTeX Warning: Citation `LDA' on page 32 undefined on input line 862.
-
-
-LaTeX Warning: Citation `B-ref1' on page 32 undefined on input line 862.
-
-
-LaTeX Warning: Citation `B-ref2' on page 32 undefined on input line 862.
-
-
-LaTeX Warning: Citation `B-ref3' on page 32 undefined on input line 862.
-
-[32] <pict/02/brief/sigma_comp.png, id=188, 393.72093pt x 217.5628pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 821.
+ [29] [30] [31]
+<pict/02/brief/sigma_comp.png, id=184, 393.72093pt x 217.5628pt>
 File: pict/02/brief/sigma_comp.png Graphic file (type png)
 
 <use pict/02/brief/sigma_comp.png>
-Package pdftex.def Info: pict/02/brief/sigma_comp.png used on input line 908.
+Package pdftex.def Info: pict/02/brief/sigma_comp.png used on input line 901.
 (pdftex.def)             Requested size: 393.71997pt x 217.56227pt.
-
-
-LaTeX Warning: Reference `fig:brief_promien' on page 33 undefined on input line
- 914.
-
-[33 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/sigma_comp.png>
-] <pict/02/brief/G1.png, id=194, 184.43906pt x 184.43906pt>
+ [32 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/sigma_comp.png
+>]
+<pict/02/brief/G1.png, id=190, 184.43906pt x 184.43906pt>
 File: pict/02/brief/G1.png Graphic file (type png)
 
 <use pict/02/brief/G1.png>
-Package pdftex.def Info: pict/02/brief/G1.png used on input line 934.
+Package pdftex.def Info: pict/02/brief/G1.png used on input line 927.
 (pdftex.def)             Requested size: 184.4386pt x 184.4386pt.
 
-<pict/02/brief/G2.png, id=195, 184.43906pt x 184.43906pt>
+<pict/02/brief/G2.png, id=191, 184.43906pt x 184.43906pt>
 File: pict/02/brief/G2.png Graphic file (type png)
 
 <use pict/02/brief/G2.png>
-Package pdftex.def Info: pict/02/brief/G2.png used on input line 937.
+Package pdftex.def Info: pict/02/brief/G2.png used on input line 930.
 (pdftex.def)             Requested size: 184.4386pt x 184.4386pt.
 
-<pict/02/brief/G3.png, id=196, 185.19188pt x 184.43906pt>
+<pict/02/brief/G3.png, id=192, 185.19188pt x 184.43906pt>
 File: pict/02/brief/G3.png Graphic file (type png)
 
 <use pict/02/brief/G3.png>
-Package pdftex.def Info: pict/02/brief/G3.png used on input line 940.
+Package pdftex.def Info: pict/02/brief/G3.png used on input line 933.
 (pdftex.def)             Requested size: 185.1914pt x 184.4386pt.
 
-<pict/02/brief/G4.png, id=197, 184.43906pt x 184.43906pt>
+<pict/02/brief/G4.png, id=193, 184.43906pt x 184.43906pt>
 File: pict/02/brief/G4.png Graphic file (type png)
 
 <use pict/02/brief/G4.png>
-Package pdftex.def Info: pict/02/brief/G4.png used on input line 943.
+Package pdftex.def Info: pict/02/brief/G4.png used on input line 936.
 (pdftex.def)             Requested size: 184.4386pt x 184.4386pt.
 
-<pict/02/brief/G5.png, id=198, 184.43906pt x 184.43906pt>
+<pict/02/brief/G5.png, id=194, 184.43906pt x 184.43906pt>
 File: pict/02/brief/G5.png Graphic file (type png)
 
 <use pict/02/brief/G5.png>
-Package pdftex.def Info: pict/02/brief/G5.png used on input line 946.
+Package pdftex.def Info: pict/02/brief/G5.png used on input line 939.
 (pdftex.def)             Requested size: 184.4386pt x 184.4386pt.
 
-<pict/02/brief/G_comp.png, id=199, 368.87813pt x 203.25937pt>
+<pict/02/brief/G_comp.png, id=195, 368.87813pt x 203.25937pt>
 File: pict/02/brief/G_comp.png Graphic file (type png)
 
 <use pict/02/brief/G_comp.png>
-Package pdftex.def Info: pict/02/brief/G_comp.png used on input line 953.
+Package pdftex.def Info: pict/02/brief/G_comp.png used on input line 946.
 (pdftex.def)             Requested size: 368.87721pt x 203.25887pt.
- [34] [35 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G1.png> <
+ [33] [34 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G1.png> <
 C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G2.png> <C:/Users/js
 lowik/Documents/GitHub/magisterka/pict/02/brief/G3.png> <C:/Users/jslowik/Docum
 ents/GitHub/magisterka/pict/02/brief/G4.png> <C:/Users/jslowik/Documents/GitHub
 /magisterka/pict/02/brief/G5.png>]
-
-LaTeX Warning: Citation `ORB11' on page 36 undefined on input line 961.
-
-<pict/02/orb/orb_wykres_2.png, id=207, 428.35031pt x 176.15813pt>
+<pict/02/orb/orb_wykres_2.png, id=202, 428.35031pt x 176.15813pt>
 File: pict/02/orb/orb_wykres_2.png Graphic file (type png)
 
 <use pict/02/orb/orb_wykres_2.png>
-Package pdftex.def Info: pict/02/orb/orb_wykres_2.png used on input line 969.
+Package pdftex.def Info: pict/02/orb/orb_wykres_2.png used on input line 962.
 (pdftex.def)             Requested size: 364.19664pt x 149.77542pt.
 
-<pict/02/orb/orb_wykres_3.png, id=208, 421.575pt x 295.1025pt>
+<pict/02/orb/orb_wykres_3.png, id=203, 421.575pt x 295.1025pt>
 File: pict/02/orb/orb_wykres_3.png Graphic file (type png)
 
 <use pict/02/orb/orb_wykres_3.png>
-Package pdftex.def Info: pict/02/orb/orb_wykres_3.png used on input line 976.
+Package pdftex.def Info: pict/02/orb/orb_wykres_3.png used on input line 969.
 (pdftex.def)             Requested size: 364.19664pt x 254.94043pt.
 
-<pict/02/orb/orb_wykres_4.png, id=209, 537.50812pt x 282.30469pt>
+<pict/02/orb/orb_wykres_4.png, id=204, 537.50812pt x 282.30469pt>
 File: pict/02/orb/orb_wykres_4.png Graphic file (type png)
 
 <use pict/02/orb/orb_wykres_4.png>
-Package pdftex.def Info: pict/02/orb/orb_wykres_4.png used on input line 984.
+Package pdftex.def Info: pict/02/orb/orb_wykres_4.png used on input line 977.
 (pdftex.def)             Requested size: 364.19664pt x 191.27972pt.
 
-<pict/02/orb/orb_wykres_5.png, id=210, 642.90187pt x 440.39531pt>
+<pict/02/orb/orb_wykres_5.png, id=205, 642.90187pt x 440.39531pt>
 File: pict/02/orb/orb_wykres_5.png Graphic file (type png)
 
 <use pict/02/orb/orb_wykres_5.png>
-Package pdftex.def Info: pict/02/orb/orb_wykres_5.png used on input line 992.
+Package pdftex.def Info: pict/02/orb/orb_wykres_5.png used on input line 985.
 (pdftex.def)             Requested size: 364.19664pt x 249.48236pt.
 
-<pict/02/orb/orb_wykres_6.png, id=211, 666.99188pt x 336.50719pt>
+<pict/02/orb/orb_wykres_6.png, id=206, 666.99188pt x 336.50719pt>
 File: pict/02/orb/orb_wykres_6.png Graphic file (type png)
 
 <use pict/02/orb/orb_wykres_6.png>
-Package pdftex.def Info: pict/02/orb/orb_wykres_6.png used on input line 1001.
+Package pdftex.def Info: pict/02/orb/orb_wykres_6.png used on input line 994.
 (pdftex.def)             Requested size: 364.19664pt x 183.74449pt.
 
-<pict/02/orb/orb_wykres_7.png, id=212, 639.89063pt x 444.15938pt>
+<pict/02/orb/orb_wykres_7.png, id=207, 639.89063pt x 444.15938pt>
 File: pict/02/orb/orb_wykres_7.png Graphic file (type png)
 
 <use pict/02/orb/orb_wykres_7.png>
-Package pdftex.def Info: pict/02/orb/orb_wykres_7.png used on input line 1009.
+Package pdftex.def Info: pict/02/orb/orb_wykres_7.png used on input line 1002.
 (pdftex.def)             Requested size: 364.19664pt x 252.8007pt.
 
-<pict/02/orb/orb_wykres_8.png, id=213, 636.87938pt x 442.65375pt>
+<pict/02/orb/orb_wykres_8.png, id=208, 636.87938pt x 442.65375pt>
 File: pict/02/orb/orb_wykres_8.png Graphic file (type png)
 
 <use pict/02/orb/orb_wykres_8.png>
-Package pdftex.def Info: pict/02/orb/orb_wykres_8.png used on input line 1017.
+Package pdftex.def Info: pict/02/orb/orb_wykres_8.png used on input line 1010.
 (pdftex.def)             Requested size: 364.19664pt x 253.12576pt.
- [36 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G_comp.png> <C
-:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_2.png>] [37 
+ [35 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/brief/G_comp.png> <C
+:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_2.png>] [36 
 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_3.png> <C:
-/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_4.png>] [38 <
+/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_4.png>] [37 <
 C:/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_5.png> <C:/
-Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_6.png>] [39 <C
+Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_6.png>] [38 <C
 :/Users/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_7.png> <C:/U
-sers/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_8.png>]
-
-LaTeX Warning: Citation `centroid' on page 40 undefined on input line 1030.
-
-
-LaTeX Warning: Reference `fig:orb_bin_max' on page 40 undefined on input line 1
-047.
-
-
-LaTeX Warning: Reference `fig:orb_compare_desc' on page 40 undefined on input l
-ine 1051.
-
-[40]
-
-LaTeX Warning: Reference `fig:orb_spread' on page 41 undefined on input line 10
-70.
-
-
-Overfull \hbox (7.77472pt too wide) in paragraph at lines 1076--1077
+sers/jslowik/Documents/GitHub/magisterka/pict/02/orb/orb_wykres_8.png>] [39]
+Overfull \hbox (7.77472pt too wide) in paragraph at lines 1069--1070
 []\T1/cmr/m/n/12 Innym nie-ko-rzyst-nym efek-tem to-wa-rzy-sz¡-cym de-skryp-to-
 ro-wi ste-ered BRIEF jest zmniej-
  []
 
 
-LaTeX Warning: Citation `pascal' on page 41 undefined on input line 1080.
-
-
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 1080.
+(amsmath)                 on input line 1073.
 
-[41]) [42] [43
+[40]) [41] [42
 
 
 
 ]
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_opis.tex
 Rozdzia\PlPrIeC {\l } 3.
-
-LaTeX Warning: Reference `dodatek_program' on page 44 undefined on input line 3
-.
-
-[44
+[43
 
 
 
@@ -1281,18 +1163,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--52
 
  []
 
-
-LaTeX Warning: Citation `ransac' on page 45 undefined on input line 54.
-
-) [45]
+) [44]
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_mikolajczyk.tex
 Rozdzia\PlPrIeC {\l } 4.
-[46
+[45
 
 
 
 
-] <pict/mikolajczyk/bikes/img1.jpg, id=248, 752.8125pt x 526.96875pt>
+] <pict/mikolajczyk/bikes/img1.jpg, id=244, 752.8125pt x 526.96875pt>
 File: pict/mikolajczyk/bikes/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bikes/img1.jpg>
@@ -1300,7 +1179,7 @@ Package pdftex.def Info: pict/mikolajczyk/bikes/img1.jpg used on input line 23.
 
 (pdftex.def)             Requested size: 142.26378pt x 99.58635pt.
 
-<pict/mikolajczyk/bikes/img2.jpg, id=249, 752.8125pt x 526.96875pt>
+<pict/mikolajczyk/bikes/img2.jpg, id=245, 752.8125pt x 526.96875pt>
 File: pict/mikolajczyk/bikes/img2.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bikes/img2.jpg>
@@ -1308,7 +1187,7 @@ Package pdftex.def Info: pict/mikolajczyk/bikes/img2.jpg used on input line 26.
 
 (pdftex.def)             Requested size: 142.26378pt x 99.58635pt.
 
-<pict/mikolajczyk/bikes/img3.jpg, id=250, 752.8125pt x 526.96875pt>
+<pict/mikolajczyk/bikes/img3.jpg, id=246, 752.8125pt x 526.96875pt>
 File: pict/mikolajczyk/bikes/img3.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bikes/img3.jpg>
@@ -1316,7 +1195,7 @@ Package pdftex.def Info: pict/mikolajczyk/bikes/img3.jpg used on input line 29.
 
 (pdftex.def)             Requested size: 142.26378pt x 99.58635pt.
 
-<pict/mikolajczyk/bikes/img4.jpg, id=251, 752.8125pt x 526.96875pt>
+<pict/mikolajczyk/bikes/img4.jpg, id=247, 752.8125pt x 526.96875pt>
 File: pict/mikolajczyk/bikes/img4.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bikes/img4.jpg>
@@ -1324,7 +1203,7 @@ Package pdftex.def Info: pict/mikolajczyk/bikes/img4.jpg used on input line 32.
 
 (pdftex.def)             Requested size: 142.26378pt x 99.58635pt.
 
-<pict/mikolajczyk/bikes/img5.jpg, id=252, 752.8125pt x 526.96875pt>
+<pict/mikolajczyk/bikes/img5.jpg, id=248, 752.8125pt x 526.96875pt>
 File: pict/mikolajczyk/bikes/img5.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bikes/img5.jpg>
@@ -1332,7 +1211,7 @@ Package pdftex.def Info: pict/mikolajczyk/bikes/img5.jpg used on input line 35.
 
 (pdftex.def)             Requested size: 142.26378pt x 99.58635pt.
 
-<pict/mikolajczyk/bikes/img6.jpg, id=253, 752.8125pt x 526.96875pt>
+<pict/mikolajczyk/bikes/img6.jpg, id=249, 752.8125pt x 526.96875pt>
 File: pict/mikolajczyk/bikes/img6.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bikes/img6.jpg>
@@ -1340,14 +1219,14 @@ Package pdftex.def Info: pict/mikolajczyk/bikes/img6.jpg used on input line 38.
 
 (pdftex.def)             Requested size: 142.26378pt x 99.58635pt.
 
-<pict/mikolajczyk/bikes/F1.png, id=254, 752.8125pt x 421.575pt>
-File: pict/mikolajczyk/bikes/F1.png Graphic file (type png)
+<pict/mikolajczyk/bikes/f1.png, id=250, 752.8125pt x 421.575pt>
+File: pict/mikolajczyk/bikes/f1.png Graphic file (type png)
 
-<use pict/mikolajczyk/bikes/F1.png>
-Package pdftex.def Info: pict/mikolajczyk/bikes/F1.png used on input line 70.
+<use pict/mikolajczyk/bikes/f1.png>
+Package pdftex.def Info: pict/mikolajczyk/bikes/f1.png used on input line 70.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/mikolajczyk/bikes/f2.png, id=255, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bikes/f2.png, id=251, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bikes/f2.png Graphic file (type png)
 
 <use pict/mikolajczyk/bikes/f2.png>
@@ -1358,7 +1237,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 108--124
  [][][] 
  []
 
-<pict/mikolajczyk/bikes/f3.png, id=256, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bikes/f3.png, id=252, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bikes/f3.png Graphic file (type png)
 
 <use pict/mikolajczyk/bikes/f3.png>
@@ -1369,7 +1248,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 139--154
  [][][] 
  []
 
-<pict/mikolajczyk/bikes/m1.png, id=257, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bikes/m1.png, id=253, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bikes/m1.png Graphic file (type png)
 
 <use pict/mikolajczyk/bikes/m1.png>
@@ -1380,25 +1259,25 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 168--180
  [][][] 
  []
 
-<pict/mikolajczyk/bikes/m2.png, id=258, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bikes/m2.png, id=254, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bikes/m2.png Graphic file (type png)
 
 <use pict/mikolajczyk/bikes/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/bikes/m2.png used on input line 185.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [47 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img1.
+ [46 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img1.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img2.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img3.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img4.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img5.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/img6.
-jpg>] [48 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/
-F1.png>] [49 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bik
+jpg>] [47 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes/
+f1.png>] [48 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bik
 es/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bikes
-/f3.png>] [50 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bi
+/f3.png>] [49 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bi
 kes/m1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bike
 s/m2.png>]
-<pict/mikolajczyk/trees/img1.jpg, id=276, 1003.75pt x 702.625pt>
+<pict/mikolajczyk/trees/img1.jpg, id=272, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/trees/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/trees/img1.jpg>
@@ -1406,7 +1285,7 @@ Package pdftex.def Info: pict/mikolajczyk/trees/img1.jpg used on input line 205
 .
 (pdftex.def)             Requested size: 142.26378pt x 99.57831pt.
 
-<pict/mikolajczyk/trees/img2.jpg, id=277, 1003.75pt x 702.625pt>
+<pict/mikolajczyk/trees/img2.jpg, id=273, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/trees/img2.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/trees/img2.jpg>
@@ -1414,7 +1293,7 @@ Package pdftex.def Info: pict/mikolajczyk/trees/img2.jpg used on input line 208
 .
 (pdftex.def)             Requested size: 142.26378pt x 99.57831pt.
 
-<pict/mikolajczyk/trees/img3.jpg, id=278, 1003.75pt x 702.625pt>
+<pict/mikolajczyk/trees/img3.jpg, id=274, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/trees/img3.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/trees/img3.jpg>
@@ -1422,7 +1301,7 @@ Package pdftex.def Info: pict/mikolajczyk/trees/img3.jpg used on input line 211
 .
 (pdftex.def)             Requested size: 142.26378pt x 99.57831pt.
 
-<pict/mikolajczyk/trees/img4.jpg, id=279, 1003.75pt x 702.625pt>
+<pict/mikolajczyk/trees/img4.jpg, id=275, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/trees/img4.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/trees/img4.jpg>
@@ -1430,7 +1309,7 @@ Package pdftex.def Info: pict/mikolajczyk/trees/img4.jpg used on input line 214
 .
 (pdftex.def)             Requested size: 142.26378pt x 99.57831pt.
 
-<pict/mikolajczyk/trees/img5.jpg, id=280, 1003.75pt x 702.625pt>
+<pict/mikolajczyk/trees/img5.jpg, id=276, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/trees/img5.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/trees/img5.jpg>
@@ -1438,7 +1317,7 @@ Package pdftex.def Info: pict/mikolajczyk/trees/img5.jpg used on input line 217
 .
 (pdftex.def)             Requested size: 142.26378pt x 99.57831pt.
 
-<pict/mikolajczyk/trees/img6.jpg, id=281, 1003.75pt x 702.625pt>
+<pict/mikolajczyk/trees/img6.jpg, id=277, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/trees/img6.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/trees/img6.jpg>
@@ -1446,14 +1325,14 @@ Package pdftex.def Info: pict/mikolajczyk/trees/img6.jpg used on input line 220
 .
 (pdftex.def)             Requested size: 142.26378pt x 99.57831pt.
 
-<pict/mikolajczyk/trees/F1.png, id=282, 752.8125pt x 421.575pt>
-File: pict/mikolajczyk/trees/F1.png Graphic file (type png)
+<pict/mikolajczyk/trees/f1.png, id=278, 752.8125pt x 421.575pt>
+File: pict/mikolajczyk/trees/f1.png Graphic file (type png)
 
-<use pict/mikolajczyk/trees/F1.png>
-Package pdftex.def Info: pict/mikolajczyk/trees/F1.png used on input line 252.
+<use pict/mikolajczyk/trees/f1.png>
+Package pdftex.def Info: pict/mikolajczyk/trees/f1.png used on input line 252.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/mikolajczyk/trees/f2.png, id=283, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/trees/f2.png, id=279, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/trees/f2.png Graphic file (type png)
 
 <use pict/mikolajczyk/trees/f2.png>
@@ -1464,7 +1343,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 291--307
  [][][] 
  []
 
-<pict/mikolajczyk/trees/f3.png, id=284, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/trees/f3.png, id=280, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/trees/f3.png Graphic file (type png)
 
 <use pict/mikolajczyk/trees/f3.png>
@@ -1475,7 +1354,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 322--337
  [][][] 
  []
 
-<pict/mikolajczyk/trees/m1.png, id=285, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/trees/m1.png, id=281, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/trees/m1.png Graphic file (type png)
 
 <use pict/mikolajczyk/trees/m1.png>
@@ -1486,36 +1365,33 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 351--363
  [][][] 
  []
 
-<pict/mikolajczyk/trees/m2.png, id=286, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/trees/m2.png, id=282, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/trees/m2.png Graphic file (type png)
 
 <use pict/mikolajczyk/trees/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/trees/m2.png used on input line 368.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [51 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img1.
+ [50 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img1.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img2.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img3.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img4.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img5.
 jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/img6.
-jpg>] [52 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/
-F1.png>] [53 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/tre
+jpg>] [51 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/
+f1.png>] [52 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/tre
 es/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees
-/f3.png>] [54 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/tr
+/f3.png>] [53 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/tr
 ees/m1.png>]
-
-LaTeX Warning: Reference `fig:tree_f1' on page 55 undefined on input line 374.
-
-<pict/badania/trees_fast_1_3.png, id=304, 2007.5pt x 702.625pt>
+<pict/badania/trees_fast_1_3.png, id=300, 2007.5pt x 702.625pt>
 File: pict/badania/trees_fast_1_3.png Graphic file (type png)
 
 <use pict/badania/trees_fast_1_3.png>
 Package pdftex.def Info: pict/badania/trees_fast_1_3.png used on input line 392
 .
 (pdftex.def)             Requested size: 364.19664pt x 127.46411pt.
- [55 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/m2.pn
+ [54 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/trees/m2.pn
 g>]
-<pict/mikolajczyk/graff/img1.jpg, id=309, 602.25pt x 481.8pt>
+<pict/mikolajczyk/graff/img1.jpg, id=305, 602.25pt x 481.8pt>
 File: pict/mikolajczyk/graff/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/graff/img1.jpg>
@@ -1523,7 +1399,7 @@ Package pdftex.def Info: pict/mikolajczyk/graff/img1.jpg used on input line 410
 .
 (pdftex.def)             Requested size: 142.26378pt x 113.81114pt.
 
-<pict/mikolajczyk/graff/img2.jpg, id=310, 602.25pt x 481.8pt>
+<pict/mikolajczyk/graff/img2.jpg, id=306, 602.25pt x 481.8pt>
 File: pict/mikolajczyk/graff/img2.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/graff/img2.jpg>
@@ -1531,7 +1407,7 @@ Package pdftex.def Info: pict/mikolajczyk/graff/img2.jpg used on input line 413
 .
 (pdftex.def)             Requested size: 142.26378pt x 113.81114pt.
 
-<pict/mikolajczyk/graff/img3.jpg, id=311, 602.25pt x 481.8pt>
+<pict/mikolajczyk/graff/img3.jpg, id=307, 602.25pt x 481.8pt>
 File: pict/mikolajczyk/graff/img3.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/graff/img3.jpg>
@@ -1539,7 +1415,7 @@ Package pdftex.def Info: pict/mikolajczyk/graff/img3.jpg used on input line 416
 .
 (pdftex.def)             Requested size: 142.26378pt x 113.81114pt.
 
-<pict/mikolajczyk/graff/img4.jpg, id=312, 602.25pt x 481.8pt>
+<pict/mikolajczyk/graff/img4.jpg, id=308, 602.25pt x 481.8pt>
 File: pict/mikolajczyk/graff/img4.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/graff/img4.jpg>
@@ -1547,7 +1423,7 @@ Package pdftex.def Info: pict/mikolajczyk/graff/img4.jpg used on input line 419
 .
 (pdftex.def)             Requested size: 142.26378pt x 113.81114pt.
 
-<pict/mikolajczyk/graff/img5.jpg, id=313, 602.25pt x 481.8pt>
+<pict/mikolajczyk/graff/img5.jpg, id=309, 602.25pt x 481.8pt>
 File: pict/mikolajczyk/graff/img5.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/graff/img5.jpg>
@@ -1555,7 +1431,7 @@ Package pdftex.def Info: pict/mikolajczyk/graff/img5.jpg used on input line 422
 .
 (pdftex.def)             Requested size: 142.26378pt x 113.81114pt.
 
-<pict/mikolajczyk/graff/img6.jpg, id=314, 602.25pt x 481.8pt>
+<pict/mikolajczyk/graff/img6.jpg, id=310, 602.25pt x 481.8pt>
 File: pict/mikolajczyk/graff/img6.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/graff/img6.jpg>
@@ -1563,14 +1439,14 @@ Package pdftex.def Info: pict/mikolajczyk/graff/img6.jpg used on input line 425
 .
 (pdftex.def)             Requested size: 142.26378pt x 113.81114pt.
 
-<pict/mikolajczyk/graff/F1.png, id=315, 752.8125pt x 421.575pt>
-File: pict/mikolajczyk/graff/F1.png Graphic file (type png)
+<pict/mikolajczyk/graff/f1.png, id=311, 752.8125pt x 421.575pt>
+File: pict/mikolajczyk/graff/f1.png Graphic file (type png)
 
-<use pict/mikolajczyk/graff/F1.png>
-Package pdftex.def Info: pict/mikolajczyk/graff/F1.png used on input line 457.
+<use pict/mikolajczyk/graff/f1.png>
+Package pdftex.def Info: pict/mikolajczyk/graff/f1.png used on input line 457.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/mikolajczyk/graff/f2.png, id=316, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/graff/f2.png, id=312, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/graff/f2.png Graphic file (type png)
 
 <use pict/mikolajczyk/graff/f2.png>
@@ -1581,7 +1457,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 494--509
  [][][] 
  []
 
-<pict/mikolajczyk/graff/f3.png, id=317, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/graff/f3.png, id=313, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/graff/f3.png Graphic file (type png)
 
 <use pict/mikolajczyk/graff/f3.png>
@@ -1592,7 +1468,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 523--538
  [][][] 
  []
 
-<pict/mikolajczyk/graff/m1.png, id=318, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/graff/m1.png, id=314, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/graff/m1.png Graphic file (type png)
 
 <use pict/mikolajczyk/graff/m1.png>
@@ -1603,25 +1479,25 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 551--563
  [][][] 
  []
 
-<pict/mikolajczyk/graff/m2.png, id=319, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/graff/m2.png, id=315, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/graff/m2.png Graphic file (type png)
 
 <use pict/mikolajczyk/graff/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/graff/m2.png used on input line 568.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [56 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/badania/trees_fast_1_3.
+ [55 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/badania/trees_fast_1_3.
 png (PNG copy)> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
 graff/img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
 graff/img2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
 graff/img3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
 graff/img4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
 graff/img5.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
-graff/img6.jpg>] [57 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolaj
-czyk/graff/F1.png>] [58 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/miko
+graff/img6.jpg>] [56 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolaj
+czyk/graff/f1.png>] [57 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/miko
 lajczyk/graff/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikola
-jczyk/graff/f3.png>] [59 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mik
+jczyk/graff/f3.png>] [58 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mik
 olajczyk/graff/m1.png>]
-<pict/mikolajczyk/wall/img1.jpg, id=337, 1003.75pt x 702.625pt>
+<pict/mikolajczyk/wall/img1.jpg, id=332, 1003.75pt x 702.625pt>
 File: pict/mikolajczyk/wall/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/wall/img1.jpg>
@@ -1629,7 +1505,7 @@ Package pdftex.def Info: pict/mikolajczyk/wall/img1.jpg used on input line 582.
 
 (pdftex.def)             Requested size: 142.25475pt x 113.80533pt.
 
-<pict/mikolajczyk/wall/img2.jpg, id=338, 883.3pt x 682.55pt>
+<pict/mikolajczyk/wall/img2.jpg, id=333, 883.3pt x 682.55pt>
 File: pict/mikolajczyk/wall/img2.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/wall/img2.jpg>
@@ -1637,7 +1513,7 @@ Package pdftex.def Info: pict/mikolajczyk/wall/img2.jpg used on input line 585.
 
 (pdftex.def)             Requested size: 142.26086pt x 113.80318pt.
 
-<pict/mikolajczyk/wall/img3.jpg, id=339, 883.3pt x 682.55pt>
+<pict/mikolajczyk/wall/img3.jpg, id=334, 883.3pt x 682.55pt>
 File: pict/mikolajczyk/wall/img3.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/wall/img3.jpg>
@@ -1645,7 +1521,7 @@ Package pdftex.def Info: pict/mikolajczyk/wall/img3.jpg used on input line 588.
 
 (pdftex.def)             Requested size: 142.26086pt x 113.80318pt.
 
-<pict/mikolajczyk/wall/img4.jpg, id=340, 883.3pt x 682.55pt>
+<pict/mikolajczyk/wall/img4.jpg, id=335, 883.3pt x 682.55pt>
 File: pict/mikolajczyk/wall/img4.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/wall/img4.jpg>
@@ -1653,7 +1529,7 @@ Package pdftex.def Info: pict/mikolajczyk/wall/img4.jpg used on input line 591.
 
 (pdftex.def)             Requested size: 142.26086pt x 113.80318pt.
 
-<pict/mikolajczyk/wall/img5.jpg, id=341, 883.3pt x 682.55pt>
+<pict/mikolajczyk/wall/img5.jpg, id=336, 883.3pt x 682.55pt>
 File: pict/mikolajczyk/wall/img5.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/wall/img5.jpg>
@@ -1661,7 +1537,7 @@ Package pdftex.def Info: pict/mikolajczyk/wall/img5.jpg used on input line 594.
 
 (pdftex.def)             Requested size: 142.26086pt x 113.80318pt.
 
-<pict/mikolajczyk/wall/img6.jpg, id=342, 883.3pt x 682.55pt>
+<pict/mikolajczyk/wall/img6.jpg, id=337, 883.3pt x 682.55pt>
 File: pict/mikolajczyk/wall/img6.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/wall/img6.jpg>
@@ -1669,14 +1545,14 @@ Package pdftex.def Info: pict/mikolajczyk/wall/img6.jpg used on input line 597.
 
 (pdftex.def)             Requested size: 142.26086pt x 113.80318pt.
 
-<pict/mikolajczyk/wall/F1.png, id=343, 752.8125pt x 421.575pt>
-File: pict/mikolajczyk/wall/F1.png Graphic file (type png)
+<pict/mikolajczyk/wall/f1.png, id=338, 752.8125pt x 421.575pt>
+File: pict/mikolajczyk/wall/f1.png Graphic file (type png)
 
-<use pict/mikolajczyk/wall/F1.png>
-Package pdftex.def Info: pict/mikolajczyk/wall/F1.png used on input line 627.
+<use pict/mikolajczyk/wall/f1.png>
+Package pdftex.def Info: pict/mikolajczyk/wall/f1.png used on input line 627.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/mikolajczyk/wall/f2.png, id=344, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/wall/f2.png, id=339, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/wall/f2.png Graphic file (type png)
 
 <use pict/mikolajczyk/wall/f2.png>
@@ -1687,7 +1563,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 666--682
  [][][] 
  []
 
-<pict/mikolajczyk/wall/f3.png, id=345, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/wall/f3.png, id=340, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/wall/f3.png Graphic file (type png)
 
 <use pict/mikolajczyk/wall/f3.png>
@@ -1698,7 +1574,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 697--712
  [][][] 
  []
 
-<pict/mikolajczyk/wall/m1.png, id=346, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/wall/m1.png, id=341, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/wall/m1.png Graphic file (type png)
 
 <use pict/mikolajczyk/wall/m1.png>
@@ -1709,23 +1585,23 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 726--737
  [][][] 
  []
 
-<pict/mikolajczyk/wall/m2.png, id=347, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/wall/m2.png, id=342, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/wall/m2.png Graphic file (type png)
 
 <use pict/mikolajczyk/wall/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/wall/m2.png used on input line 742.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [60 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/graff/m2.pn
-g>] [61] [62 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wal
+ [59 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/graff/m2.pn
+g>] [60] [61 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wal
 l/img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall
 /img2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/
 img3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/i
 mg4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/im
 g5.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/img
-6.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/F1.p
-ng>] [63 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/f2
+6.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/f1.p
+ng>] [62 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/f2
 .png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/f3.pn
-g>] [64 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/m1.
+g>] [63 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/m1.
 png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/wall/m2.png
 >]
 Overfull \hbox (5.58958pt too wide) in paragraph at lines 752--753
@@ -1733,7 +1609,7 @@ Overfull \hbox (5.58958pt too wide) in paragraph at lines 752--753
 yp-to-ra osi¡-ga al-go-rytm BRIEF
  []
 
-<pict/mikolajczyk/bark/img1.jpg, id=369, 575.90157pt x 385.44pt>
+<pict/mikolajczyk/bark/img1.jpg, id=365, 575.90157pt x 385.44pt>
 File: pict/mikolajczyk/bark/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bark/img1.jpg>
@@ -1741,7 +1617,7 @@ Package pdftex.def Info: pict/mikolajczyk/bark/img1.jpg used on input line 773.
 
 (pdftex.def)             Requested size: 142.26378pt x 95.21289pt.
 
-<pict/mikolajczyk/bark/img2.jpg, id=370, 575.90157pt x 385.44pt>
+<pict/mikolajczyk/bark/img2.jpg, id=366, 575.90157pt x 385.44pt>
 File: pict/mikolajczyk/bark/img2.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bark/img2.jpg>
@@ -1749,7 +1625,7 @@ Package pdftex.def Info: pict/mikolajczyk/bark/img2.jpg used on input line 776.
 
 (pdftex.def)             Requested size: 142.26378pt x 95.21289pt.
 
-<pict/mikolajczyk/bark/img3.jpg, id=371, 575.90157pt x 385.44pt>
+<pict/mikolajczyk/bark/img3.jpg, id=367, 575.90157pt x 385.44pt>
 File: pict/mikolajczyk/bark/img3.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bark/img3.jpg>
@@ -1757,7 +1633,7 @@ Package pdftex.def Info: pict/mikolajczyk/bark/img3.jpg used on input line 779.
 
 (pdftex.def)             Requested size: 142.26378pt x 95.21289pt.
 
-<pict/mikolajczyk/bark/img4.jpg, id=372, 575.90157pt x 385.44pt>
+<pict/mikolajczyk/bark/img4.jpg, id=368, 575.90157pt x 385.44pt>
 File: pict/mikolajczyk/bark/img4.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bark/img4.jpg>
@@ -1765,7 +1641,7 @@ Package pdftex.def Info: pict/mikolajczyk/bark/img4.jpg used on input line 782.
 
 (pdftex.def)             Requested size: 142.26378pt x 95.21289pt.
 
-<pict/mikolajczyk/bark/img5.jpg, id=373, 575.90157pt x 385.44pt>
+<pict/mikolajczyk/bark/img5.jpg, id=369, 575.90157pt x 385.44pt>
 File: pict/mikolajczyk/bark/img5.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bark/img5.jpg>
@@ -1773,7 +1649,7 @@ Package pdftex.def Info: pict/mikolajczyk/bark/img5.jpg used on input line 785.
 
 (pdftex.def)             Requested size: 142.26378pt x 95.21289pt.
 
-<pict/mikolajczyk/bark/img6.jpg, id=374, 575.90157pt x 385.44pt>
+<pict/mikolajczyk/bark/img6.jpg, id=370, 575.90157pt x 385.44pt>
 File: pict/mikolajczyk/bark/img6.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/bark/img6.jpg>
@@ -1781,14 +1657,14 @@ Package pdftex.def Info: pict/mikolajczyk/bark/img6.jpg used on input line 788.
 
 (pdftex.def)             Requested size: 142.26378pt x 95.21289pt.
 
-<pict/mikolajczyk/bark/F1.png, id=375, 752.8125pt x 421.575pt>
-File: pict/mikolajczyk/bark/F1.png Graphic file (type png)
+<pict/mikolajczyk/bark/f1.png, id=371, 752.8125pt x 421.575pt>
+File: pict/mikolajczyk/bark/f1.png Graphic file (type png)
 
-<use pict/mikolajczyk/bark/F1.png>
-Package pdftex.def Info: pict/mikolajczyk/bark/F1.png used on input line 821.
+<use pict/mikolajczyk/bark/f1.png>
+Package pdftex.def Info: pict/mikolajczyk/bark/f1.png used on input line 821.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/mikolajczyk/bark/f2.png, id=376, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bark/f2.png, id=372, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bark/f2.png Graphic file (type png)
 
 <use pict/mikolajczyk/bark/f2.png>
@@ -1799,7 +1675,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 859--874
  [][][] 
  []
 
-<pict/mikolajczyk/bark/f3.png, id=377, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bark/f3.png, id=373, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bark/f3.png Graphic file (type png)
 
 <use pict/mikolajczyk/bark/f3.png>
@@ -1810,7 +1686,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 889--903
  [][][] 
  []
 
-<pict/mikolajczyk/bark/m1.png, id=378, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bark/m1.png, id=374, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bark/m1.png Graphic file (type png)
 
 <use pict/mikolajczyk/bark/m1.png>
@@ -1821,27 +1697,27 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 917--928
  [][][] 
  []
 
-<pict/mikolajczyk/bark/m2.png, id=379, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/bark/m2.png, id=375, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/bark/m2.png Graphic file (type png)
 
 <use pict/mikolajczyk/bark/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/bark/m2.png used on input line 933.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [65
+ [64
 
-] [66] [67 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/
+] [65] [66 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/
 img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/i
 mg2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/im
 g3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/img
 4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/img5
 .jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/img6.
-jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/F1.png
->] [68 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/f2.p
+jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/f1.png
+>] [67 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/f2.p
 ng> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/f3.png>
-] [69 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/m1.pn
+] [68 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/m1.pn
 g> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/bark/m2.png>]
 
-<pict/mikolajczyk/boat/img1.jpg, id=400, 639.89063pt x 511.9125pt>
+<pict/mikolajczyk/boat/img1.jpg, id=396, 639.89063pt x 511.9125pt>
 File: pict/mikolajczyk/boat/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/boat/img1.jpg>
@@ -1849,7 +1725,7 @@ Package pdftex.def Info: pict/mikolajczyk/boat/img1.jpg used on input line 950.
 
 (pdftex.def)             Requested size: 142.26378pt x 113.80838pt.
 
-<pict/mikolajczyk/boat/img2.jpg, id=401, 639.89063pt x 511.9125pt>
+<pict/mikolajczyk/boat/img2.jpg, id=397, 639.89063pt x 511.9125pt>
 File: pict/mikolajczyk/boat/img2.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/boat/img2.jpg>
@@ -1857,7 +1733,7 @@ Package pdftex.def Info: pict/mikolajczyk/boat/img2.jpg used on input line 953.
 
 (pdftex.def)             Requested size: 142.26378pt x 113.80838pt.
 
-<pict/mikolajczyk/boat/img3.jpg, id=402, 639.89063pt x 511.9125pt>
+<pict/mikolajczyk/boat/img3.jpg, id=398, 639.89063pt x 511.9125pt>
 File: pict/mikolajczyk/boat/img3.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/boat/img3.jpg>
@@ -1865,7 +1741,7 @@ Package pdftex.def Info: pict/mikolajczyk/boat/img3.jpg used on input line 956.
 
 (pdftex.def)             Requested size: 142.26378pt x 113.80838pt.
 
-<pict/mikolajczyk/boat/img4.jpg, id=403, 639.89063pt x 511.9125pt>
+<pict/mikolajczyk/boat/img4.jpg, id=399, 639.89063pt x 511.9125pt>
 File: pict/mikolajczyk/boat/img4.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/boat/img4.jpg>
@@ -1873,7 +1749,7 @@ Package pdftex.def Info: pict/mikolajczyk/boat/img4.jpg used on input line 959.
 
 (pdftex.def)             Requested size: 142.26378pt x 113.80838pt.
 
-<pict/mikolajczyk/boat/img5.jpg, id=404, 639.89063pt x 511.9125pt>
+<pict/mikolajczyk/boat/img5.jpg, id=400, 639.89063pt x 511.9125pt>
 File: pict/mikolajczyk/boat/img5.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/boat/img5.jpg>
@@ -1881,7 +1757,7 @@ Package pdftex.def Info: pict/mikolajczyk/boat/img5.jpg used on input line 962.
 
 (pdftex.def)             Requested size: 142.26378pt x 113.80838pt.
 
-<pict/mikolajczyk/boat/img6.jpg, id=405, 639.89063pt x 511.9125pt>
+<pict/mikolajczyk/boat/img6.jpg, id=401, 639.89063pt x 511.9125pt>
 File: pict/mikolajczyk/boat/img6.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/boat/img6.jpg>
@@ -1889,14 +1765,14 @@ Package pdftex.def Info: pict/mikolajczyk/boat/img6.jpg used on input line 965.
 
 (pdftex.def)             Requested size: 142.26378pt x 113.80838pt.
 
-<pict/mikolajczyk/boat/F1.png, id=406, 752.8125pt x 421.575pt>
-File: pict/mikolajczyk/boat/F1.png Graphic file (type png)
+<pict/mikolajczyk/boat/f1.png, id=402, 752.8125pt x 421.575pt>
+File: pict/mikolajczyk/boat/f1.png Graphic file (type png)
 
-<use pict/mikolajczyk/boat/F1.png>
-Package pdftex.def Info: pict/mikolajczyk/boat/F1.png used on input line 996.
+<use pict/mikolajczyk/boat/f1.png>
+Package pdftex.def Info: pict/mikolajczyk/boat/f1.png used on input line 996.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/mikolajczyk/boat/f2.png, id=407, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/boat/f2.png, id=403, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/boat/f2.png Graphic file (type png)
 
 <use pict/mikolajczyk/boat/f2.png>
@@ -1907,7 +1783,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 1035--1050
  [][][] 
  []
 
-<pict/mikolajczyk/boat/f3.png, id=408, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/boat/f3.png, id=404, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/boat/f3.png Graphic file (type png)
 
 <use pict/mikolajczyk/boat/f3.png>
@@ -1918,7 +1794,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 1065--1079
  [][][] 
  []
 
-<pict/mikolajczyk/boat/m1.png, id=409, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/boat/m1.png, id=405, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/boat/m1.png Graphic file (type png)
 
 <use pict/mikolajczyk/boat/m1.png>
@@ -1929,25 +1805,25 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 1093--1105
  [][][] 
  []
 
-<pict/mikolajczyk/boat/m2.png, id=410, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/boat/m2.png, id=406, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/boat/m2.png Graphic file (type png)
 
 <use pict/mikolajczyk/boat/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/boat/m2.png used on input line 1110.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [70
+ [69
 
  <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img1.jpg> 
 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img2.jpg> <
 C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img3.jpg> <C
 :/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img4.jpg> <C:
 /Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img5.jpg> <C:/
-Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img6.jpg>] [71 
-<C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/F1.png>] [7
-2 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/f2.png> <
-C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/f3.png>] [73
+Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/img6.jpg>] [70 
+<C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/f1.png>] [7
+1 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/f2.png> <
+C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/f3.png>] [72
  <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/m1.png>]
-<pict/mikolajczyk/light/img1.jpg, id=428, 677.53125pt x 451.6875pt>
+<pict/mikolajczyk/light/img1.jpg, id=424, 677.53125pt x 451.6875pt>
 File: pict/mikolajczyk/light/img1.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/light/img1.jpg>
@@ -1955,7 +1831,7 @@ Package pdftex.def Info: pict/mikolajczyk/light/img1.jpg used on input line 113
 4.
 (pdftex.def)             Requested size: 142.26378pt x 94.84338pt.
 
-<pict/mikolajczyk/light/img2.jpg, id=429, 677.53125pt x 451.6875pt>
+<pict/mikolajczyk/light/img2.jpg, id=425, 677.53125pt x 451.6875pt>
 File: pict/mikolajczyk/light/img2.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/light/img2.jpg>
@@ -1963,7 +1839,7 @@ Package pdftex.def Info: pict/mikolajczyk/light/img2.jpg used on input line 113
 7.
 (pdftex.def)             Requested size: 142.26378pt x 94.84338pt.
 
-<pict/mikolajczyk/light/img3.jpg, id=430, 677.53125pt x 451.6875pt>
+<pict/mikolajczyk/light/img3.jpg, id=426, 677.53125pt x 451.6875pt>
 File: pict/mikolajczyk/light/img3.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/light/img3.jpg>
@@ -1971,7 +1847,7 @@ Package pdftex.def Info: pict/mikolajczyk/light/img3.jpg used on input line 114
 0.
 (pdftex.def)             Requested size: 142.26378pt x 94.84338pt.
 
-<pict/mikolajczyk/light/img4.jpg, id=431, 677.53125pt x 451.6875pt>
+<pict/mikolajczyk/light/img4.jpg, id=427, 677.53125pt x 451.6875pt>
 File: pict/mikolajczyk/light/img4.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/light/img4.jpg>
@@ -1979,7 +1855,7 @@ Package pdftex.def Info: pict/mikolajczyk/light/img4.jpg used on input line 114
 3.
 (pdftex.def)             Requested size: 142.26378pt x 94.84338pt.
 
-<pict/mikolajczyk/light/img5.jpg, id=432, 677.53125pt x 451.6875pt>
+<pict/mikolajczyk/light/img5.jpg, id=428, 677.53125pt x 451.6875pt>
 File: pict/mikolajczyk/light/img5.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/light/img5.jpg>
@@ -1987,7 +1863,7 @@ Package pdftex.def Info: pict/mikolajczyk/light/img5.jpg used on input line 114
 6.
 (pdftex.def)             Requested size: 142.26378pt x 94.84338pt.
 
-<pict/mikolajczyk/light/img6.jpg, id=433, 677.53125pt x 451.6875pt>
+<pict/mikolajczyk/light/img6.jpg, id=429, 677.53125pt x 451.6875pt>
 File: pict/mikolajczyk/light/img6.jpg Graphic file (type jpg)
 
 <use pict/mikolajczyk/light/img6.jpg>
@@ -1995,15 +1871,15 @@ Package pdftex.def Info: pict/mikolajczyk/light/img6.jpg used on input line 114
 9.
 (pdftex.def)             Requested size: 142.26378pt x 94.84338pt.
 
-<pict/mikolajczyk/light/F1.png, id=434, 752.8125pt x 421.575pt>
-File: pict/mikolajczyk/light/F1.png Graphic file (type png)
+<pict/mikolajczyk/light/f1.png, id=430, 752.8125pt x 421.575pt>
+File: pict/mikolajczyk/light/f1.png Graphic file (type png)
 
-<use pict/mikolajczyk/light/F1.png>
-Package pdftex.def Info: pict/mikolajczyk/light/F1.png used on input line 1182.
+<use pict/mikolajczyk/light/f1.png>
+Package pdftex.def Info: pict/mikolajczyk/light/f1.png used on input line 1182.
 
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/mikolajczyk/light/f2.png, id=435, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/light/f2.png, id=431, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/light/f2.png Graphic file (type png)
 
 <use pict/mikolajczyk/light/f2.png>
@@ -2015,7 +1891,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 1221--1236
  [][][] 
  []
 
-<pict/mikolajczyk/light/f3.png, id=436, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/light/f3.png, id=432, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/light/f3.png Graphic file (type png)
 
 <use pict/mikolajczyk/light/f3.png>
@@ -2027,7 +1903,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 1251--1265
  [][][] 
  []
 
-<pict/mikolajczyk/light/m1.png, id=437, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/light/m1.png, id=433, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/light/m1.png Graphic file (type png)
 
 <use pict/mikolajczyk/light/m1.png>
@@ -2039,85 +1915,85 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 1279--1291
  [][][] 
  []
 
-<pict/mikolajczyk/light/m2.png, id=438, 752.8125pt x 421.575pt>
+<pict/mikolajczyk/light/m2.png, id=434, 752.8125pt x 421.575pt>
 File: pict/mikolajczyk/light/m2.png Graphic file (type png)
 
 <use pict/mikolajczyk/light/m2.png>
 Package pdftex.def Info: pict/mikolajczyk/light/m2.png used on input line 1296.
 
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [74 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/m2.png
->] [75] [76 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
+ [73 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/boat/m2.png
+>] [74] [75 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
 t/img1.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
 t/img2.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
 t/img3.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
 t/img4.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
 t/img5.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
 t/img6.jpg> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/ligh
-t/F1.png>] [77 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/l
+t/f1.png>] [76 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/l
 ight/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/lig
-ht/f3.png>] [78 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
+ht/f3.png>] [77 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/
 light/m1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/mikolajczyk/li
-ght/m2.png>]) [79
+ght/m2.png>]) [78
 
 ]
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_slowik.tex
 Rozdzia\PlPrIeC {\l } 5.
-[80
+[79
 
 
 
 
-] <pict/slowik/r1/img1.jpg, id=467, 578.16pt x 578.16pt>
+] <pict/slowik/r1/img1.jpg, id=463, 578.16pt x 578.16pt>
 File: pict/slowik/r1/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/r1/img1.jpg>
 Package pdftex.def Info: pict/slowik/r1/img1.jpg used on input line 23.
 (pdftex.def)             Requested size: 142.26378pt x 142.26357pt.
 
-<pict/slowik/r1/img2.jpg, id=468, 578.16pt x 578.16pt>
+<pict/slowik/r1/img2.jpg, id=464, 578.16pt x 578.16pt>
 File: pict/slowik/r1/img2.jpg Graphic file (type jpg)
 
 <use pict/slowik/r1/img2.jpg>
 Package pdftex.def Info: pict/slowik/r1/img2.jpg used on input line 26.
 (pdftex.def)             Requested size: 142.26378pt x 142.26357pt.
 
-<pict/slowik/r1/img3.jpg, id=469, 578.16pt x 578.16pt>
+<pict/slowik/r1/img3.jpg, id=465, 578.16pt x 578.16pt>
 File: pict/slowik/r1/img3.jpg Graphic file (type jpg)
 
 <use pict/slowik/r1/img3.jpg>
 Package pdftex.def Info: pict/slowik/r1/img3.jpg used on input line 29.
 (pdftex.def)             Requested size: 142.26378pt x 142.26357pt.
 
-<pict/slowik/r1/img4.jpg, id=470, 578.16pt x 578.16pt>
+<pict/slowik/r1/img4.jpg, id=466, 578.16pt x 578.16pt>
 File: pict/slowik/r1/img4.jpg Graphic file (type jpg)
 
 <use pict/slowik/r1/img4.jpg>
 Package pdftex.def Info: pict/slowik/r1/img4.jpg used on input line 32.
 (pdftex.def)             Requested size: 142.26378pt x 142.26357pt.
 
-<pict/slowik/r1/img5.jpg, id=471, 770.88pt x 770.88pt>
+<pict/slowik/r1/img5.jpg, id=467, 770.88pt x 770.88pt>
 File: pict/slowik/r1/img5.jpg Graphic file (type jpg)
 
 <use pict/slowik/r1/img5.jpg>
 Package pdftex.def Info: pict/slowik/r1/img5.jpg used on input line 35.
 (pdftex.def)             Requested size: 142.26378pt x 142.25769pt.
 
-<pict/slowik/r1/img6.jpg, id=472, 770.88pt x 770.88pt>
+<pict/slowik/r1/img6.jpg, id=468, 770.88pt x 770.88pt>
 File: pict/slowik/r1/img6.jpg Graphic file (type jpg)
 
 <use pict/slowik/r1/img6.jpg>
 Package pdftex.def Info: pict/slowik/r1/img6.jpg used on input line 38.
 (pdftex.def)             Requested size: 142.26378pt x 142.25769pt.
 
-<pict/slowik/r1/F1.png, id=473, 752.8125pt x 421.575pt>
-File: pict/slowik/r1/F1.png Graphic file (type png)
+<pict/slowik/r1/f1.png, id=469, 752.8125pt x 421.575pt>
+File: pict/slowik/r1/f1.png Graphic file (type png)
 
-<use pict/slowik/r1/F1.png>
-Package pdftex.def Info: pict/slowik/r1/F1.png used on input line 67.
+<use pict/slowik/r1/f1.png>
+Package pdftex.def Info: pict/slowik/r1/f1.png used on input line 67.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/slowik/r1/f2.png, id=474, 752.8125pt x 421.575pt>
+<pict/slowik/r1/f2.png, id=470, 752.8125pt x 421.575pt>
 File: pict/slowik/r1/f2.png Graphic file (type png)
 
 <use pict/slowik/r1/f2.png>
@@ -2128,7 +2004,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 106--122
  [][][] 
  []
 
-<pict/slowik/r1/f3.png, id=475, 752.8125pt x 421.575pt>
+<pict/slowik/r1/f3.png, id=471, 752.8125pt x 421.575pt>
 File: pict/slowik/r1/f3.png Graphic file (type png)
 
 <use pict/slowik/r1/f3.png>
@@ -2139,7 +2015,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 137--151
  [][][] 
  []
 
-<pict/slowik/r1/m1.png, id=476, 752.8125pt x 421.575pt>
+<pict/slowik/r1/m1.png, id=472, 752.8125pt x 421.575pt>
 File: pict/slowik/r1/m1.png Graphic file (type png)
 
 <use pict/slowik/r1/m1.png>
@@ -2150,72 +2026,72 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 165--177
  [][][] 
  []
 
-<pict/slowik/r1/m2.png, id=477, 752.8125pt x 421.575pt>
+<pict/slowik/r1/m2.png, id=473, 752.8125pt x 421.575pt>
 File: pict/slowik/r1/m2.png Graphic file (type png)
 
 <use pict/slowik/r1/m2.png>
 Package pdftex.def Info: pict/slowik/r1/m2.png used on input line 182.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [81] [82 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/img1.jpg
+ [80] [81 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/img1.jpg
 > <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/img2.jpg> <C:/Us
 ers/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/img3.jpg> <C:/Users/jslo
 wik/Documents/GitHub/magisterka/pict/slowik/r1/img4.jpg> <C:/Users/jslowik/Docu
 ments/GitHub/magisterka/pict/slowik/r1/img5.jpg> <C:/Users/jslowik/Documents/Gi
-tHub/magisterka/pict/slowik/r1/img6.jpg>] [83 <C:/Users/jslowik/Documents/GitHu
-b/magisterka/pict/slowik/r1/F1.png> <C:/Users/jslowik/Documents/GitHub/magister
-ka/pict/slowik/r1/f2.png>] [84 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
+tHub/magisterka/pict/slowik/r1/img6.jpg>] [82 <C:/Users/jslowik/Documents/GitHu
+b/magisterka/pict/slowik/r1/f1.png> <C:/Users/jslowik/Documents/GitHub/magister
+ka/pict/slowik/r1/f2.png>] [83 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
 ct/slowik/r1/f3.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
 r1/m1.png>]
-<pict/slowik/r2/img1.jpg, id=495, 578.16pt x 770.88pt>
+<pict/slowik/r2/img1.jpg, id=491, 578.16pt x 770.88pt>
 File: pict/slowik/r2/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/r2/img1.jpg>
 Package pdftex.def Info: pict/slowik/r2/img1.jpg used on input line 202.
 (pdftex.def)             Requested size: 142.26378pt x 189.68475pt.
 
-<pict/slowik/r2/img2.jpg, id=496, 578.16pt x 770.88pt>
+<pict/slowik/r2/img2.jpg, id=492, 578.16pt x 770.88pt>
 File: pict/slowik/r2/img2.jpg Graphic file (type jpg)
 
 <use pict/slowik/r2/img2.jpg>
 Package pdftex.def Info: pict/slowik/r2/img2.jpg used on input line 205.
 (pdftex.def)             Requested size: 142.26378pt x 189.68475pt.
 
-<pict/slowik/r2/img3.jpg, id=497, 578.16pt x 770.88pt>
+<pict/slowik/r2/img3.jpg, id=493, 578.16pt x 770.88pt>
 File: pict/slowik/r2/img3.jpg Graphic file (type jpg)
 
 <use pict/slowik/r2/img3.jpg>
 Package pdftex.def Info: pict/slowik/r2/img3.jpg used on input line 208.
 (pdftex.def)             Requested size: 142.26378pt x 189.68475pt.
 
-<pict/slowik/r2/img4.jpg, id=498, 578.16pt x 770.88pt>
+<pict/slowik/r2/img4.jpg, id=494, 578.16pt x 770.88pt>
 File: pict/slowik/r2/img4.jpg Graphic file (type jpg)
 
 <use pict/slowik/r2/img4.jpg>
 Package pdftex.def Info: pict/slowik/r2/img4.jpg used on input line 211.
 (pdftex.def)             Requested size: 142.26378pt x 189.68475pt.
 
-<pict/slowik/r2/img5.jpg, id=499, 578.16pt x 770.88pt>
+<pict/slowik/r2/img5.jpg, id=495, 578.16pt x 770.88pt>
 File: pict/slowik/r2/img5.jpg Graphic file (type jpg)
 
 <use pict/slowik/r2/img5.jpg>
 Package pdftex.def Info: pict/slowik/r2/img5.jpg used on input line 214.
 (pdftex.def)             Requested size: 142.26378pt x 189.68475pt.
 
-<pict/slowik/r2/img6.jpg, id=500, 578.16pt x 770.88pt>
+<pict/slowik/r2/img6.jpg, id=496, 578.16pt x 770.88pt>
 File: pict/slowik/r2/img6.jpg Graphic file (type jpg)
 
 <use pict/slowik/r2/img6.jpg>
 Package pdftex.def Info: pict/slowik/r2/img6.jpg used on input line 217.
 (pdftex.def)             Requested size: 142.26378pt x 189.68475pt.
 
-<pict/slowik/r2/F1.png, id=501, 752.8125pt x 421.575pt>
-File: pict/slowik/r2/F1.png Graphic file (type png)
+<pict/slowik/r2/f1.png, id=497, 752.8125pt x 421.575pt>
+File: pict/slowik/r2/f1.png Graphic file (type png)
 
-<use pict/slowik/r2/F1.png>
-Package pdftex.def Info: pict/slowik/r2/F1.png used on input line 249.
+<use pict/slowik/r2/f1.png>
+Package pdftex.def Info: pict/slowik/r2/f1.png used on input line 249.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/slowik/r2/f2.png, id=502, 752.8125pt x 421.575pt>
+<pict/slowik/r2/f2.png, id=498, 752.8125pt x 421.575pt>
 File: pict/slowik/r2/f2.png Graphic file (type png)
 
 <use pict/slowik/r2/f2.png>
@@ -2226,7 +2102,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 288--303
  [][][] 
  []
 
-<pict/slowik/r2/f3.png, id=503, 752.8125pt x 421.575pt>
+<pict/slowik/r2/f3.png, id=499, 752.8125pt x 421.575pt>
 File: pict/slowik/r2/f3.png Graphic file (type png)
 
 <use pict/slowik/r2/f3.png>
@@ -2237,7 +2113,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 318--333
  [][][] 
  []
 
-<pict/slowik/r2/m1.png, id=504, 752.8125pt x 421.575pt>
+<pict/slowik/r2/m1.png, id=500, 752.8125pt x 421.575pt>
 File: pict/slowik/r2/m1.png Graphic file (type png)
 
 <use pict/slowik/r2/m1.png>
@@ -2248,81 +2124,81 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 347--359
  [][][] 
  []
 
-<pict/slowik/r2/m2.png, id=505, 752.8125pt x 421.575pt>
+<pict/slowik/r2/m2.png, id=501, 752.8125pt x 421.575pt>
 File: pict/slowik/r2/m2.png Graphic file (type png)
 
 <use pict/slowik/r2/m2.png>
 Package pdftex.def Info: pict/slowik/r2/m2.png used on input line 364.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [85 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/m2.png>] [86]
+ [84 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r1/m2.png>] [85]
 
 
-LaTeX Warning: Text page 87 contains only floats.
+LaTeX Warning: Text page 86 contains only floats.
 
-[87 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/img1.jpg> <C:/
+[86 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/img1.jpg> <C:/
 Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/img2.jpg> <C:/Users/js
 lowik/Documents/GitHub/magisterka/pict/slowik/r2/img3.jpg> <C:/Users/jslowik/Do
 cuments/GitHub/magisterka/pict/slowik/r2/img4.jpg> <C:/Users/jslowik/Documents/
 GitHub/magisterka/pict/slowik/r2/img5.jpg> <C:/Users/jslowik/Documents/GitHub/m
-agisterka/pict/slowik/r2/img6.jpg>] [88 <C:/Users/jslowik/Documents/GitHub/magi
-sterka/pict/slowik/r2/F1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pic
-t/slowik/r2/f2.png>] [89 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slo
+agisterka/pict/slowik/r2/img6.jpg>] [87 <C:/Users/jslowik/Documents/GitHub/magi
+sterka/pict/slowik/r2/f1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pic
+t/slowik/r2/f2.png>] [88 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slo
 wik/r2/f3.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/m1.
 png>]
 Underfull \hbox (badness 10000) in paragraph at lines 375--380
 
  []
 
-<pict/slowik/r3/img1.jpg, id=527, 770.88pt x 578.16pt>
+<pict/slowik/r3/img1.jpg, id=522, 770.88pt x 578.16pt>
 File: pict/slowik/r3/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/r3/img1.jpg>
 Package pdftex.def Info: pict/slowik/r3/img1.jpg used on input line 385.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/r3/img2.jpg, id=528, 770.88pt x 578.16pt>
+<pict/slowik/r3/img2.jpg, id=523, 770.88pt x 578.16pt>
 File: pict/slowik/r3/img2.jpg Graphic file (type jpg)
 
 <use pict/slowik/r3/img2.jpg>
 Package pdftex.def Info: pict/slowik/r3/img2.jpg used on input line 388.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/r3/img3.jpg, id=529, 770.88pt x 578.16pt>
+<pict/slowik/r3/img3.jpg, id=524, 770.88pt x 578.16pt>
 File: pict/slowik/r3/img3.jpg Graphic file (type jpg)
 
 <use pict/slowik/r3/img3.jpg>
 Package pdftex.def Info: pict/slowik/r3/img3.jpg used on input line 391.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/r3/img4.jpg, id=530, 770.88pt x 578.16pt>
+<pict/slowik/r3/img4.jpg, id=525, 770.88pt x 578.16pt>
 File: pict/slowik/r3/img4.jpg Graphic file (type jpg)
 
 <use pict/slowik/r3/img4.jpg>
 Package pdftex.def Info: pict/slowik/r3/img4.jpg used on input line 394.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/r3/img5.jpg, id=531, 1027.84pt x 770.88pt>
+<pict/slowik/r3/img5.jpg, id=526, 1027.84pt x 770.88pt>
 File: pict/slowik/r3/img5.jpg Graphic file (type jpg)
 
 <use pict/slowik/r3/img5.jpg>
 Package pdftex.def Info: pict/slowik/r3/img5.jpg used on input line 397.
 (pdftex.def)             Requested size: 142.26378pt x 106.68738pt.
 
-<pict/slowik/r3/img6.jpg, id=532, 1027.84pt x 770.88pt>
+<pict/slowik/r3/img6.jpg, id=527, 1027.84pt x 770.88pt>
 File: pict/slowik/r3/img6.jpg Graphic file (type jpg)
 
 <use pict/slowik/r3/img6.jpg>
 Package pdftex.def Info: pict/slowik/r3/img6.jpg used on input line 400.
 (pdftex.def)             Requested size: 142.26378pt x 106.68738pt.
 
-<pict/slowik/r3/F1.png, id=533, 752.8125pt x 421.575pt>
-File: pict/slowik/r3/F1.png Graphic file (type png)
+<pict/slowik/r3/f1.png, id=528, 752.8125pt x 421.575pt>
+File: pict/slowik/r3/f1.png Graphic file (type png)
 
-<use pict/slowik/r3/F1.png>
-Package pdftex.def Info: pict/slowik/r3/F1.png used on input line 431.
+<use pict/slowik/r3/f1.png>
+Package pdftex.def Info: pict/slowik/r3/f1.png used on input line 431.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/slowik/r3/f2.png, id=534, 752.8125pt x 421.575pt>
+<pict/slowik/r3/f2.png, id=529, 752.8125pt x 421.575pt>
 File: pict/slowik/r3/f2.png Graphic file (type png)
 
 <use pict/slowik/r3/f2.png>
@@ -2333,7 +2209,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 470--485
  [][][] 
  []
 
-<pict/slowik/r3/f3.png, id=535, 752.8125pt x 421.575pt>
+<pict/slowik/r3/f3.png, id=530, 752.8125pt x 421.575pt>
 File: pict/slowik/r3/f3.png Graphic file (type png)
 
 <use pict/slowik/r3/f3.png>
@@ -2344,7 +2220,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 500--515
  [][][] 
  []
 
-<pict/slowik/r3/m1.png, id=536, 752.8125pt x 421.575pt>
+<pict/slowik/r3/m1.png, id=531, 752.8125pt x 421.575pt>
 File: pict/slowik/r3/m1.png Graphic file (type png)
 
 <use pict/slowik/r3/m1.png>
@@ -2355,75 +2231,75 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 529--541
  [][][] 
  []
 
-<pict/slowik/r3/m2.png, id=537, 752.8125pt x 421.575pt>
+<pict/slowik/r3/m2.png, id=532, 752.8125pt x 421.575pt>
 File: pict/slowik/r3/m2.png Graphic file (type png)
 
 <use pict/slowik/r3/m2.png>
 Package pdftex.def Info: pict/slowik/r3/m2.png used on input line 546.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [90 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/m2.png>] [91]
- [92 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/img1.jpg> <C:
+ [89 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r2/m2.png>] [90]
+ [91 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/img1.jpg> <C:
 /Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/img2.jpg> <C:/Users/j
 slowik/Documents/GitHub/magisterka/pict/slowik/r3/img3.jpg> <C:/Users/jslowik/D
 ocuments/GitHub/magisterka/pict/slowik/r3/img4.jpg> <C:/Users/jslowik/Documents
 /GitHub/magisterka/pict/slowik/r3/img5.jpg> <C:/Users/jslowik/Documents/GitHub/
 magisterka/pict/slowik/r3/img6.jpg> <C:/Users/jslowik/Documents/GitHub/magister
-ka/pict/slowik/r3/F1.png>] [93 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
+ka/pict/slowik/r3/f1.png>] [92 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
 ct/slowik/r3/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
-r3/f3.png>] [94 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/m1
-.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/m2.png>] [95
+r3/f3.png>] [93 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/m1
+.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/r3/m2.png>] [94
 
 ]
-<pict/slowik/v1/img1.jpg, id=563, 440.39531pt x 770.88pt>
+<pict/slowik/v1/img1.jpg, id=558, 440.39531pt x 770.88pt>
 File: pict/slowik/v1/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/v1/img1.jpg>
 Package pdftex.def Info: pict/slowik/v1/img1.jpg used on input line 583.
 (pdftex.def)             Requested size: 97.52565pt x 170.71652pt.
 
-<pict/slowik/v1/img2.jpg, id=564, 440.39531pt x 770.88pt>
+<pict/slowik/v1/img2.jpg, id=559, 440.39531pt x 770.88pt>
 File: pict/slowik/v1/img2.jpg Graphic file (type jpg)
 
 <use pict/slowik/v1/img2.jpg>
 Package pdftex.def Info: pict/slowik/v1/img2.jpg used on input line 586.
 (pdftex.def)             Requested size: 97.52565pt x 170.71652pt.
 
-<pict/slowik/v1/img3.jpg, id=565, 440.39531pt x 770.88pt>
+<pict/slowik/v1/img3.jpg, id=560, 440.39531pt x 770.88pt>
 File: pict/slowik/v1/img3.jpg Graphic file (type jpg)
 
 <use pict/slowik/v1/img3.jpg>
 Package pdftex.def Info: pict/slowik/v1/img3.jpg used on input line 589.
 (pdftex.def)             Requested size: 97.52565pt x 170.71652pt.
 
-<pict/slowik/v1/img4.jpg, id=566, 440.39531pt x 770.88pt>
+<pict/slowik/v1/img4.jpg, id=561, 440.39531pt x 770.88pt>
 File: pict/slowik/v1/img4.jpg Graphic file (type jpg)
 
 <use pict/slowik/v1/img4.jpg>
 Package pdftex.def Info: pict/slowik/v1/img4.jpg used on input line 592.
 (pdftex.def)             Requested size: 97.52565pt x 170.71652pt.
 
-<pict/slowik/v1/img5.jpg, id=567, 440.39531pt x 770.88pt>
+<pict/slowik/v1/img5.jpg, id=562, 440.39531pt x 770.88pt>
 File: pict/slowik/v1/img5.jpg Graphic file (type jpg)
 
 <use pict/slowik/v1/img5.jpg>
 Package pdftex.def Info: pict/slowik/v1/img5.jpg used on input line 595.
 (pdftex.def)             Requested size: 97.52565pt x 170.71652pt.
 
-<pict/slowik/v1/img6.jpg, id=568, 440.39531pt x 770.88pt>
+<pict/slowik/v1/img6.jpg, id=563, 440.39531pt x 770.88pt>
 File: pict/slowik/v1/img6.jpg Graphic file (type jpg)
 
 <use pict/slowik/v1/img6.jpg>
 Package pdftex.def Info: pict/slowik/v1/img6.jpg used on input line 598.
 (pdftex.def)             Requested size: 97.52565pt x 170.71652pt.
 
-<pict/slowik/v1/F1.png, id=569, 752.8125pt x 421.575pt>
-File: pict/slowik/v1/F1.png Graphic file (type png)
+<pict/slowik/v1/f1.png, id=564, 752.8125pt x 421.575pt>
+File: pict/slowik/v1/f1.png Graphic file (type png)
 
-<use pict/slowik/v1/F1.png>
-Package pdftex.def Info: pict/slowik/v1/F1.png used on input line 630.
+<use pict/slowik/v1/f1.png>
+Package pdftex.def Info: pict/slowik/v1/f1.png used on input line 630.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/slowik/v1/f2.png, id=570, 752.8125pt x 421.575pt>
+<pict/slowik/v1/f2.png, id=565, 752.8125pt x 421.575pt>
 File: pict/slowik/v1/f2.png Graphic file (type png)
 
 <use pict/slowik/v1/f2.png>
@@ -2434,7 +2310,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 669--685
  [][][] 
  []
 
-<pict/slowik/v1/f3.png, id=571, 752.8125pt x 421.575pt>
+<pict/slowik/v1/f3.png, id=566, 752.8125pt x 421.575pt>
 File: pict/slowik/v1/f3.png Graphic file (type png)
 
 <use pict/slowik/v1/f3.png>
@@ -2445,7 +2321,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 700--715
  [][][] 
  []
 
-<pict/slowik/v1/m1.png, id=572, 752.8125pt x 421.575pt>
+<pict/slowik/v1/m1.png, id=567, 752.8125pt x 421.575pt>
 File: pict/slowik/v1/m1.png Graphic file (type png)
 
 <use pict/slowik/v1/m1.png>
@@ -2456,72 +2332,72 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 729--741
  [][][] 
  []
 
-<pict/slowik/v1/m2.png, id=573, 752.8125pt x 421.575pt>
+<pict/slowik/v1/m2.png, id=568, 752.8125pt x 421.575pt>
 File: pict/slowik/v1/m2.png Graphic file (type png)
 
 <use pict/slowik/v1/m2.png>
 Package pdftex.def Info: pict/slowik/v1/m2.png used on input line 746.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [96 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/img1.jpg> <C:
+ [95 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/img1.jpg> <C:
 /Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/img2.jpg> <C:/Users/j
 slowik/Documents/GitHub/magisterka/pict/slowik/v1/img3.jpg> <C:/Users/jslowik/D
 ocuments/GitHub/magisterka/pict/slowik/v1/img4.jpg> <C:/Users/jslowik/Documents
 /GitHub/magisterka/pict/slowik/v1/img5.jpg> <C:/Users/jslowik/Documents/GitHub/
-magisterka/pict/slowik/v1/img6.jpg>] [97 <C:/Users/jslowik/Documents/GitHub/mag
-isterka/pict/slowik/v1/F1.png>] [98 <C:/Users/jslowik/Documents/GitHub/magister
+magisterka/pict/slowik/v1/img6.jpg>] [96 <C:/Users/jslowik/Documents/GitHub/mag
+isterka/pict/slowik/v1/f1.png>] [97 <C:/Users/jslowik/Documents/GitHub/magister
 ka/pict/slowik/v1/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/sl
-owik/v1/f3.png>] [99 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
+owik/v1/f3.png>] [98 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
 v1/m1.png>]
-<pict/slowik/v2/img1.jpg, id=590, 770.88pt x 578.16pt>
+<pict/slowik/v2/img1.jpg, id=586, 770.88pt x 578.16pt>
 File: pict/slowik/v2/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/v2/img1.jpg>
 Package pdftex.def Info: pict/slowik/v2/img1.jpg used on input line 767.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/v2/img2.jpg, id=591, 770.88pt x 578.16pt>
+<pict/slowik/v2/img2.jpg, id=587, 770.88pt x 578.16pt>
 File: pict/slowik/v2/img2.jpg Graphic file (type jpg)
 
 <use pict/slowik/v2/img2.jpg>
 Package pdftex.def Info: pict/slowik/v2/img2.jpg used on input line 770.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/v2/img3.jpg, id=592, 770.88pt x 578.16pt>
+<pict/slowik/v2/img3.jpg, id=588, 770.88pt x 578.16pt>
 File: pict/slowik/v2/img3.jpg Graphic file (type jpg)
 
 <use pict/slowik/v2/img3.jpg>
 Package pdftex.def Info: pict/slowik/v2/img3.jpg used on input line 773.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/v2/img4.jpg, id=593, 770.88pt x 578.16pt>
+<pict/slowik/v2/img4.jpg, id=589, 770.88pt x 578.16pt>
 File: pict/slowik/v2/img4.jpg Graphic file (type jpg)
 
 <use pict/slowik/v2/img4.jpg>
 Package pdftex.def Info: pict/slowik/v2/img4.jpg used on input line 776.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/v2/img5.jpg, id=594, 1027.84pt x 770.88pt>
+<pict/slowik/v2/img5.jpg, id=590, 1027.84pt x 770.88pt>
 File: pict/slowik/v2/img5.jpg Graphic file (type jpg)
 
 <use pict/slowik/v2/img5.jpg>
 Package pdftex.def Info: pict/slowik/v2/img5.jpg used on input line 779.
 (pdftex.def)             Requested size: 142.26378pt x 106.68738pt.
 
-<pict/slowik/v2/img6.jpg, id=595, 1027.84pt x 770.88pt>
+<pict/slowik/v2/img6.jpg, id=591, 1027.84pt x 770.88pt>
 File: pict/slowik/v2/img6.jpg Graphic file (type jpg)
 
 <use pict/slowik/v2/img6.jpg>
 Package pdftex.def Info: pict/slowik/v2/img6.jpg used on input line 782.
 (pdftex.def)             Requested size: 142.26378pt x 106.68738pt.
 
-<pict/slowik/v2/F1.png, id=596, 752.8125pt x 421.575pt>
-File: pict/slowik/v2/F1.png Graphic file (type png)
+<pict/slowik/v2/f1.png, id=592, 752.8125pt x 421.575pt>
+File: pict/slowik/v2/f1.png Graphic file (type png)
 
-<use pict/slowik/v2/F1.png>
-Package pdftex.def Info: pict/slowik/v2/F1.png used on input line 814.
+<use pict/slowik/v2/f1.png>
+Package pdftex.def Info: pict/slowik/v2/f1.png used on input line 814.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/slowik/v2/f2.png, id=597, 752.8125pt x 421.575pt>
+<pict/slowik/v2/f2.png, id=593, 752.8125pt x 421.575pt>
 File: pict/slowik/v2/f2.png Graphic file (type png)
 
 <use pict/slowik/v2/f2.png>
@@ -2532,7 +2408,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 853--868
  [][][] 
  []
 
-<pict/slowik/v2/f3.png, id=598, 752.8125pt x 421.575pt>
+<pict/slowik/v2/f3.png, id=594, 752.8125pt x 421.575pt>
 File: pict/slowik/v2/f3.png Graphic file (type png)
 
 <use pict/slowik/v2/f3.png>
@@ -2543,7 +2419,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 883--898
  [][][] 
  []
 
-<pict/slowik/v2/m1.png, id=599, 752.8125pt x 421.575pt>
+<pict/slowik/v2/m1.png, id=595, 752.8125pt x 421.575pt>
 File: pict/slowik/v2/m1.png Graphic file (type png)
 
 <use pict/slowik/v2/m1.png>
@@ -2554,73 +2430,73 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 912--924
  [][][] 
  []
 
-<pict/slowik/v2/m2.png, id=600, 752.8125pt x 421.575pt>
+<pict/slowik/v2/m2.png, id=596, 752.8125pt x 421.575pt>
 File: pict/slowik/v2/m2.png Graphic file (type png)
 
 <use pict/slowik/v2/m2.png>
 Package pdftex.def Info: pict/slowik/v2/m2.png used on input line 929.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [100 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/m2.png>] [10
-1] [102 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img1.jpg> 
-<C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img2.jpg> <C:/User
-s/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img3.jpg> <C:/Users/jslowi
-k/Documents/GitHub/magisterka/pict/slowik/v2/img4.jpg> <C:/Users/jslowik/Docume
-nts/GitHub/magisterka/pict/slowik/v2/img5.jpg> <C:/Users/jslowik/Documents/GitH
-ub/magisterka/pict/slowik/v2/img6.jpg>] [103 <C:/Users/jslowik/Documents/GitHub
-/magisterka/pict/slowik/v2/F1.png> <C:/Users/jslowik/Documents/GitHub/magisterk
-a/pict/slowik/v2/f2.png>] [104 <C:/Users/jslowik/Documents/GitHub/magisterka/pi
-ct/slowik/v2/f3.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
-v2/m1.png>]
-<pict/slowik/z1/img1.jpg, id=622, 770.88pt x 578.16pt>
+ [99 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v1/m2.png>] [100
+] [101 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img1.jpg> <
+C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img2.jpg> <C:/Users
+/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/img3.jpg> <C:/Users/jslowik
+/Documents/GitHub/magisterka/pict/slowik/v2/img4.jpg> <C:/Users/jslowik/Documen
+ts/GitHub/magisterka/pict/slowik/v2/img5.jpg> <C:/Users/jslowik/Documents/GitHu
+b/magisterka/pict/slowik/v2/img6.jpg>] [102 <C:/Users/jslowik/Documents/GitHub/
+magisterka/pict/slowik/v2/f1.png> <C:/Users/jslowik/Documents/GitHub/magisterka
+/pict/slowik/v2/f2.png>] [103 <C:/Users/jslowik/Documents/GitHub/magisterka/pic
+t/slowik/v2/f3.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v
+2/m1.png>]
+<pict/slowik/z1/img1.jpg, id=618, 770.88pt x 578.16pt>
 File: pict/slowik/z1/img1.jpg Graphic file (type jpg)
 
 <use pict/slowik/z1/img1.jpg>
 Package pdftex.def Info: pict/slowik/z1/img1.jpg used on input line 957.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/z1/img2.jpg, id=623, 770.88pt x 578.16pt>
+<pict/slowik/z1/img2.jpg, id=619, 770.88pt x 578.16pt>
 File: pict/slowik/z1/img2.jpg Graphic file (type jpg)
 
 <use pict/slowik/z1/img2.jpg>
 Package pdftex.def Info: pict/slowik/z1/img2.jpg used on input line 960.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/z1/img3.jpg, id=624, 770.88pt x 578.16pt>
+<pict/slowik/z1/img3.jpg, id=620, 770.88pt x 578.16pt>
 File: pict/slowik/z1/img3.jpg Graphic file (type jpg)
 
 <use pict/slowik/z1/img3.jpg>
 Package pdftex.def Info: pict/slowik/z1/img3.jpg used on input line 963.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/z1/img4.jpg, id=625, 770.88pt x 578.16pt>
+<pict/slowik/z1/img4.jpg, id=621, 770.88pt x 578.16pt>
 File: pict/slowik/z1/img4.jpg Graphic file (type jpg)
 
 <use pict/slowik/z1/img4.jpg>
 Package pdftex.def Info: pict/slowik/z1/img4.jpg used on input line 966.
 (pdftex.def)             Requested size: 142.26378pt x 106.69325pt.
 
-<pict/slowik/z1/img5.jpg, id=626, 1027.84pt x 770.88pt>
+<pict/slowik/z1/img5.jpg, id=622, 1027.84pt x 770.88pt>
 File: pict/slowik/z1/img5.jpg Graphic file (type jpg)
 
 <use pict/slowik/z1/img5.jpg>
 Package pdftex.def Info: pict/slowik/z1/img5.jpg used on input line 969.
 (pdftex.def)             Requested size: 142.26378pt x 106.68738pt.
 
-<pict/slowik/z1/img6.jpg, id=627, 1027.84pt x 770.88pt>
+<pict/slowik/z1/img6.jpg, id=623, 1027.84pt x 770.88pt>
 File: pict/slowik/z1/img6.jpg Graphic file (type jpg)
 
 <use pict/slowik/z1/img6.jpg>
 Package pdftex.def Info: pict/slowik/z1/img6.jpg used on input line 972.
 (pdftex.def)             Requested size: 142.26378pt x 106.68738pt.
 
-<pict/slowik/z1/F1.png, id=628, 752.8125pt x 421.575pt>
-File: pict/slowik/z1/F1.png Graphic file (type png)
+<pict/slowik/z1/f1.png, id=624, 752.8125pt x 421.575pt>
+File: pict/slowik/z1/f1.png Graphic file (type png)
 
-<use pict/slowik/z1/F1.png>
-Package pdftex.def Info: pict/slowik/z1/F1.png used on input line 1004.
+<use pict/slowik/z1/f1.png>
+Package pdftex.def Info: pict/slowik/z1/f1.png used on input line 1004.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
 
-<pict/slowik/z1/f2.png, id=629, 752.8125pt x 421.575pt>
+<pict/slowik/z1/f2.png, id=625, 752.8125pt x 421.575pt>
 File: pict/slowik/z1/f2.png Graphic file (type png)
 
 <use pict/slowik/z1/f2.png>
@@ -2631,7 +2507,7 @@ Overfull \hbox (8.7445pt too wide) in paragraph at lines 1045--1063
  [][][] 
  []
 
-<pict/slowik/z1/f3.png, id=630, 752.8125pt x 421.575pt>
+<pict/slowik/z1/f3.png, id=626, 752.8125pt x 421.575pt>
 File: pict/slowik/z1/f3.png Graphic file (type png)
 
 <use pict/slowik/z1/f3.png>
@@ -2642,7 +2518,7 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 1078--1094
  [][][] 
  []
 
-<pict/slowik/z1/m1.png, id=631, 752.8125pt x 421.575pt>
+<pict/slowik/z1/m1.png, id=627, 752.8125pt x 421.575pt>
 File: pict/slowik/z1/m1.png Graphic file (type png)
 
 <use pict/slowik/z1/m1.png>
@@ -2653,111 +2529,138 @@ Overfull \hbox (7.45311pt too wide) in paragraph at lines 1108--1120
  [][][] 
  []
 
-<pict/slowik/z1/m2.png, id=632, 752.8125pt x 421.575pt>
+<pict/slowik/z1/m2.png, id=628, 752.8125pt x 421.575pt>
 File: pict/slowik/z1/m2.png Graphic file (type png)
 
 <use pict/slowik/z1/m2.png>
 Package pdftex.def Info: pict/slowik/z1/m2.png used on input line 1125.
 (pdftex.def)             Requested size: 364.19664pt x 203.95543pt.
- [105 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/m2.png>] [10
-6] [107 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/img1.jpg> 
+ [104 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/v2/m2.png>] [10
+5] [106 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/img1.jpg> 
 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/img2.jpg> <C:/User
 s/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/img3.jpg> <C:/Users/jslowi
 k/Documents/GitHub/magisterka/pict/slowik/z1/img4.jpg> <C:/Users/jslowik/Docume
 nts/GitHub/magisterka/pict/slowik/z1/img5.jpg> <C:/Users/jslowik/Documents/GitH
 ub/magisterka/pict/slowik/z1/img6.jpg> <C:/Users/jslowik/Documents/GitHub/magis
-terka/pict/slowik/z1/F1.png>] [108 <C:/Users/jslowik/Documents/GitHub/magisterk
+terka/pict/slowik/z1/f1.png>] [107 <C:/Users/jslowik/Documents/GitHub/magisterk
 a/pict/slowik/z1/f2.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slo
-wik/z1/f3.png>] [109 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
+wik/z1/f3.png>] [108 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/
 z1/m1.png> <C:/Users/jslowik/Documents/GitHub/magisterka/pict/slowik/z1/m2.png>
-]) [110
+]) [109
 
 ]
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/podsumowanie.tex
 Rozdzia\PlPrIeC {\l } 6.
-) [111
+) [110
 
 
 
 
 ]
 Dodatek A.
-[112
+[111
 
 
 
 ]
 Dodatek B.
-No file praca_magisterska.bbl.
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.bbl [112
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+[]\T1/cmr/m/n/12 M. Eve-rin-gham.  The pas-cal vi-su-al ob-ject clas-ses chal-l
+en-ge 2006.
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 50--55
+[]\T1/cmr/m/n/12 I. Khved-che-nia.  Com-pa-ri-son of the OpenCV's fe-atu-re de-
+tec-tion al-go-ri-thms
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 50--55
+\T1/cmr/m/n/12 2.  \T1/cmr/m/it/12 http://computer-vision-talks.com/2011/07/com
+parison-of-the-opencvs-feature-
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 57--62
+[]\T1/cmr/m/n/12 I. Khved-che-nia.  Com-pa-ri-son of the OpenCV'sfeature de-tec
+-tion al-go-ri-
+ []
+
 [113
 
 
-] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lof
-[114
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
+) [114]
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lof [115
 
 
-] [115] [116])
+]
+[116] [117])
 \tf@lof=\write5
- [117]
-(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lot [118
+ [118]
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lot [119
 
 
 ])
 \tf@lot=\write6
 
-[119] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.aux
+[120] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.aux
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/wstep.aux)
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/przeglad.aux)
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_opis.aux)
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_mikolajczyk.aux
 ) (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_slowik.aux)
-(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/podsumowanie.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/podsumowanie.aux)) ) 
 Here is how much of TeX's memory you used:
- 4310 strings out of 494045
- 74448 string characters out of 3148381
- 118909 words of memory out of 3000000
- 7357 multiletter control sequences out of 15000+200000
+ 4302 strings out of 494045
+ 74337 string characters out of 3148381
+ 119891 words of memory out of 3000000
+ 7348 multiletter control sequences out of 15000+200000
  29379 words of font info for 68 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 27i,15n,24p,1027b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm0700.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecrm0800.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.
-enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Program Files/
-MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/pl/plrm.enc} <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecbx1728.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ectt1095.pk> <C:\Users\jslowik\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\jslowik\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\jsl
-owik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <
+ 27i,15n,24p,1018b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C
+:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
+m0700.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecrm0800.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{
+C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/pl/plme.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/
+pl/plrm.enc} <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecbx1728.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ectt1095.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\jslowik\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\jslowik\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Us
+ers\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx144
+0.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1200.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecbx2488.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\jslowik\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\jslowik\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\jsl
+owik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk> <
 C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-bx1440.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx1200.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\jslowik\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\jslowik\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\User
-s\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.
-pk> <C:\Users\jslowik\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/pl/plmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/pl/plmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/pl/plr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/pl/plsy8.pfb>
-Output written on praca_magisterska.pdf (121 pages, 19176770 bytes).
+rm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/pl/plmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/p
+l/plmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/pl/plr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/pl/plsy8.pfb>
+Output written on praca_magisterska.pdf (122 pages, 19211321 bytes).
 PDF statistics:
- 1401 PDF objects out of 1440 (max. 8388607)
+ 1416 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1031 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1026 words of extra memory for PDF output out of 10000 (max. 10000000)
 

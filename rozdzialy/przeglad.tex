@@ -1,5 +1,5 @@
 \chapter{Przegląd algorytmów wyszukujących cechy obrazów}
-Poszukując algorytmów służących do lokalizowania cech charakterystycznych obrazów posłużono się badaniami \cite{IK111}, \cite{IK112}. Autor w oparciu o prace \cite{LIFDAS} dokonał zestawienia popularnych metod zaimplementowanych w służacych do przetwarzania obrazów bibliotece OpenCV (\textit{wersje 2.2.0 i 2.3.1}). Algorytmy były testowane testowym zbiorze obrazów przedstawionym na rysunku \ref{fig:zestaw_obrazow_start}, a wyniki badań prezentują rezultaty od \ref{fig:Number-of-detected-features_thumb}, do \ref{fig:Percent-of-tracked-feature_thumb}.
+Poszukując algorytmów służących do lokalizowania cech charakterystycznych obrazów posłużono się badaniami \cite{IK111}, \cite{IK112}. Autor w oparciu o prace \cite{LIFDAS} dokonał zestawienia popularnych metod zaimplementowanych w służacych do przetwarzania obrazów bibliotece OpenCV (wersje 2.2.0 i 2.3.1). Algorytmy były badane na testowym zbiorze obrazów przedstawionym na rysunku \ref{fig:zestaw_obrazow_start} poddanego przekształceniom programowym. Wyniki badań prezentują rezultaty od \ref{fig:Number-of-detected-features_thumb}, do \ref{fig:Percent-of-tracked-feature_thumb}.
 
 \begin{figure}[!htb]
 \begin{center}
@@ -48,23 +48,23 @@ Poszukując algorytmów służących do lokalizowania cech charakterystycznych o
 \newpage
 
 
-Na podstawie zaprezentowanych wyników wszystkie algorytmy możemy zaklasyfikować jako dobre, gdyż pozwalają śledzić zlokalizowane cechy z ponad 90 \% skutecznością. Niemniej jednak poszczególne metody różnią się szybkością i ergonomią działania. Algorytm \textbf{FAST} dostarcza bardzo dużą liczbę punktów charakterystycznych w krótkim czasie, ale ze względu na ich stan nie zawsze można je wykorzystać. Algorytmy \textbf{SURF}, \textbf{STAR} i \textbf{ORB} lokalizują mniej cech ale znacznie wyższej klasy. Pośród tych algorytmów przeciętnie wypada algorytm \textbf{SIFT}, który jednak jest jednym z najpopularniejszych i najlepiej udokumentowanych. 
+Na podstawie zaprezentowanych wyników wszystkie algorytmy możemy zaklasyfikować jako dobre, gdyż pozwalają śledzić zlokalizowane cechy z ponad 90 \% skutecznością. Niemniej jednak poszczególne metody różnią się szybkością i ergonomią działania. Algorytm \textbf{FAST} dostarcza bardzo dużą liczbę punktów charakterystycznych w krótkim czasie, ale ze względu na ich stan nie zawsze można je wykorzystać. Algorytmy \textbf{SURF}, \textbf{STAR} i \textbf{ORB} lokalizują mniej cech ale znacznie wyższej klasy. Pośród tych algorytmów przeciętnie wypada algorytm \textbf{SIFT}, który jednak jest jednym z najpopularniejszych i najlepiej udokumentowanych. Należy jednak pamiętać, że zbiory testowe zostały zbudowane na podstawie jednego zdjęcia, poddanego obróbce programowej. W rzeczywistym środowisku działania algorytmy nie operują na tak "wyidealizowanych". 
 
-Obrazy skalne są obrazami specyficznymi ze względu na wprowadzającą dużo informacji fakturę skały. Właściwość ta może być przydatna w rozpoznawaniu obiektów jak i stanowić rodzaj szumu zakłócającego pracę algorytmu. Przed dokonaniem eksperymentów nie sposób tego jednoznacznie stwierdzić, a co za tym idzie wybrać optymalną metodę. W związku z powyższym w niniejszej pracy zdecydowano się szczegółowo opisać i przebadać 5 wspomnianych algorytmów reprezentujących różne podejścia.
+Obrazy skalne są obrazami specyficznymi ze względu na wprowadzającą dużo informacji fakturę skały. Właściwość ta może być przydatna w rozpoznawaniu obiektów jak i stanowić rodzaj szumu zakłócającego pracę algorytmu. Przed dokonaniem eksperymentów nie sposób tego jednoznacznie stwierdzić, a co za tym idzie wybrać optymalną metodę. W związku z powyższym w niniejszej pracy zdecydowano się szczegółowo opisać i przebadać 5 wspomnianych algorytmów reprezentujących różne podejścia oraz algorytm opisu cech - \textbf{BRIEF}.
 
 
 
 
 \newpage
 \section{Algorytm SIFT}
-Algorytm SIFT (\textit{skrót od Scale Invariant Feature Transform}) został opublikowany w 1999 roku przez Davida G. Lowe \cite{DGL99}. Najpełniejszy jego opis można znaleźć w pracy \cite{DGL04}.  Jest to jeden z najefektywniejszych i szeroko stosowanych algorytmów wyszukiwania charakterystycznych punktów obrazu. Pozwala on lokalizować i opisywać specyficzne cechy obrazu, które są niezależne od transformacji takich jak skalowanie i rotacja, a także w dużym stopniu odporne na zmienne oświetlenie i położenie kamery. Wyszukane punkty kluczowe są dobrze rozpoznawalne zarówno w dziedzinie przestrzennej jak częstotliwościowej. Algorytm ten jest chroniony prawem patentowym.
+Algorytm SIFT (skrót od Scale Invariant Feature Transform) został opublikowany w 1999 roku przez Davida G. Lowe \cite{DGL99}. Najpełniejszy jego opis można znaleźć w pracy \cite{DGL04}.  Jest to jeden z najefektywniejszych i szeroko stosowanych algorytmów wyszukiwania charakterystycznych punktów obrazu. Pozwala on lokalizować i opisywać specyficzne cechy obrazu, które są niezależne od transformacji takich jak skalowanie i rotacja, a także w dużym stopniu odporne na zmienne oświetlenie i położenie kamery. Wyszukane punkty kluczowe są dobrze rozpoznawalne zarówno w dziedzinie przestrzennej jak częstotliwościowej. Algorytm ten jest chroniony prawem patentowym.
 
 W działaniu algorytmu możemy wyróżnić 4 etapy przetwarzania:
 \begin{enumerate}
 \item Detekcja skalo-przestrzennych ekstremów niezależnych od skali i orientacji obrazu.
-\item Selekcja punktów charakterystycznych
-\item Przypisanie orientacji punktom charakterystycznym
-\item Wyliczenie deskryptorów punktów charakterystycznych
+\item Selekcja punktów charakterystycznych.
+\item Przypisanie orientacji punktom charakterystycznym.
+\item Budowa deskryptorów punktów charakterystycznych.
 \end{enumerate}
 \subsection{Detekcja skalo-przestrzennych ekstremów}
 \subsubsection{Rozmycie Gaussowskie}
@@ -79,7 +79,7 @@ Jądro rozmycia jest skalowane poprzez współczynnik k. Zwiększając wartość
 \begin{equation}
 G(x,y,k\sigma) = \frac{1}{2\pi(k\sigma)^2}e^{-\frac{x^2+y^2}{2(k\sigma)^2}}
 \end{equation}
-Obrazy rozmyte i oryginalny są grupowane w oktawę. Następnie obraz oryginalny jest próbkowany z 2 razy mniejszą częstotliwością, skutkiem czego  otrzymujemy przeskalowaną, pomniejszoną kopie. Kopia ta podobnie jak oryginał jest poddawana serii progresywnych rozmyć, w wyniku czego otrzymujemy drugą oktawę. Zabiegi te są powtarzane kilkukrotnie. Twórca algorytmu SIFT, David Lowe zaleca utworzenie 4 oktaw, składających się z 5 obrazów.
+Obrazy rozmyte i oryginalny są grupowane w oktawę. Następnie obraz oryginalny jest próbkowany z dwa razy mniejszą częstotliwością, skutkiem czego  otrzymujemy przeskalowaną, pomniejszoną kopie. Kopia ta podobnie jak oryginał jest poddawana serii progresywnych rozmyć, w wyniku czego otrzymujemy drugą oktawę. Zabiegi te są powtarzane kilkukrotnie. Twórca algorytmu SIFT, David Lowe zaleca utworzenie 4 oktaw, składających się z 5 obrazów.
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.8\textwidth]{pict/02/sift/sift_ais_octave.jpg}
@@ -115,7 +115,7 @@ Aby obliczyć Laplasian Gausjanów należy obraz poddać rozmyciu, a następnie 
 
 %ZASTANOWIC SIE CZY COS NAPISAC O MULTIPLIKACJI
 \subsubsection{Ekstrema jako potencjalne punkty charakterystyczne}
-Aby zlokalizować lokalne ekstremum należy dokonać badania sąsiedztwa potencjalnego punktu charakterystycznego. W tym celu dokonujemy iteracji po wszystkich pikselach obrazu porównując je z otoczeniem "poziomym" (\textit{w obrębie jednego obrazu}) jak i "pionowym" (\textit{czyli z otaczającymi pikselami z szeregu sąsiadujących rozmytych obrazów}). Przedstawia to rysunek \ref{fig:sift_dgl_extremum}. W związku, że skrajne obrazy w oktawie mają tylko po jednym sąsiedzie, możemy je pominąć przy analizie.
+Aby zlokalizować lokalne ekstremum należy dokonać badania sąsiedztwa potencjalnego punktu charakterystycznego. W tym celu dokonujemy iteracji po wszystkich pikselach obrazu porównując je z otoczeniem "poziomym" (w obrębie jednego obrazu) jak i "pionowym" (czyli z otaczającymi pikselami z szeregu sąsiadujących rozmytych obrazów). Przedstawia to rysunek \ref{fig:sift_dgl_extremum}. W związku, że skrajne obrazy w oktawie mają tylko po jednym sąsiedzie, możemy je pominąć przy analizie.
 
 \begin{figure}[!htb]
 \centering
@@ -132,15 +132,6 @@ D(x) = D + \frac{\partial D^T}{\partial x}x + \frac{1}{2}x^T\frac{\partial^2D}{\
 \begin{equation}
 \widehat{x} = -\frac{\partial^2D}{\partial x^2}^{-1} \frac{\partial D}{\partial x}
 \end{equation}
-
-
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.8\textwidth]{pict/02/sift/sift_ais_extremum.jpg}
-\caption{Przykład wyszukiwania ekstremów w obrazach różnicowych}
-\label{fig:sift_ais_extremum}
-\end{figure}
 
 
 
@@ -251,7 +242,7 @@ Po obliczeniu 16 histogramów, cała tablica sektorów zostaje przeskalowana. Sp
 \label{fig:sift_ais_des}
 \end{figure}
 
-W wyniku powyższych operacji otrzymujemy wektor 128 liczb (8 kierunkowe histogramy zgrupowane w 4 wierszach po 4 kolumny). Wektor ten jest poddawany normalizacji. 
+W wyniku powyższych operacji otrzymujemy wektor 128 liczb (8-kierunkowe histogramy zgrupowane w 4 wierszach po 4 kolumny). Wektor ten jest poddawany normalizacji. 
 
 Następnie aby uzyskać niezależność od rotacji, od wektora jest odejmowana orientacja punktu charakterystycznego obliczona w poprzednim etapie. Aby uzyskać niezależność od oświetlenia współczynniki znormalizowanego wektora, są poddawane półprogowaniu z parametrem 0,2. W sytuacji gdy jakiś współczynnik jest większy od zadanego progu, przypisywana mu jest wartość 0,2 po czym cały wektor poddawany jest ponownej normalizacji.
 
@@ -268,13 +259,13 @@ W wyniku całego procesu otrzymujemy 128 wymiarowy deskryptor punktu charakterys
 \FloatBarrier
 \newpage
 \section{Algorytm SURF}
-Algorytm SURF (\textit{skrót od Speeded Up Robust Features}) został po raz pierwszy zaprezentowany w 2006 roku w pracy doktorskiej Herberta Baya \cite{HB06}. Pełny jego opis można znaleźć również w pracy\cite{HB08}. Wykorzystywany jest on w zadaniach rozpoznawania obrazów oraz w rekonstrukcji obiektów trójwymiarowych. Algorytm częściowo jest inspirowany algorytmem SIFT i podobnie jak on aby usprawnić obliczenia korzysta z aproksymacji skomplikowanych operatorów. 
+Algorytm SURF (skrót od Speeded Up Robust Features) został po raz pierwszy zaprezentowany w 2006 roku w pracy doktorskiej Herberta Baya \cite{HB06}. Pełny jego opis można znaleźć również w pracy\cite{HB08}. Wykorzystywany jest on w zadaniach rozpoznawania obrazów oraz w rekonstrukcji obiektów trójwymiarowych. Algorytm częściowo jest inspirowany algorytmem SIFT i podobnie jak on aby usprawnić obliczenia korzysta z aproksymacji skomplikowanych operatorów. 
 
-Pomijając sekcję poświęconą szybkiemu rozpoznawaniu obrazów w jego działanie możemy podzielić na następujące etapy:
+W jego działaniu możemy wyróżnić następujące etapy:
 \begin{enumerate}
-\item{obliczenie obrazów całkowych}
-\item{lokalizowanie punktów charakterystycznych}
-\item{konstruowanie 64 wymiarowego deskryptora punktu charakterystycznego}
+\item{Obliczenie obrazów całkowych.}
+\item{Lokalizowanie punktów charakterystycznych.}
+\item{Konstruowanie 64 wymiarowego deskryptora punktu charakterystycznego.}
 \end{enumerate}
 SURF podobnie jak algorytm SIFT jest chroniony patentem amerykańskim.
 \subsection{Obliczenie obrazów całkowych}
@@ -318,7 +309,7 @@ Wyrażenie $L_{xx}(x,y,\sigma)$ to obraz splotu pochodnej cząstkowej drugiego s
 \caption{Pochodne cząstkowe drugiego stopnia funkcji rozmycia Gaussa}
 \label{pict:surf_exact_kernel}
 \end{figure}
-W praktyce stosuję się powyższe jądra w dyskretnej formie co przedstawia rysunek \ref{fig:surf_bay_gaussian_discretization}. Skutkuje to pogorszeniem jakości pracy operatorów w sytuacji gdy obraz jest obrócony o nieparzystą wieloktrotność kąta $45^O$ i może prowadzić do pojawienia się artefaktów. 
+W praktyce stosuję się powyższe jądra w dyskretnej formie co przedstawia rysunek \ref{fig:surf_bay_gaussian_discretization}. Skutkuje to pogorszeniem jakości pracy operatorów w sytuacji gdy obraz jest obrócony o nieparzystą wielokrotność kąta $45^O$ i może prowadzić do pojawienia się artefaktów. 
 
 \begin{figure}[!htb]
 \centering
@@ -338,7 +329,7 @@ Bay podobnie jak Lowe w algorytmie SIFT zastosował podejście polegające na du
 
 W związku z zastosowaniem aproksymowanych okien rozmycia wyrażenie na wyznacznik Hesjanu przyjmuje następująca postać:
 \begin{equation}
-det(\textbf{H}^{(a)}) = L_{xx}^{(a)} L_{yy}^{(a)}-(\omega L_{xy}^{(a)})^2)
+det(\textbf{H}^{(a)}) = L_{xx}^{(a)} L_{yy}^{(a)}-(\omega L_{xy}^{(a)})^2
 \label{eqn:det_aprox}
 \end{equation}
 Gdzie $L_{xx}^{(a)}$, $L_{yy}^{(a)}$, $L_{xy}^{(a)}$ to sploty obrazu I z aproksymowanymi oknami rozmycia, a współczynnik $\omega$ to waga potrzebna zachowania energii jąder Gaussowski przy korzystaniu z ich uproszczonej postaci. Obliczana jest ona według wyrażenia \ref{eqn:frobo}, gdzie $\|\|_F$ oznacza normę Frobeniusa.
@@ -366,8 +357,8 @@ Teoretycznie każdemu rozmyciu i rozmiarowi okna odpowiada inna wartość wagi $
 \label{fig:surf_bay_compare_fast}
 \end{figure}
 
-\subsubsection{Skalo-przestrzenna reprezantacja orbazu}
-Lokalizowanie punktów kluczowych odbywa się w różnych skalach obrazu. Obrazy skalo-przestrzenne są najczęściej reprezentowane w postaci piramidy obrazów. Kolejne obrazy są poddawane progresywnemu rozmyciu oraz podpróbkowane, tworząc oktawy.
+\subsubsection{Skalo-przestrzenna reprezentacja obrazu}
+Lokalizowanie punktów kluczowych odbywa się w różnych skalach obrazu. Obrazy skalo-przestrzenne są najczęściej reprezentowane w postaci piramidy obrazów. Kolejne obrazy są poddawane progresywnemu rozmyciu oraz podpróbkowaniu, tworząc oktawy.
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.8\textwidth]{pict/02/surf/surf_bay_scale_piramid.png}
@@ -404,6 +395,8 @@ o & - &  numer oktawy     &&$o=1,2,3,4,...$\\
 i & - & stopień rozmycia w oktawie &&$i=1,2,3,4$\\ 
 \end{tabular} 
 }
+
+
 W związku z powyższym wzór na odchylenie standardowe rozmycia Gaussa $\sigma$ możemy zapisać:
 
 \begin{align}
@@ -557,7 +550,7 @@ Okno to jest zorientowanie zgodnie z kierunkiem wyznaczonym w poprzednim kroku i
 \caption{Badane obszary charakterystyczne}
 \label{fig:surf_bay_example}
 \end{figure}
-W celu minimalizacji błędów spowodowanych geometrycznymi deformacjami odpowiedzi falek $d_x$ i $d_y$ są normalizowane rozkładem Gaussa z rozkładem równym $3.3\sigma$ (\textit{gdzie $\sigma$ oznacza skale w jakiej badany jest obszar}).
+W celu minimalizacji błędów spowodowanych geometrycznymi deformacjami odpowiedzi falek $d_x$ i $d_y$ są normalizowane rozkładem Gaussa z rozkładem równym $3.3\sigma$ (gdzie $\sigma$ oznacza skale w jakiej badany jest obszar).
 
 \begin{figure}[!htb]
 \centering
@@ -579,7 +572,7 @@ v_{subregion} = \left[ \sum d_x,\sum d_y,\sum |d_x|,\sum |d_y|\right]
 \label{fig:surf_bay_gradient}
 \end{figure}
 
-W skład deskryptora punktu charakterystycznego wchodzi 16 subregionów w efekcie czego otrzymujemy 64 wymiarowy wektor punktu charakterystycznego. Algorytmu posiada wariacje różniące się rozdzielczością na jaką jest podzielony badany obszar charakterystyczny. Badania \cite{HB08} wykazują jednak 64 wymiarowy deskryptor jest rozwiązaniem najlepszym i optymalnym [\ref{fig:surf_bay_compare}]. W sytuacji, w której lekki spadek jakości jest akceptowalny na rzecz znaczącej poprawy czasu dopasowywania punktów charakterystycznych, wartym rozważenia jest deskryptor SURF-36 (\textit{$3\times3\times4$})
+W skład deskryptora punktu charakterystycznego wchodzi 16 subregionów w efekcie czego otrzymujemy 64 wymiarowy wektor punktu charakterystycznego. Algorytmu posiada wariacje różniące się rozdzielczością na jaką jest podzielony badany obszar charakterystyczny. Badania \cite{HB08} wykazują jednak 64 wymiarowy deskryptor jest rozwiązaniem najlepszym i optymalnym [\ref{fig:surf_bay_compare}]. W sytuacji, w której lekki spadek jakości jest akceptowalny na rzecz znaczącej poprawy czasu dopasowywania punktów charakterystycznych, wartym rozważenia jest deskryptor SURF-36 ($3\times3\times4$)
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.8\textwidth]{pict/02/surf/surf_bay_compare_dim.png}
@@ -598,7 +591,7 @@ Otrzymany deskryptor dzięki zastosowaniu falek jest niezależny od rotacji,skal
 \FloatBarrier
 \newpage
 \section{Algorytm STAR}
-Algorytm STAR to zoptymalizowany algorytm {CenSurE} (\textit{skr. Center Surround Extremas}) \cite{CENS} rozwijany w laboratorium robotyki Willow Garrage. Stanowi rozwinięcie podejścia zastosowanego w  algorytmie SURF. 
+Algorytm STAR to zoptymalizowany algorytm {CenSurE} (skr. Center Surround Extremas) \cite{CENS} rozwijany w laboratorium robotyki Willow Garrage. Stanowi rozwinięcie podejścia zastosowanego w  algorytmie SURF. 
 
 
 \subsection{Obliczenie pochyłych obrazów całkowych}
@@ -613,7 +606,7 @@ obrazy całkowe w algorytmie STAR obliczane są według następującej formuły:
 I_{\sum\alpha}(x,y) = \sum\limits_{y'=0}^{ y} \sum\limits_{x'=0}^{x+\alpha(y-y')} I(x',y')
 \label{eqn:star_integral_images}
 \end{equation}
-gdzie $\alpha$ jest stałą zależną od rodzaju stosowanego filtru. Gdy $\alpha=0$ wzór \ref{eqn:star_integral_images} przyjmuje postać wzoru \ref{eqn:star_integral_images_old}. Gdy $\alpha>0$ obszar obrazu całkowego jest pochylony w prawo (\textit{jak na rysunku \ref{fig:cs_trapezoidal}}), a gdy $\alpha<0$ w lewo. 
+gdzie $\alpha$ jest stałą zależną od rodzaju stosowanego filtru. Gdy $\alpha=0$ wzór \ref{eqn:star_integral_images} przyjmuje postać wzoru \ref{eqn:star_integral_images_old}. Gdy $\alpha>0$ obszar obrazu całkowego jest pochylony w prawo (jak na rysunku \ref{fig:cs_trapezoidal}), a gdy $\alpha<0$ w lewo. 
 
 \begin{figure}
 \centering
@@ -647,7 +640,7 @@ Do lokalizowania punktów charakterystycznych algorytm STAR wykorzystuje dwustop
 
 \subsubsection{Dwustopniowe filtry otoczeniowo-centryczne}
 
-W ramach prac nad algorytmem {CenSurE} przetestowano szereg dwustopniowych filtrów począwszy od kołowego operatora LoG po dwustopniowy filtr kwadratowy. Filtr kołowy jest najwierniejszą reprezentacją Laplasjanu, aczkolwiek jest najbardziej złożony obliczeniowo. Bardzo szybkie filtry kwadratowe są z kolei podatne na rotacje obrazu i ich efektywność spada przy obrotach o nieparzyste wielokrotności kąta $45^O$. Odpowiedni filtr powinien być kompromisem między liczbą stopni symetrii i złożonością obliczeniową. W algorytmie {CenSurE} zastosowano filtr ośmiokątny [rys. \ref{fig:cs_okt}] dający się łatwo obliczać dzięki zastosowaniu pochyłych obrazów całkowych. Optymalizując algorytm {CenSurE} wypracowano rozwiązanie złożone 2 obróconych względem siebie o kąt $45^O$ kwadratów [rys. \ref{fig:wg_circle_aprox}] tworzących gwiazdę - skąd nazwa algorytm STAR (\textit{w tłumaczeniu z angielskiego "gwiazda"}).
+W ramach prac nad algorytmem {CenSurE} przetestowano szereg dwustopniowych filtrów począwszy od kołowego operatora LoG po dwustopniowy filtr kwadratowy. Filtr kołowy jest najwierniejszą reprezentacją Laplasjanu, aczkolwiek jest najbardziej złożony obliczeniowo. Bardzo szybkie filtry kwadratowe są z kolei podatne na rotacje obrazu i ich efektywność spada przy obrotach o nieparzyste wielokrotności kąta $45^O$. Odpowiedni filtr powinien być kompromisem między liczbą stopni symetrii i złożonością obliczeniową. W algorytmie {CenSurE} zastosowano filtr ośmiokątny [rys. \ref{fig:cs_okt}] dający się łatwo obliczać dzięki zastosowaniu pochyłych obrazów całkowych. Optymalizując algorytm {CenSurE} wypracowano rozwiązanie złożone 2 obróconych względem siebie o kąt $45^O$ kwadratów [rys. \ref{fig:wg_circle_aprox}] tworzących gwiazdę - skąd nazwa algorytm STAR (w tłumaczeniu z angielskiego "gwiazda").
 
 
 
@@ -705,7 +698,8 @@ $L_{x}$ i $L_{y}$ są pochodnymi funkcji filtru w kierunkach x i y, a sumowanie 
 Dalsza część postępowanie jest analogiczna jak we wspomnianym algorytmie SIFT. Badany jest wyznacznik i ślad macierzy na podstawie których określa się współczynnik głównych krzywizn. W oparciu o obliczony współczynnik piksele poddawane są progowaniu [wzór \ref{eqn:ratio_prog}]. Domyślna wartość progu wynosi 10.
 
 
-
+\subsection{Budowa deskryptora}
+Algorytm STAR jest detektorem punktów charakterystycznych. Nie posiada on własnego mechanizmu opisu cech. Aby móc go stosować należy go połączyć, z algorytmem deskrypcyjnym takim jak np. deskryptor SIFT lub SURF. W raporcie dotyczącym badań nad algorytmem CenSurE autorzy posługują się zmodyfikowanym deskryptorem SURF. 
 
 
 
@@ -713,7 +707,7 @@ Dalsza część postępowanie jest analogiczna jak we wspomnianym algorytmie SIF
 \FloatBarrier
 \newpage
 \section{Algorytm FAST}
-Algorytm FAST (\textit{skr. Features from Accelerated Segment Test})został opublikowany przez Edwarda Rostena i Toma Drummonda w 2006 roku \cite{rosten_2006_machine} \cite{rosten_2008_faster}.  Algorytm ten służy do lokalizowania rogów w obrazie, które mogą być wykorzystane do zadań rozpoznawania i śledzenia. 
+Algorytm FAST (skr. Features from Accelerated Segment Test) został opublikowany przez Edwarda Rostena i Toma Drummonda w 2006 roku \cite{rosten_2006_machine} \cite{rosten_2008_faster}.  Algorytm ten służy do lokalizowania rogów w obrazie, które mogą być wykorzystane do zadań rozpoznawania i śledzenia. 
 
 W odróżnieniu do wcześniej omawianych algorytmów FAST nie dokonuje "globalnej" analizy obrazu w poszukiwaniu cech charakterystycznych. Wykorzystując algorytmy uczenia maszynowego bada małe wycinki obrazu.
 
@@ -806,9 +800,9 @@ Wybór $x$ odbywa się poprzez porównanie wzrostów informacji skojarzonych z p
 H_g = H(P) - H(P_d) - H(P_s) - H(P_b)
 \end{equation}
 
-Po wyselekcjonowaniu piksela $x$ wnoszącego najwięcej informacji, cały proces jest powtarzany rekursywnie na wszystkie trzy podzbiory. Przykładowo jeżeli w pierwszej iteracji wybrano piksel $x_b$ (\textit{jaśniejszy od piksela centralnego}) wówczas zbiór $P_{b}$ jest rozwijany w podzbiory $P_{b,b}$, $P_{b,s}$, $P_{b,d}$. Zbiory są rozwijane w sposób rekursywny dopóki dopóty entropia podzbioru nie wyniesie 0. Oznacza to wówczas, że wszystkie piksele $p$ w danym podzbiorze mają tą samą wartość zmiennej $K_p$. Gdy entropia wszystkich podzbiorów wyniesie 0 oznacza to, że drzewo decyzyjne zostało dopasowane do zbioru uczącego. W sytuacji gdy sąsiadujące poddrzewa mają taką samą strukturę różniący je test logiczny będący wspólnym korzeniem jest usuwany.
+Po wyselekcjonowaniu piksela $x$ wnoszącego najwięcej informacji, cały proces jest powtarzany rekursywnie na wszystkie trzy podzbiory. Przykładowo jeżeli w pierwszej iteracji wybrano piksel $x_b$ (jaśniejszy od piksela centralnego) wówczas zbiór $P_{b}$ jest rozwijany w podzbiory $P_{b,b}$, $P_{b,s}$, $P_{b,d}$. Zbiory są rozwijane w sposób rekursywny dopóki dopóty entropia podzbioru nie wyniesie 0. Oznacza to wówczas, że wszystkie piksele $p$ w danym podzbiorze mają tą samą wartość zmiennej $K_p$. Gdy entropia wszystkich podzbiorów wyniesie 0 oznacza to, że drzewo decyzyjne zostało dopasowane do zbioru uczącego. W sytuacji gdy sąsiadujące poddrzewa mają taką samą strukturę różniący je test logiczny będący wspólnym korzeniem jest usuwany.
 
-Po zbudowaniu drzewa decyzyjnego klasyfikującego wszystkie rogi w zbiorze uczącym, jest ono konwertowane na kod C. Odbywa się to poprzez utworzenie długiego łańcuchu znakowego (\textit{ang. "string"}) z zakodowanymi regułami postępowania "if-else", które po skompilowaniu są używane jako klasyfikator rogów. 
+Po zbudowaniu drzewa decyzyjnego klasyfikującego wszystkie rogi w zbiorze uczącym, jest ono konwertowane na kod C. Odbywa się to poprzez utworzenie długiego łańcuchu znakowego (ang. "string") z zakodowanymi regułami postępowania "if-else", które po skompilowaniu są używane jako klasyfikator rogów. 
 
 W celu polepszenia szybkości działania algorytmu otrzymany klasyfikator jest poddawany dwukrotnej optymalizacji. 
 
@@ -851,14 +845,14 @@ Algorytm FAST rozwiązuje jedynie problem lokalizowania punktów charakterystycz
 \FloatBarrier
 \newpage
 \section{Algorytm BRIEF}
-Algorytm BRIEF (\textit{Binary Robust Independent Elementary Features}) \cite{B1} \cite{B2} jest wykorzystywany jest do opisywania punktów charakterystycznych. Nie służy lokalizowaniu cech charakterystycznych obrazów, dlatego nie został ujęty w zestawieniu przedstawionym we wstępie niniejszej pracy.
+Algorytm BRIEF (Binary Robust Independent Elementary Features) \cite{B1} \cite{B2} należy do grupy algorytmów deskrypcyjnych i jest wykorzystywany do opisywania punktów charakterystycznych. Nie służy lokalizowaniu cech charakterystycznych obrazów, dlatego nie został ujęty w zestawieniu przedstawionym we wstępie niniejszej pracy.
 
-Może być on wykorzystywany jako alternatywa dla deskryptorów algorytmów takich jak SIFT czy SURF lub uzupełnienie dla algorytmów nie posiadających deskryptorów jak FAST. Twórcy algorytmu szczególny nacisk położyli na szybkość obliczania deskryptorów i ich dopasowywania. 
+Może być on wykorzystywany jako alternatywa dla deskryptorów algorytmów takich jak SIFT czy SURF lub uzupełnienie dla algorytmów nie posiadających deskryptorów jak FAST lub STAR. Twórcy algorytmu szczególny nacisk położyli na szybkość obliczania deskryptorów i ich dopasowywania. 
 
 
 Popularne stosowane metody optymalizacyjne skupiają się na redukcji redundantnych informacji zawartych w deskryptorach. Można wyróżnić dwa podejścia do tego zagadnienia.
 
-W pierwszym przypadku dzięki zastosowaniu metod statystyki takich jak np. analiza głównych składowych (\textit{ang. PCA} \cite{PCA}) lub liniowa analiza dyskryminacyjna (\textit{ang. LDA} \cite{LDA}) ogranicza się wymiarowość deskryptora. Deskryptory SIFT i SURF operują na liczbach zmiennoprzecinkowych. Są bardzo dokładne ale ich obliczanie jest czasochłonne. Jak pokazały prace \cite{B-ref1}\cite{B-ref2} \cite{B-ref3} przejście z reprezentacji zmiennoprzecinkowej do binarnej nie powoduje istotnego spadku jakości rozpoznawania obrazów a w sposób znaczący rozpoznawanie przyśpiesza. 
+W pierwszym przypadku dzięki zastosowaniu metod statystyki takich jak np. analiza głównych składowych (ang. PCA) lub liniowa analiza dyskryminacyjna (ang. LDA) ogranicza się wymiarowość deskryptora. Dokładny opis tego podejścia można znaleźć w pracach  Deskryptory SIFT i SURF operują na liczbach zmiennoprzecinkowych. Są bardzo dokładne ale ich obliczanie jest czasochłonne. Jak pokazały prace \cite{B-ref1}\cite{B-ref2} \cite{B-ref3} przejście z reprezentacji zmiennoprzecinkowej do binarnej nie powoduje istotnego spadku jakości rozpoznawania obrazów a w sposób znaczący rozpoznawanie przyśpiesza. 
 
 
 Przedstawione podejścia często są stosowane razem, usprawniając rozpoznawanie i dopasowywanie punktów obrazów. Niestety aby móc zbudować "szybki" deskryptor w obu podejściach potrzebne jest "wolne" obliczenie dokładnego deskryptora, który następnie poddawany jest obróbce. 
@@ -910,18 +904,18 @@ Dzięki zastosowaniu prostego testu jakim jest porównanie jasności udało się
 \end{figure}
 
 
-Twórcy algorytmu zdecydowali się na zastosowanie rozmycia Gaussa. W trakcie prac nad algorytmem badano wpływ promienia rozmycia na jakość deskryptora i jego wydajność. Na zbiorze testowym Mikołajczyka\footnote{Zbiór testowy Mikołajczyka jest szerzej omówiony w rozdziale poświęconym badaniom} przetestowano promienie o zakresie od 0 do 3. Jak pokazuje wykres \ref{fig:brief_promien} w przedziale promieni od 1 do 3 jakość jest bardzo zbliżona. Finalnie w algorytmie zastosowano dyskretne jądro rozmycia o wartości $\sigma = 2 $ i rozmiarze 9 na 9 pikseli.
+Twórcy algorytmu zdecydowali się na zastosowanie rozmycia Gaussa. W trakcie prac nad algorytmem badano wpływ promienia rozmycia na jakość deskryptora i jego wydajność. Na zbiorze testowym Mikołajczyka\footnote{Zbiór testowy Mikołajczyka jest szerzej omówiony w rozdziale poświęconym badaniom} przetestowano promienie o zakresie od 0 do 3. Jak pokazuje wykres \ref{fig:brief_sigma_comp} w przedziale promieni od 1 do 3 jakość jest bardzo zbliżona. Finalnie w algorytmie zastosowano dyskretne jądro rozmycia o wartości $\sigma = 2 $ i rozmiarze 9 na 9 pikseli.
 
 \subsection{Wybór testowanych par punktów}
-Kluczowe znaczenie dla jakości generowanych deskryptorow, ma dobór par punktów poddawanych testowaniu. Od wyboru metody ich losowania zależy stopień powtarzalności i odporności desktyptora na rotacje. 
+Kluczowe znaczenie dla jakości generowanych deskryptorów, ma dobór par punktów poddawanych testowaniu. Od wyboru metody ich losowania zależy stopień powtarzalności i odporności deskryptora na rotacje. 
 
 W trakcie prac nad algorytmem autorzy przetestowali 5 sposobów selekcji par:
 \begin{enumerate}
-\item[G I] Lokalizacja punktów \textbf{X} i \textbf{Y} ma rozkład jednostajny na przedziale $(-\frac{S}{2},\frac{S}{2})$. Początek układu współrzędnych umiejscowiony jest w punkcie centralnym badanago obszaru $S\times S$. 
+\item[G I] Lokalizacja punktów \textbf{X} i \textbf{Y} ma rozkład jednostajny na przedziale $(-\frac{S}{2},\frac{S}{2})$. Początek układu współrzędnych umiejscowiony jest w punkcie centralnym badanego obszaru $S\times S$. 
 \item[G II] Zbiory punktów \textbf{X} i \textbf{Y} mają rozkład normalny o wartości oczekiwanej 0 i wariancji $\frac{S^2}{25}$. Wartość wariancji została dobrana eksperymentalnie i dla przedstawionej metody zapewnia najwyższy współczynnik rozpoznawalności.
 \item[G III] W przypadku tej metody próbkowanie odbywa się 2 etapowo. W pierwszej kolejności z rozkładem normalnym o wartości oczekiwanej 0 i wariancji $\frac{S^2}{25}$ wybierane są punkty \textbf{X}. Punkty \textbf{Y} są lokalizowane w otoczeniu odpowiadających im punktów $x_i$.  \textbf{Y} ma rozkład normalny o wartości oczekiwanej $x_i$ i wariancji $\frac{S^2}{100}$. W przypadku lokalizacja punktu $y_i$ wypada poza badany obszar $S\times S$ przypisuje mu się położenie na krawędzi. Zastosowana metoda powoduje, że badane pary są badane w sposób bardziej lokalny. Podobnie jak w poprzedniej metodzie wartości wariancji zostały dobrane eksperymentalnie.
 \item[G IV] Punkty $x_i$ i $y_i$ są wybierane w sposób losowy z dyskretnego zbioru zgrubnych współrzędnych biegunowych.
-\item[G V] Wszystkie punkty $x_i$ znajdują się w początku układu współrzednych a punkty $y_i$ lokalizowane są na liniach zgrubnych współrzędnych biegunowych.
+\item[G V] Wszystkie punkty $x_i$ znajdują się w początku układu współrzędnych a punkty $y_i$ lokalizowane są na liniach zgrubnych współrzędnych biegunowych.
 \end{enumerate}
 
 Zaproponowane metody próbkowania zostały przebadane na zbiorze testowym Mikołajczyka. Rezultaty tych badań przedstawione zostały na wykresie \ref{fig:brief_G_comp}. Otrzymane wyniki dowodzą wysokiej skuteczności metod opartych o losowy dobór par. Na ich tle wyjątkowo słabo wypada regularna i symetryczna metoda G V. W ostatecznej wersji algorytmu zdecydowano się zastosować strategie próbkowania G II.
@@ -1020,7 +1014,7 @@ Do lokalizowania punktów charakterystycznych algorytm ORB wykorzystuje zmodyfik
 
 Pierwszym krokiem w działaniu algorytmu jest "zgrubne" zlokalizowanie punktów charakterystycznych. Realizuje się to za pomocą detektora FAST-9, gdzie 9 oznacza ilość ciągłych pikseli w okręgu lokalizującym róg.
 
-Oryginalny algorytm FAST nie dostarcza żadnej miary jakości zlokalizowanego rogu,  skutkiem czego jest bardzo wrażliwy na zakłócenia spowodowane odpowiedzią krawędziową. W efekcie bardzo często dostajemy bardzo dużą liczbę punktów charakterystycznych, niestety o słabej jakości. 
+Oryginalny algorytm FAST nie dostarcza żadnej miary jakości zlokalizowanego rogu,  skutkiem czego jest dosyć wrażliwy na zakłócenia spowodowane odpowiedzią krawędziową. W efekcie bardzo często dostajemy bardzo dużą liczbę punktów charakterystycznych, niestety o słabej jakości. 
 
 Rozwiązaniem powyższego problemu jest zastosowanie detektora Harrisa do oceniania punktów charakterystycznych. Algorytm ORB jako jeden z argumentów przyjmuje pożądaną liczbę punktów charakterystycznych oznaczoną przez N. Znając liczbę N algorytm tak ustala się wartość progu miary Harrisa aby uzyskać zbiór punktów, których ilość przekracza N. Następnie zbiór ten jest sortowany i wybiera się z niego N najlepszych punktów. W zastosowaniach praktycznych wartość liczby N ustala się najczęściej na 500. Zwiększenie tej liczby powoduje otrzymanie większej liczby punktów charakterystycznych, ale często gorszej jakości i nachodzące na punkty z grupy pięciuset.
 
@@ -1043,11 +1037,11 @@ możemy skonstruować wektor $\overrightarrow{OC}$ zaczepiony w środku rogu i s
 
 Aby poprawić stabilność zaprezentowanej miary na rotacje, punkty $x$ i $y$ są wybierane z kołowego obszaru o promieniu $r$. W praktyce oznacza to, że $r$ reprezentuje rozmiar badanego wycinka a współrzędne $x$ i $y$ zawierają się w przedziale [-r,r]. W sytuacji gdy wartość momentu badanego odcinka |C| wynosi 0 algorytm zachowuje się w sposób niestabilny. W przypadku punktów lokalizowanych przez algorytm FAST jest to jednak bardzo rzadki przypadek.
 
-Zaprezentowana metoda została porównana z metodami bazującymi na gradiencie obrazu, BIN i MAX. Metoda MAX wybiera największa składową gradientu w obrębie badanego punktu. Metoda BIN podobnie jak w algorytmie SIFT i jest oparta o histogram reprezentujący wszystkie składowe gradientu. Jak pokazuje wykres \ref{fig:orb_bin_max} metoda oparta o środek ciężkości jest o znacznie bardziej odporna na zakłócenia.
+Zaprezentowana metoda została porównana z metodami bazującymi na gradiencie obrazu, BIN i MAX. Metoda MAX wybiera największa składową gradientu w obrębie badanego punktu. Metoda BIN podobnie jak w algorytmie SIFT i jest oparta o histogram reprezentujący wszystkie składowe gradientu. Jak pokazuje wykres \ref{fig:orb_wykres_2} metoda oparta o środek ciężkości jest o znacznie bardziej odporna na zakłócenia.
 \subsection{Budowa deskryptora}
 Do opisu zlokalizowanych cech wykorzystano ulepszoną zmodyfikowaną wersje deskryptora Steered BRIEF nazwaną rBRIEF. 
 
-Steered Brief jest rozwinięciem opisanego wcześniej deskryptora BRIEF. Oryginalny deskryptor BRIEF jest bardzo wrażliwy na rotacje \ref{fig:orb_compare_desc}. Pewnym rozwiązaniem, aczkolwiek bardzo nieoptymalnym, jest zaproponowane przez autorów algorytmu BRIEF wyliczenie grupy obróconych względem siebie deskryptorów. Znacznie lepszym rozwiązaniem dostrojenie deskryptora BRIEF do orientacji punktu charakterystycznego. Deskryptor BRIEF jest generowany przez $n$ testów binarny dla zbioru par punktów ($x_i$,$y_i$). Zbiór ten jest opisany przez macierz $\textbf{S}$:
+Steered Brief jest rozwinięciem opisanego wcześniej deskryptora BRIEF. Oryginalny deskryptor BRIEF jest bardzo wrażliwy na rotacje [wykres \ref{fig:orb_wykres_7}]. Pewnym rozwiązaniem, aczkolwiek bardzo nieoptymalnym, jest zaproponowane przez autorów algorytmu BRIEF wyliczenie grupy obróconych względem siebie deskryptorów. Znacznie lepszym rozwiązaniem dostrojenie deskryptora BRIEF do orientacji punktu charakterystycznego. Deskryptor BRIEF jest generowany przez $n$ testów binarny dla zbioru par punktów ($x_i$,$y_i$). Zbiór ten jest opisany przez macierz $\textbf{S}$:
 \begin{equation}
 \textbf{S} = \left(\begin{array}{ccccccc}
 x_1 & , & x_2 & , & ... & , & x_n \\
@@ -1066,7 +1060,7 @@ Otrzymany zbiór jest poddawany temu samemu testowi jak w przypadku oryginalnego
 
 W celu usprawnienia pracy algorytmu orientacje punktów charakterystycznych poddawane są kwantyzacji. Dla zakresu $360^o$ przyjęto się 30 przedziałów $12^o$ do których może zostać zakwalifikowana orientacja punktu. Każdy z przedziałów posiada własny wzorzec punktów poddawanych testom.
 
-Jedną z niewątpliwych zalet algorytmu BRIEF jest to że każdy bit jego deskryptora ma dużą wariancje i wartość średnią na poziomie $0,5$. Wykres \ref{fig:orb_spread} prezentuje rozrzut wartości średniej dla typowego gaussowskiego wzorca 256 bitowego deskryptora BRIEF dla zbioru 100 tysięcy punktów charakterystycznych. Wartość średnia $0,5$ daje największą wariancje próbkowania na poziomie $0,25$ dla pojedynczego bitu. Zastosowanie "ukierunkowanego" algorytmu BRIEF powoduje przesunięcie wartości średniej w stronę rozkładu typowego dla wzorca odpowiadającego danemu kątowi orientacji. Powoduje to zbytnie upodobnienie się deskryptorów punktów zakwalifikowanych do tego samego przedziału orientacji.
+Jedną z niewątpliwych zalet algorytmu BRIEF jest to że każdy bit jego deskryptora ma dużą wariancje i wartość średnią na poziomie $0,5$. Wykres \ref{fig:orb_wykres_3} prezentuje rozrzut wartości średniej dla typowego gaussowskiego wzorca 256 bitowego deskryptora BRIEF dla zbioru 100 tysięcy punktów charakterystycznych. Wartość średnia $0,5$ daje największą wariancje próbkowania na poziomie $0,25$ dla pojedynczego bitu. Zastosowanie "ukierunkowanego" algorytmu BRIEF powoduje przesunięcie wartości średniej w stronę rozkładu typowego dla wzorca odpowiadającego danemu kątowi orientacji. Powoduje to zbytnie upodobnienie się deskryptorów punktów zakwalifikowanych do tego samego przedziału orientacji.
 
 Wysoka wariancje czyni deskryptory bardziej dyskryminacyjnymi co jest pożądanym zjawiskiem, gdyż generuje bardziej zróżnicowane odpowiedzi dla punktów o podobnych parametrach. 
 
@@ -1076,9 +1070,9 @@ Innym niekorzystnym efektem towarzyszącym deskryptorowi steered BRIEF jest zmni
 
 Aby zapobiec opisanym zjawiskom spadku wariancji i wzrostu korelacji pomiędzy testami, autorzy algorytmu zaproponowali metodę uczenia służącą wyborowi dobrego podzbioru binarnych testów.
 
-W zaproponowanej metodzie na zbioru obrazów PASCAL 2006 \cite{pascal} przygotowano zbiór uczący zawierający około 300 tysięcy punktów charakterystycznych. Następnie dla okna o wymiarach $31\times31$ pikseli przygotowano kombinacje wszystkich możliwych binarnych testów. Każdy test jest jest wykonywanywany na parze mniejszego okien $5\times$. Zapisując szerokość dużego okna jako $w_p = 31$ i szerokość małego okna jako $w_t = 5$ otrzymujemy liczbę $N = (w_p - w_t)^2$ oznaczającą liczbę możliwych małych okien. Wybierając 2 okna do pojedyńczego badania otrzymujemy zbiór ${N\choose 2}$ testów. Eliminując testy nakładające się na siebie otrzymujemy zbiór 205590 porównań.
+W zaproponowanej metodzie na podstawie zbioru obrazów PASCAL 2006 \cite{pascal} przygotowano zbiór uczący zawierający około 300 tysięcy punktów charakterystycznych. Następnie dla okna o wymiarach $31\times31$ pikseli przygotowano kombinacje wszystkich możliwych binarnych testów. Każdy test jest jest wykonywany na parze mniejszych okien $5\times5$. Zapisując szerokość dużego okna jako $w_p = 31$ i szerokość małego okna jako $w_t = 5$ otrzymujemy liczbę $N = (w_p - w_t)^2$ oznaczającą liczbę możliwych małych okien. Wybierając 2 okna do pojedynczego badania otrzymujemy zbiór ${N\choose 2}$ testów. Eliminując testy nakładające się na siebie otrzymujemy zbiór 205590 porównań.
 
-Przygotowany zbiór uczący poddano badaniu nastepującemu algorytmowi:
+Przygotowany zbiór uczący poddano badaniu następującemu algorytmowi:
 \begin{enumerate}
 \item Wszystkie obrazy zbioru uczącego przetestowano wszystkimi kombinacjami testów.
 \item Testy zostały uporządkowane na podstawie odległości wartości średniej od wartości $0,5$ i zawarte w wektorze \textbf{T}.
@@ -1089,4 +1083,4 @@ Przygotowany zbiór uczący poddano badaniu nastepującemu algorytmowi:
 \item Punkt (b) jest powtarzany aż do momenty, w którym w wektor \textbf{R} będzie posiadał 256 elementów. W sytuacji niespełnienia warunku stopu i wyczerpania się elementów wektora \textbf{T} wartość progu jest podnoszona i algorytm powtarza swoje działanie.
 \end{enumerate}
 \end{enumerate}
-Wynik działania tego algorytmu został nazwany rBRIEF. Algorytm ten ma znacząco lepsze parametry wariancji i korelacji niż algorytm steered BRIEF. Jak przedstawia wykres \ref{fig:orb_wykres_4} wygenerowany deskryptor ma wartości własne glównych składowych są wyższe i zmniejszają się znacznie wolniej niż w przypadku algorytmów steered BRIEF i BRIEF. Badania przeprowadzone przez autorów algorytmów wykazują ponadto wysoką odporność na rotacje \ref{fig:orb_wykres_7}.
+Wynik działania tego algorytmu został nazwany rBRIEF. Algorytm ten ma znacząco lepsze parametry wariancji i korelacji niż algorytm steered BRIEF. Jak przedstawia wykres \ref{fig:orb_wykres_4} wygenerowany deskryptor ma wartości własne głównych składowych są wyższe i zmniejszają się znacznie wolniej niż w przypadku algorytmów steered BRIEF i BRIEF. Badania przeprowadzone przez autorów algorytmów wykazują ponadto wysoką odporność na rotacje [wykres \ref{fig:orb_wykres_7}].

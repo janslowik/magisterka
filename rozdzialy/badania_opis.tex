@@ -1,6 +1,6 @@
 \chapter{Opis badań}
 Omówione w cześci teoretycznej algorytmy zostały przebadane pod kątem efektywności działania.
-W tym celu został napisany program komputerowy, którego szerszy opis można znaleść w dodatku \ref{dodatek_program}.
+W tym celu został napisany program komputerowy, którego szerszy opis można znaleść w dodatku \ref{dodatek_opis_aplikacji}.
 \FloatBarrier 
 \section{Badane algorytmy}
 Problem poprawnego rozpoznawania obrazów opartego o cechy charakterystyczne można zdekomponować na dwa mniejsze jakimi są:
@@ -21,9 +21,9 @@ Postanowiono przebadać następujące algorytmy:
 \item detektor FAST + deskryptor BRIEF $^1$
 \item detektor FAST + deskryptor ORB (\textit{wł. rBRIEF}) $^1$
 \item detektor FAST + deskryptor SIFT $^1$
-\item detektor FAST + deskryptor SURF $^1$
+\item detektor FAST + deskryptor SURF \footnote{Pierwsze testy wykazały jednakże, że ilość punktów charakterystycznych lokalizowanych przez algorytm FAST jest zbyt duża, aby można było dokonać dopasowania w rozsądnym czasie pracy maszyny.W związku z powyższym zrezygnowano z opisywania i dopasowywania cech lokalizowanych przez ten algorytm}
 \end{itemize}
-\footnote{Pierwsze testy wykazały jednakże, że ilość punktów charakterystycznych lokalizowanych przez algorytm FAST jest zbyt duża, aby można było dokonać dopasowania w rozsądnym czasie pracy maszyny.W związku z powyższym badany zrezygnowano z opisywania i dopasowywania cech lokalizowanych przez ten algorytm}
+
 
 \FloatBarrier
 \section{Kryteria badań}
@@ -38,7 +38,7 @@ W porównywaniu algorytmów wzięto pod uwagę następujące kryteria:
 
 
 
-Ze względu na to że algorytmy różnią się czasem działania i ilością lokalizowanych cech w rożnych obrazach, wszystkie kryteria czasowe zdecydowano się odnieść do pojedynczego punktu.
+Ze względu na to, że algorytmy różnią się czasem działania i ilością lokalizowanych cech w rożnych obrazach, wszystkie kryteria czasowe zdecydowano się odnieść do pojedynczego punktu.
 
 
 Powtarzalność zlokalizowanych cech jest rozumiana jako:

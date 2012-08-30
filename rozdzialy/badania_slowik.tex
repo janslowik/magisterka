@@ -64,7 +64,7 @@ Rozdzielczość: $768 \times 768$\\
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{pict/slowik/r1/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/slowik/r1/f1.png}
 \caption{R1 - ilość wyszukanych cech}
 \label{fig:r1_f1}
 \end{figure}
@@ -246,7 +246,7 @@ Rozdzielczość: $768 \times 1024$\\
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/slowik/r2/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/slowik/r2/f1.png}
 \caption{R2 - ilość wyszukanych cech}
 \label{fig:r2_f1}
 \end{figure}
@@ -428,7 +428,7 @@ Rozdzielczość: $1024 \times 768$\\
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/slowik/r3/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/slowik/r3/f1.png}
 \caption{R3 - ilość wyszukanych cech}
 \label{fig:r3_f1}
 \end{figure}
@@ -557,7 +557,7 @@ Czasy lokalizowania punktu przes FAST są również znikomo małe. W zależnośc
 
 Czas generowania deskryptora można uznać za stały niezależnie od typu obrazów. Podobnie jak w badaniach dla zbioru Mikołajczyka kombinacja STAR-SIFT jest w sposób radykalny najwolniejszą w tej kategorii.
 
-Dopiero badając powtarzalność algorytmów możemy zaobserwować większe zróżnicowanie w wynikach. W tej dziedzinie jako wiodące możemy uznać algorytmy ORB i SIFT. Dla obrazów o dużym stopniu przybliżenia ich wyniki są niemal równe. Większość algorytmów dobrze radzi sobie z niewielkim stopniem rotacji obrazu przy dużym powiększeniu, ich jakość jednak spada w sposób znaczący przy większych kątach obrotu. Najlepsze wyniki na tym polu osiągają algorytmy ORB i SIFT, których minimum wyników przypada w okolicach kąta $45^o$.
+Badając powtarzalność algorytmów możemy zaobserwować większe zróżnicowanie w wynikach. W tej dziedzinie jako wiodące możemy uznać algorytmy ORB i SIFT. Dla obrazów o dużym stopniu przybliżenia ich wyniki są niemal równe. Większość algorytmów dobrze radzi sobie z niewielkim stopniem rotacji obrazu przy dużym powiększeniu Jakość ich jednak spada w sposób znaczący przy większych kątach obrotu. Najlepsze wyniki na tym polu osiągają algorytmy ORB i SIFT, których minimum wyników przypada w okolicach kąta $45^o$.
 
 Najkorzystniejszy współczynnik poprawnych dopasowań posiada algorytm SIFT. Dobre wyniki osiągają również wyniki dla algorytmów ORB i STAR-SURF. Przewaga algorytmu SIFT ujawnia się w kątach powyżej $60^o$. Pozostałe metody dla większych kątów osiągają wskaźnik poprawności poniżej 50 \%.
 
@@ -627,7 +627,7 @@ Rozdzielczość: $585 \times 1024$
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/slowik/v1/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/slowik/v1/f1.png}
 \caption{V1 - ilość wyszukanych cech}
 \label{fig:v1_f1}
 \end{figure}
@@ -811,7 +811,7 @@ Rozdzielczość: $1024 \times 768$\\
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/slowik/v2/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/slowik/v2/f1.png}
 \caption{V2 - ilość wyszukanych cech}
 \label{fig:v2_f1}
 \end{figure}
@@ -934,11 +934,11 @@ Rozdzielczość: $1024 \times 768$\\
 
 
 \subsection{Dyskusja wyników}
-Problem zmiany położenia obserwatora wydaje się być najtrudniejszym dla badanych algorytmów. O ile charakterystyki czasowe i ilościowe dla obrazów w ramach pojedyńczego zbioru pozostają stałe, o tyle w przypadku wskaźników dopasowań obserwujemy duże zróźnicowanie wyników i lawinowy spadek skuteczności wraz ze zmiana położenia. Klasyfikacja w dziedzinach ilości punktu, czasów detekcji i opisywanie nie różni się w zasadniczy sposób od tych zaobserwowanych w poprzednich badaniach.
+Problem zmiany położenia obserwatora wydaje się być najtrudniejszym dla badanych algorytmów. O ile charakterystyki czasowe i ilościowe dla obrazów w ramach pojedynczego zbioru pozostają stałe, o tyle w przypadku wskaźników dopasowań obserwujemy duże zróżnicowanie wyników i lawinowy spadek skuteczności wraz ze zmiana położenia. Klasyfikacja w dziedzinach ilości punktu, czasów detekcji i opisywanie nie różni się w zasadniczy sposób od tych zaobserwowanych w poprzednich badaniach.
 
-W trakcie konstruowania zbioru testowego obserwator przemiszczał się średnio o 2 metry pomiędzy kolejnymi ujeciami. Badania wykazują dużą wrażliwość algorytmów na przemieszczenie obserwatora powyżej 4 metrów. Powtarzalność dla takiej transformacji w najlepszych warunkach wynosi około 30\%, by finalnie spaść niemal do 0. Zjawisko to jest obserwowane dla obu zestawów.
+W trakcie konstruowania zbioru testowego obserwator przemieszczał się średnio o 2 metry pomiędzy kolejnymi ujęciami. Badania wykazują dużą wrażliwość algorytmów na przemieszczenie obserwatora powyżej 4 metrów. Powtarzalność dla takiej transformacji w najlepszych warunkach wynosi około 30\%, by finalnie spaść niemal do 0. Zjawisko to jest obserwowane dla obu zestawów.
 
-Procent dobrze dopasowanych punktów jest wskaźnikiem silnie powiązanym z powtarzalnością. W sytuacji gdy powtarzalność spada do 0, bezzasadnym staje się dyskusja poprawności. Biorąc pod uwagę te pary obrazów z niezerową powtarzalnością, najlepsze wyniki w zalezności od sceny osiągają algorytmy ORB i STAR-SIFT.
+Procent dobrze dopasowanych punktów jest wskaźnikiem silnie powiązanym z powtarzalnością. W sytuacji gdy powtarzalność spada do 0, bezzasadnym staje się dyskusja poprawności. Biorąc pod uwagę te pary obrazów z niezerową powtarzalnością, najlepsze wyniki w zależności od sceny osiągają algorytmy ORB i STAR-SIFT.
 
 \FloatBarrier
 \newpage
@@ -1001,7 +1001,7 @@ Rozdzielczość: $1024 \times 768$
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/slowik/z1/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/slowik/z1/f1.png}
 \caption{Z1 - ilość wyszukanych cech}
 \label{fig:z1_f1}
 \end{figure}

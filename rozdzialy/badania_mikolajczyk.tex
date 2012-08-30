@@ -1,5 +1,5 @@
 \chapter{Zbiór testowy Mikołajczyka}
-Zbiór testowy Mikołajczyka to opracowany przez doktora Krystiana Mikołajczyka zbiór zestawów obrazów testowych służących ocenie afinicznych, kowariantnych cech. Zawiera on przekształcenia takie jak:
+Zbiór testowy Mikołajczyka to opracowany przez doktora Krystiana Mikołajczyka zespół zestawów obrazów testowych służących ocenie afinicznych, kowariantnych cech. Zawiera on przekształcenia takie jak:
 \begin{itemize}
 \item zmiana położenia obserwatora
 \item zmiana skali 
@@ -67,7 +67,7 @@ Oryginalny zbiór zawiera 8 zestawów zawierające powyższe transformacje. Zbio
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/bikes/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/bikes/f1.png}
 \caption{BIKES - ilość wyszukanych cech}
 \label{fig:bikes_f1}
 \end{figure}
@@ -249,7 +249,7 @@ Oryginalny zbiór zawiera 8 zestawów zawierające powyższe transformacje. Zbio
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/trees/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/trees/f1.png}
 \caption{TREES - ilość wyszukanych cech}
 \label{fig:trees_f1}
 \end{figure}
@@ -371,7 +371,7 @@ Oryginalny zbiór zawiera 8 zestawów zawierające powyższe transformacje. Zbio
 \end{figure}
 \FloatBarrier
 \subsection{Dyskusja wyników}
-Jak możemy zaobserwować na wykresach \ref{fig:bikes_f1} i \ref{fig:tree_f1} wraz ze wzrostem stopnia rozmycia obrazu maleje liczba lokalizowanych punktów charakterystycznych. Wśród ilości lokalizowanych punktów prym wiodą w zależności od scenerii algorytmy SURF i FAST, i to wśród ich wyników spadek ilości punktów jest najbardziej zauważalny. Algorytmy te generują o rząd wielkości więcej punktów. Niestety jakość tych punktów pozostawia często wiele do życzenia, a ich ilość w sposób znaczący utrudnia proces dopasowywania. Rysunek \ref{tt13} przedstawia punkty wyszukane przez algorytm FAST w obrazach z zestawu TREES. Jak widzimy ich ilość w sposób znaczący zaciemnia obraz.
+Jak możemy zaobserwować na wykresach \ref{fig:bikes_f1} i \ref{fig:trees_f1} wraz ze wzrostem stopnia rozmycia obrazu maleje liczba lokalizowanych punktów charakterystycznych. Wśród ilości lokalizowanych punktów prym wiodą w zależności od scenerii algorytmy SURF i FAST, i to wśród ich wyników spadek ilości punktów jest najbardziej zauważalny. Algorytmy te generują o rząd wielkości więcej punktów niż pozostałe metody. Niestety jakość tych punktów pozostawia często wiele do życzenia, a ich ilość w sposób znaczący utrudnia proces dopasowywania. Rysunek \ref{tt13} przedstawia punkty wyszukane przez algorytm FAST w obrazach z zestawu TREES. Jak widzimy ich ilość w sposób znaczący zaciemnia obraz.
 
 Większość algorytmów jest wrażliwa na stopień rozmycia, co przekłada się na czas lokalizowania punktów charakterystycznych. Na tym tle korzystnie wypada algorytm ORB, poprawiający swoje charakterystyki czasowe przy zachowanej stałej liczbie lokalizowanych punktów.
 
@@ -454,7 +454,7 @@ W przypadku obrazów o zróżnicowanych elementach najlepszy współczynnik traf
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/graff/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/graff/f1.png}
 \caption{GRAFFITI - ilość wyszukanych cech}
 \end{figure}
 
@@ -624,7 +624,7 @@ W przypadku obrazów o zróżnicowanych elementach najlepszy współczynnik traf
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/wall/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/wall/f1.png}
 \caption{WALL - ilość wyszukanych cech}
 \label{fig:wall_f1}
 \end{figure}
@@ -747,7 +747,7 @@ W przypadku obrazów o zróżnicowanych elementach najlepszy współczynnik traf
 \subsection{Dyskusja wyników}
 W przypadku zmiany położenia obserwatora algorytmy SURF i FAST górują wyraźnie nad pozostałymi w ilości lokalizowanych punktów charakterystycznych. Dla reszty algorytmów ilość lokalizowanych cech pozostaje na względnie stałym poziomie. Ze względu na rożną charakterystykę zbiorów WALL i GRAFFITI ciężko mówić o ujednoliconym trendzie zależnym od zmiany położenia.
 
-Stały czas lokalizownaia niezalezny od scenerii ma algorytm SURF. Należy jednak zwrócić uwage, że algorytm ten wskaźnik ten ma najwyższy spośród badanych metod. W przypadku pozostałych algorytmów wahania czasu rzadko przekraczają $0,02$  milisekundy, co pozwala nierozpatrywać tych zmian jako bardzo istotnych. Z grupy algorytmów wykorzystywanych w badaniu dopasowań najlepsze wyniki osiąga algorytm STAR, algortym SIFT i ORB osiągają zbliżone wyniki.
+Stały czas lokalizownaia niezalezny od scenerii ma algorytm SURF. Należy jednak zwrócić uwagę, że metoda ta wskaźnik ten ma najwyższy spośród badanych metod. W przypadku pozostałych algorytmów wahania czasu rzadko przekraczają $0,02$  milisekundy, co pozwala nierozpatrywać tych zmian jako bardzo istotnych. Z grupy algorytmów wykorzystywanych w badaniu dopasowań najlepsze wyniki osiąga algorytm STAR, algortym SIFT i ORB osiągają zbliżone wyniki.
 
 Najkorzystniejszy współczynnik czasu generowania deskryptora osiąga algorytm BRIEF i jego ewolucja w postaci algorytmu ORB. Wyjątkową niestabilnością charakteryzuje się kombinacja algorytmów STAR - SIFT. Metoda ta jest bardzo zależna od badanej sceny. Podobnie jednak jak w przypadku rozmycia obrazów zestawienie tych algorytmów wykazuje się najodporniejszym współczynnikiem powtarzalności w obrazach o "chropowatej" teksturze. Trzeba jednakże zaznaczyć, że wszystkie algorytmy są bardzo wrażliwe na zmiane położenia obserwatora co skutkuje ogromnym spadkiem powtarzalności.
 
@@ -818,7 +818,7 @@ W przypadku zmiany położenia obserwatora w w znaczący sposób spada również
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/bark/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/bark/f1.png}
 \caption{BARK - ilość wyszukanych cech}
 \label{fig:bark_f1}
 \end{figure}
@@ -993,7 +993,7 @@ W przypadku zmiany położenia obserwatora w w znaczący sposób spada również
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/boat/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/boat/f1.png}
 \caption{BOAT - ilość wyszukanych cech}
 \label{fig:boat_f1}
 \end{figure}
@@ -1179,7 +1179,7 @@ Rotacja połączona ze zmianą skali jest najbardziej wymagającym zbiorem i wyn
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/light/F1.png}
+\includegraphics[width=0.8\textwidth]{pict/mikolajczyk/light/f1.png}
 \caption{CARS -ilość wyszukanych cech}
 \label{fig:cars_f1}
 \end{figure}
