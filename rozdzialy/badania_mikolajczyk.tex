@@ -8,7 +8,7 @@ Zbiór testowy Mikołajczyka to opracowany przez doktora Krystiana Mikołajczyka
 \item rozmycie
 \item kompresja JPEG
 \end{itemize}
-Oryginalny zbiór zawiera 8 zestawów zawierające powyższe transformacje. Zbiory dotyczące położenia obserwatora, skali i rozmycia są zdublowane. Uczyniono to aby uniezależnić ocenę jakości pracy z  przekształcenie od charakterystyki obrazu. W przeprowadzonych badaniach zrezygnowano z testowania odporności algorytmów na kompresje JPEG. Ze względu na fakt, że zbiór Mikołajczyka jest często wykorzystywany w badaniach, zdecydowano się zachować angielskie nazewnictwo zestawów.
+Oryginalny zbiór zawiera 8 zestawów zawierające powyższe transformacje. Zbiory dotyczące położenia obserwatora, skali i rozmycia są zdublowane. Uczyniono to aby uniezależnić ocenę jakości pracy z  przekształcenie od charakterystyki obrazu. W przeprowadzonych badaniach zrezygnowano z testowania odporności algorytmów na kompresje JPEG. Ze względu na fakt, że zbiór Mikołajczyka jest często wykorzystywany w badaniach, zdecydowano się zachować angielskie nazewnictwo zestawów. Zbiór jest dostępny w internecie na stronie \textit{http://www.robots.ox.ac.uk/~vgg/research/affine/}.
 \FloatBarrier
 \newpage
 \section{Rozmycie obrazu}
@@ -747,11 +747,11 @@ W przypadku obrazów o zróżnicowanych elementach najlepszy współczynnik traf
 \subsection{Dyskusja wyników}
 W przypadku zmiany położenia obserwatora algorytmy SURF i FAST górują wyraźnie nad pozostałymi w ilości lokalizowanych punktów charakterystycznych. Dla reszty algorytmów ilość lokalizowanych cech pozostaje na względnie stałym poziomie. Ze względu na rożną charakterystykę zbiorów WALL i GRAFFITI ciężko mówić o ujednoliconym trendzie zależnym od zmiany położenia.
 
-Stały czas lokalizownaia niezalezny od scenerii ma algorytm SURF. Należy jednak zwrócić uwagę, że metoda ta wskaźnik ten ma najwyższy spośród badanych metod. W przypadku pozostałych algorytmów wahania czasu rzadko przekraczają $0,02$  milisekundy, co pozwala nierozpatrywać tych zmian jako bardzo istotnych. Z grupy algorytmów wykorzystywanych w badaniu dopasowań najlepsze wyniki osiąga algorytm STAR, algortym SIFT i ORB osiągają zbliżone wyniki.
+Stały czas lokalizowania niezależny od scenerii ma algorytm SURF. Należy jednak zwrócić uwagę, że metoda ta wskaźnik ten ma najwyższy spośród badanych metod. W przypadku pozostałych algorytmów wahania czasu rzadko przekraczają $0,02$  milisekundy, co pozwala nie rozpatrywać tych zmian jako bardzo istotnych. Z grupy algorytmów wykorzystywanych w badaniu dopasowań najlepsze wyniki osiąga algorytm STAR, algortym SIFT i ORB osiągają zbliżone wyniki.
 
-Najkorzystniejszy współczynnik czasu generowania deskryptora osiąga algorytm BRIEF i jego ewolucja w postaci algorytmu ORB. Wyjątkową niestabilnością charakteryzuje się kombinacja algorytmów STAR - SIFT. Metoda ta jest bardzo zależna od badanej sceny. Podobnie jednak jak w przypadku rozmycia obrazów zestawienie tych algorytmów wykazuje się najodporniejszym współczynnikiem powtarzalności w obrazach o "chropowatej" teksturze. Trzeba jednakże zaznaczyć, że wszystkie algorytmy są bardzo wrażliwe na zmiane położenia obserwatora co skutkuje ogromnym spadkiem powtarzalności.
+Najkorzystniejszy współczynnik czasu generowania deskryptora osiąga algorytm BRIEF i jego ewolucja w postaci algorytmu ORB. Wyjątkową niestabilnością charakteryzuje się kombinacja algorytmów STAR - SIFT. Metoda ta jest bardzo zależna od badanej sceny. Podobnie jednak jak w przypadku rozmycia obrazów zestawienie tych algorytmów wykazuje się najodporniejszym współczynnikiem powtarzalności w obrazach o "chropowatej" teksturze. Trzeba jednakże zaznaczyć, że wszystkie algorytmy są bardzo wrażliwe na zmianę położenia obserwatora co skutkuje ogromnym spadkiem powtarzalności.
 
-W przypadku zmiany położenia obserwatora w w znaczący sposób spada również procent trafnych dopasowań. Z analizy wyników dla scen WALL i GRAFFITI, widać, że algortmy lepiej radzą sobie dla zbiorów o "chropowatej" teksturze. Spowodowane to jest faktem, że większość metod opiera swe działanie o detekcje rogów. Na tym tle najlepiej wypadaja algorytmy ORB, SIFT i STAR-SIFT.
+W przypadku zmiany położenia obserwatora w w znaczący sposób spada również procent trafnych dopasowań. Z analizy wyników dla scen WALL i GRAFFITI, widać, że algorytmy lepiej radzą sobie dla zbiorów o "chropowatej" teksturze. Spowodowane to jest faktem, że większość metod opiera swe działanie o detekcje rogów. Na tym tle najlepiej wypadają algorytmy ORB, SIFT i STAR-SIFT.
 
 
 
@@ -809,7 +809,7 @@ W przypadku zmiany położenia obserwatora w w znaczący sposób spada również
     4 & 500 & 1672 & 5773 & 1014 & 18678 \\
     5 & 500 & 1593 & 5887 & 854 & 18524 \\
     6 & 500 & 1643 & 6226 & 1063 & 20723 \\\hline
-    \textbf{srednia} & \textbf{500} & \textbf{1761} & \textbf{5523} & \textbf{937} & \textbf{17332} \\\hline
+    \textbf{średnia} & \textbf{500} & \textbf{1761} & \textbf{5523} & \textbf{937} & \textbf{17332} \\\hline
     
     \end{tabular}%
   \label{tab:bark_f1}%
@@ -1113,11 +1113,11 @@ W przypadku zmiany położenia obserwatora w w znaczący sposób spada również
 \end{figure}
 \FloatBarrier
 \subsection{Dyskusja wyników}
-Dla zestawów poddanych rotacji i zmianie skali możemy zaobserwować większość trendów widocznych w poprzednich próbach. Najwieksze wahnięcia w ilości lokalizowanych puntków obserwujemy dla algorytmu FAST. Pozostałe metody lokalizują zbliżoną liczbę punktów w obrębie zestawów.
+Dla zestawów poddanych rotacji i zmianie skali możemy zaobserwować większość trendów widocznych w poprzednich próbach. Najwieksze wahnięcia w ilości lokalizowanych punktów obserwujemy dla algorytmu FAST. Pozostałe metody lokalizują zbliżoną liczbę punktów w obrębie zestawów.
 
 Średni czas lokalizowania cechy dla większości algorytmów jest stały niezależnie od zbioru. Najstabilniejszy pod tym względem jest algorytm ORB. Wyniki czasowe algorytmu SIFT są najbardziej zróżnicowane. Algorytm ten osiąga jednakże najlepsze wyniki pod względem powtarzalności lokalizowanych cech.
 
-Pod względem czasu generowanie deskryptora zachowana zostaje zachowana klasyfikacja algorytmów jak w przypadku wczesniejszych zbiorów. Tradycyjnie najgorsze wyniki w tym polu osiąga kombinacja STAR-SIFT. O ile w przypadku wcześniejszych zbiorów kombinacja ta osiągała dobre wyniki w obszarze dopasowań, o tyle dla zbiorów BARK i BOAT, algorytm nie działa.
+Pod względem czasu generowanie deskryptora zachowana zostaje zachowana klasyfikacja algorytmów jak w przypadku wcześniejszych zbiorów. Tradycyjnie najgorsze wyniki w tym polu osiąga kombinacja STAR-SIFT. O ile w przypadku wcześniejszych zbiorów kombinacja ta osiągała dobre wyniki w obszarze dopasowań, o tyle dla zbiorów BARK i BOAT, algorytm nie działa.
 
 Rotacja połączona ze zmianą skali jest najbardziej wymagającym zbiorem i wyniki osiągane przez wszystkie algorytmy są słabe. Po analizie wyników zdecydowano się w przypadku badań obszarów skalnych zbiór ten podzielić na dwa, reprezentujące jeden typ przekształcenia.
 

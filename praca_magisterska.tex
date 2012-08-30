@@ -43,6 +43,48 @@
 \appendix
 \chapter{Opis aplikacji testowej}
 \label{dodatek_opis_aplikacji}
+Na potrzeby niniejszej pracy powstał program testowy napisany w języku C\#. Wykorzystuje on bibliotekę przetwarzania obrazów OpenCV w wersji 2.4. OpenCV jest wieloplatformową biblioteką o otwartym kodzie dostarczającą szereg rozwiązań z zakresu obróbki obrazów i widzenia maszynowego. Ze względu, na to, że bibliotek jest napisana w językach C i C++ w programie testowym zastosowano nakładkę EmguCV. EmguCV pozwala na wykorzystywanie OpenCV w programach działających na platformie .NET. 
+
+Źródła bibliotek OpenCV i EmguCV można znaleźć pod adresami:
+\begin{itemize}
+\item \textit{www.opencv.org}
+\item \textit{www.emgu.com}
+\end{itemize}
+
+Aplikacja posiada interfejs graficzny napisany z wykorzystaniem technologii Windows Presentation Foundation. \newline
+\newline
+\textbf{Instrukcja obsługi:}
+
+
+\begin{itemize}
+\item Po uruchomieniu programu użytkownikowi ukazuje się okno aplikacji ustawione na zakładce START. Służy ona wybraniu folderu z zestawem obrazów oraz algorytmów poddawanych badaniu. {[rysunek \ref{pict:a1}]}
+
+\item Użytkownik ma możliwość zdefiniowania parametrów wejściowych testowanego algorytmu. W tym celu należy przejść do zakładki odpowiadającej badanej metodzie.  Ze względu na olbrzymią liczbę dostępnych kombinacji wszystkie algorytmy były testowane na ustawieniach domyślnych. {[rysunek \ref{pict:a2}]}
+
+\item Badania uruchamiane są po kliknięciu przycisk START widoczny w pierwszej zakładce. Wyniki prezentowane są w zakładce odpowiadającej badanemu algorytmowi oraz zapisywane do pliku w folderze ze zbiorem wejściowym. {[rysunek \ref{pict:a3}]}
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[height=7cm]{pict/podsumowanie/1.jpg}
+\caption{Okno startowe aplikacji testowej}
+\label{pict:a1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height=7cm]{pict/podsumowanie/3.jpg}
+\caption{Przykładowa zakładka algorytmu - konfiguracja}
+\label{pict:a2}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height=7cm]{pict/podsumowanie/2.jpg}
+\caption{Przykładowa zakładka algorytmu - prezentacja wyników}
+\label{pict:a3}
+\end{figure}
+
 \chapter{Zawartość płyty DVD}
 Do pracy została dołączona płyta DVD zawierająca:
 \begin{itemize}

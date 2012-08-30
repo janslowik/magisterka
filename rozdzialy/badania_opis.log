@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  30 AUG 2012 13:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  30 AUG 2012 19:55
 entering extended mode
 **badania_opis.tex
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy\badania_opis.tex
@@ -1512,11 +1512,6 @@ Overfull \hbox (45.05566pt too wide) in paragraph at lines 24--24
  []
 
 
-Overfull \hbox (31.66676pt too wide) in paragraph at lines 24--24
-\OT1/cmr/m/n/10 badany
- []
-
-
 Overfull \hbox (30.86115pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 zrezyg-
  []
@@ -1953,6 +1948,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no Å in font nullfont!
 Missing character: There is no ¼ in font nullfont!
 Missing character: There is no e in font nullfont!

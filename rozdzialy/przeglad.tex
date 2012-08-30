@@ -1,5 +1,5 @@
 \chapter{Przegląd algorytmów wyszukujących cechy obrazów}
-Poszukując algorytmów służących do lokalizowania cech charakterystycznych obrazów posłużono się badaniami \cite{IK111}, \cite{IK112}. Autor w oparciu o prace \cite{LIFDAS} dokonał zestawienia popularnych metod zaimplementowanych w służacych do przetwarzania obrazów bibliotece OpenCV (wersje 2.2.0 i 2.3.1). Algorytmy były badane na testowym zbiorze obrazów przedstawionym na rysunku \ref{fig:zestaw_obrazow_start} poddanego przekształceniom programowym. Wyniki badań prezentują rezultaty od \ref{fig:Number-of-detected-features_thumb}, do \ref{fig:Percent-of-tracked-feature_thumb}.
+Poszukując algorytmów służących do lokalizowania cech charakterystycznych obrazów posłużono się badaniami \cite{IK111}, \cite{IK112}. Autor w oparciu o prace \cite{LIFDAS} dokonał zestawienia popularnych metod zaimplementowanych w służących do przetwarzania obrazów bibliotece OpenCV (wersje 2.2.0 i 2.3.1). Algorytmy były badane na testowym zbiorze obrazów przedstawionym na rysunku \ref{fig:zestaw_obrazow_start} poddanego przekształceniom programowym. Wyniki badań prezentują rezultaty od \ref{fig:Number-of-detected-features_thumb}, do \ref{fig:Percent-of-tracked-feature_thumb}.
 
 \begin{figure}[!htb]
 \begin{center}
@@ -88,13 +88,13 @@ Obrazy rozmyte i oryginalny są grupowane w oktawę. Następnie obraz oryginalny
 \end{figure}
 
 \subsubsection{Różnica Gaussianów}
-Kolejnym krokiem jest odjęcie od siebie sąsiadujących obrazów w oktawie. Uzyskane w ten sposób obrazy nazywamy różnicą gausiannów (ang. DoG – Difference  of Gaussian). Z każdej 5 obrazowej oktawy otrzymujemy 4 obrazy różnicowe.
+Kolejnym krokiem jest odjęcie od siebie sąsiadujących obrazów w oktawie. Uzyskane w ten sposób obrazy nazywamy różnicą Gausiannów (ang. DoG – Difference  of Gaussian). Z każdej 5 obrazowej oktawy otrzymujemy 4 obrazy różnicowe.
 \begin{align}
 D(x,y,\sigma) &= (G(x,y,k\sigma)-G(x,y,\sigma))*I(x,y)\\
 &= L(x,y,k\sigma) - L(x,y,\sigma)
 \end{align}
 
-Różnica gaussianów jest efektywną aproksymacją innej operacji służącej do lokalizowania punktów charakterystycznych – skalowo znormalizowanego Laplasianu Gausjanów $\sigma^2\nabla^2G$ (ang. LoG – Laplacian of Gaussian). Ekstrema LoG dostarczają znacznie bardziej stabilnych punktów charakterystycznych niż detektory takie jak Hessian czy funkcja Harrisa.
+Różnica Gaussianów jest efektywną aproksymacją innej operacji służącej do lokalizowania punktów charakterystycznych – skalowo znormalizowanego Laplasianu Gausjanów $\sigma^2\nabla^2G$ (ang. LoG – Laplacian of Gaussian). Ekstrema LoG dostarczają znacznie bardziej stabilnych punktów charakterystycznych niż detektory takie jak Hessian czy funkcja Harrisa.
 \begin{equation}
 \frac{\partial G}{\partial \sigma}  = \sigma {\nabla}^2 G
 \end{equation}
@@ -559,7 +559,7 @@ W celu minimalizacji błędów spowodowanych geometrycznymi deformacjami odpowie
 \label{fig:surf_bay_scale_descriptor}
 \end{figure}
 
-Falki w obrębie jednego subregionu są sumowane. Ponadto sumowaniu poddawne są wartości bezwzględne falek. Zabieg ten ma na celu pozyskanie informacji o biegunowości instensywności zmian. W wyniku tych działań otrzymujemy 4 wymiarowy wektor opisujący subregion.
+Falki w obrębie jednego subregionu są sumowane. Ponadto sumowaniu poddane są wartości bezwzględne falek. Zabieg ten ma na celu pozyskanie informacji o biegunowości intensywności zmian. W wyniku tych działań otrzymujemy 4 wymiarowy wektor opisujący subregion.
 
 \begin{equation}
 v_{subregion} = \left[ \sum d_x,\sum d_y,\sum |d_x|,\sum |d_y|\right] 
@@ -627,7 +627,7 @@ gdzie $\alpha$ jest stałą zależną od rodzaju stosowanego filtru. Gdy $\alpha
 \subsection{Lokalizowanie punktów charakterystycznych}
 
 
-Do lokalizowania punktów charakterystycznych algorytm STAR wykorzystuje dwustopniowe filtry otoczeniowo-centryczne, stanowiące łatwą i szybką w obliczeniach aproksymacje Laplasjanu. W STAR zastosowano inspirowany falkami Haara dwustopniowy filtr otoczeniowo-centryczny[rys. \ref{fig:star_bi_filters}].
+Do lokalizowania punktów charakterystycznych algorytm STAR wykorzystuje dwustopniowe filtry otoczeniowo-centryczne, stanowiące łatwą i szybką w obliczeniach aproksymacje Laplasjanu. W STAR zastosowano inspirowany falkami Haara dwustopniowy filtr otoczeniowo-centryczny [rys. \ref{fig:star_bi_filters}].
 
 
 
@@ -1064,7 +1064,7 @@ Jedną z niewątpliwych zalet algorytmu BRIEF jest to że każdy bit jego deskry
 
 Wysoka wariancje czyni deskryptory bardziej dyskryminacyjnymi co jest pożądanym zjawiskiem, gdyż generuje bardziej zróżnicowane odpowiedzi dla punktów o podobnych parametrach. 
 
-Kolejnym ważnym aspektem  jest również to aby kolejne bity deskryptora były ze sobą nieskorelowane. Autorzy algorytmu dla badanego zbioru 100 tysięcy punktów dokonali analizy głównych składowych (ang. PCA) otrzymywanych deskryptorów. Wyniki tego badania przedstawia wykres \ref{fig:orb_wykres_4}. Na podstawie analizy wykreślono 40 najwyższych wartości własnych, po których zarówno deskyptory BRIEF jak steered BRIEF się pokrywają. Obie motody wykazują wysokie wejściowe wartości własne, wskazujące na korelacje testów binarnych. Większość informacji jest zawarta w pierwszych 15 komponentach. Algorytm steered BRIEF ma znacznie mniejszą wariancję, aczkolwiek przy mniejszych wartościach własnych przestaje być dyskryminacyjnym. Na podstawie tego można stwierdzić, że BRIEF zawdzięcza swoja dobre wyniki losowej orientacji punktów charakterystycznych.
+Kolejnym ważnym aspektem  jest również to aby kolejne bity deskryptora były ze sobą nieskorelowane. Autorzy algorytmu dla badanego zbioru 100 tysięcy punktów dokonali analizy głównych składowych (ang. PCA) otrzymywanych deskryptorów. Wyniki tego badania przedstawia wykres \ref{fig:orb_wykres_4}. Na podstawie analizy wykreślono 40 najwyższych wartości własnych, po których zarówno deskryptory BRIEF jak steered BRIEF się pokrywają. Obie motody wykazują wysokie wejściowe wartości własne, wskazujące na korelacje testów binarnych. Większość informacji jest zawarta w pierwszych 15 komponentach. Algorytm steered BRIEF ma znacznie mniejszą wariancję, aczkolwiek przy mniejszych wartościach własnych przestaje być dyskryminacyjnym. Na podstawie tego można stwierdzić, że BRIEF zawdzięcza swoja dobre wyniki losowej orientacji punktów charakterystycznych.
 
 Innym niekorzystnym efektem towarzyszącym deskryptorowi steered BRIEF jest zmniejszenie dystansu miedzy punktami pokrywającymi się i odstającymi co przedstawiono na wykresie \ref{fig:orb_wykres_5}. Może to powodować nie pożądane nachodzenie na siebie punktów poprawnych i złych, a co za tym idzie powodować fałszywe dopasowania.
 

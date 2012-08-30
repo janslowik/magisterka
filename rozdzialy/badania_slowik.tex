@@ -551,9 +551,9 @@ Rozdzielczość: $1024 \times 768$\\
 
 \FloatBarrier
 \subsection{Dyskusja wyników}
-Dla przygotowanych zbiorów wszystkie algorytmy wykazują stabilność wskaźników takich jak ilość generowanych lokalizowanych punktów i charakterystyki czasowe. Tradycjnie o algorytm FAST lokalizuje o rząd wielkości więcej punktów, kolejne w kolejności są algorytmy SURF, SIFT, STAR i ograniczony parametrycznie ORB.
+Dla przygotowanych zbiorów wszystkie algorytmy wykazują stabilność wskaźników takich jak ilość generowanych lokalizowanych punktów i charakterystyki czasowe. Tradycyjnie o algorytm FAST lokalizuje o rząd wielkości więcej punktów, kolejne w kolejności są algorytmy SURF, SIFT, STAR i ograniczony parametrycznie ORB.
 
-Czasy lokalizowania punktu przes FAST są również znikomo małe. W zależności od badanej sceny czas lokalizowania przez algorytm ORB może zmieniać się o blisko 100\%. Algorytm ten spowalnia dla obrazów o dużym stopniu przybliżenia. Prawdopodobnie spowodowane dużą szczegółowością obrazów, a co za tym idzie dużą liczbą zgrubnych punktów charakterystycznych, które trzeba ocenić miarą Harrisa. Na tle tych charaktestyk czasowych najlepsze wyniki osiąga algorytm STAR.
+Czasy lokalizowania punktu przez FAST są również znikomo małe. W zależności od badanej sceny czas lokalizowania przez algorytm ORB może zmieniać się o blisko 100\%. Algorytm ten spowalnia dla obrazów o dużym stopniu przybliżenia. Prawdopodobnie spowodowane dużą szczegółowością obrazów, a co za tym idzie dużą liczbą zgrubnych punktów charakterystycznych, które trzeba ocenić miarą Harrisa. Na tle tych charakterystyk czasowych najlepsze wyniki osiąga algorytm STAR.
 
 Czas generowania deskryptora można uznać za stały niezależnie od typu obrazów. Podobnie jak w badaniach dla zbioru Mikołajczyka kombinacja STAR-SIFT jest w sposób radykalny najwolniejszą w tej kategorii.
 
@@ -1131,7 +1131,7 @@ Rozdzielczość: $1024 \times 768$
 \subsection{Dyskusja wyników}
 Większość algorytmów niezależnie od stopnia przybliżenia generuje zbliżoną liczbę punktów charakterystycznych. Podobnie jak w poprzednich testach najwięcej cech lokalizuje algorytm FAST, potem SURF, następnie SIFT, STAR i stało wartościowy ORB.
 
-Charakterstyki czasowe również pozostają stałe dla obrazów w zbiorze. Najwolniej punkty lokalizują algorytmy SURF i ORB, z kolei najwolniejszym deskryptorem jest kooeprujący z algorytmem STAR, deskryptor SIFT.
+Charakterystyki czasowe również pozostają stałe dla obrazów w zbiorze. Najwolniej punkty lokalizują algorytmy SURF i ORB, z kolei najwolniejszym deskryptorem jest kooperujący z algorytmem STAR, deskryptor SIFT.
 
 Metoda ta jednak osiąga najlepszy współczynnik powtarzalności. Dla większości algorytmów wskaźnik ten znacząco spada przy zmianie skali większej niż $0,5$.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  30 AUG 2012 13:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.21)  30 AUG 2012 22:20
 entering extended mode
 **praca_magisterska.tex
 (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.tex
@@ -2558,13 +2558,40 @@ Rozdzia\PlPrIeC {\l } 6.
 
 ]
 Dodatek A.
-[111
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+<pict/podsumowanie/1.jpg, id=657, 750.55406pt x 599.99156pt>
+File: pict/podsumowanie/1.jpg Graphic file (type jpg)
+
+<use pict/podsumowanie/1.jpg>
+Package pdftex.def Info: pict/podsumowanie/1.jpg used on input line 69.
+(pdftex.def)             Requested size: 249.14952pt x 199.16928pt.
+
+<pict/podsumowanie/3.jpg, id=658, 750.55406pt x 599.99156pt>
+File: pict/podsumowanie/3.jpg Graphic file (type jpg)
+
+<use pict/podsumowanie/3.jpg>
+Package pdftex.def Info: pict/podsumowanie/3.jpg used on input line 76.
+(pdftex.def)             Requested size: 249.14952pt x 199.16928pt.
+
+<pict/podsumowanie/2.jpg, id=659, 751.30687pt x 623.32875pt>
+File: pict/podsumowanie/2.jpg Graphic file (type jpg)
+
+<use pict/podsumowanie/2.jpg>
+Package pdftex.def Info: pict/podsumowanie/2.jpg used on input line 83.
+(pdftex.def)             Requested size: 240.05626pt x 199.16928pt.
+ [111
 
 
 
-]
+] [112 <C:/Users/jslowik/Documents/GitHub/magisterka/pict/podsumowanie/1.jpg> <
+C:/Users/jslowik/Documents/GitHub/magisterka/pict/podsumowanie/3.jpg> <C:/Users
+/jslowik/Documents/GitHub/magisterka/pict/podsumowanie/2.jpg>]
 Dodatek B.
-(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.bbl [112
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.bbl [113
 
 
 ]
@@ -2591,27 +2618,27 @@ Underfull \hbox (badness 6592) in paragraph at lines 57--62
 -tion al-go-ri-
  []
 
-[113
+[114
 
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
-) [114]
-(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lof [115
+) [115]
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lof [116
 
 
 ]
-[116] [117])
+[117] [118])
 \tf@lof=\write5
- [118]
-(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lot [119
+ [119]
+(C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.lot [120
 
 
 ])
 \tf@lot=\write6
 
-[120] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.aux
+[121] (C:\Users\jslowik\Documents\GitHub\magisterka\praca_magisterska.aux
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/wstep.aux)
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/przeglad.aux)
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_opis.aux)
@@ -2619,10 +2646,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 ) (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/badania_slowik.aux)
 (C:\Users\jslowik\Documents\GitHub\magisterka\rozdzialy/podsumowanie.aux)) ) 
 Here is how much of TeX's memory you used:
- 4302 strings out of 494045
- 74337 string characters out of 3148381
- 119891 words of memory out of 3000000
- 7348 multiletter control sequences out of 15000+200000
+ 4321 strings out of 494045
+ 74730 string characters out of 3148381
+ 119927 words of memory out of 3000000
+ 7363 multiletter control sequences out of 15000+200000
  29379 words of font info for 68 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  27i,15n,24p,1018b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2658,9 +2685,9 @@ ublic/pl/plr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/pl/plsy8.pfb>
-Output written on praca_magisterska.pdf (122 pages, 19211321 bytes).
+Output written on praca_magisterska.pdf (123 pages, 19601057 bytes).
 PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
+ 1427 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1026 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1041 words of extra memory for PDF output out of 10000 (max. 10000000)
 
