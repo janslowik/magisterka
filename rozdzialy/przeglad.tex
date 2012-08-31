@@ -66,7 +66,7 @@ W działaniu algorytmu możemy wyróżnić 4 etapy przetwarzania:
 \item Przypisanie orientacji punktom charakterystycznym.
 \item Budowa deskryptorów punktów charakterystycznych.
 \end{enumerate}
-\subsection{Detekcja skalo-przestrzennych ekstremów}
+\subsection{Lokalizacja punktów charakterystycznych}
 \subsubsection{Rozmycie Gaussowskie}
 Pierwszym krokiem służącym pozyskaniu punktów charakterystycznych obrazu w jest wygenerowanie jego reprezentacji skalo-przestrzennej (ang. scale-space).  Oryginalny obraz I(x,y) jest poddawany progresywnemu rozmyciu poprzez operację splotu ze jądrem rozmycia gaussowskiego $G(x,y,\sigma)$. W wyniku działania tej operacji otrzymujemy rozmyty obraz $L(x,y,\sigma)$. 
 \begin{equation}
@@ -384,7 +384,7 @@ Dzięki zastosowaniu obrazów całkowych i błyskawicznie skalowalnych okien roz
 Każde okno rozmycia jest kwadratem o boku $3l$ które można opisać za pomocą następujących wyrażeń:
 
 \begin{align}
- l &= 2^oi+1\\
+ l &= 2^oi+1
 \label{eqn:liczym_l}
 \end{align}
 gdzie:
@@ -400,7 +400,7 @@ i & - & stopień rozmycia w oktawie &&$i=1,2,3,4$\\
 W związku z powyższym wzór na odchylenie standardowe rozmycia Gaussa $\sigma$ możemy zapisać:
 
 \begin{align}
-\sigma &= \frac{1.2}{3}l\\
+\sigma &= \frac{1.2}{3}l
 \label{eqn:sigma_o_i_l}
 \end{align}
 
@@ -712,8 +712,8 @@ Algorytm FAST (skr. Features from Accelerated Segment Test) został opublikowany
 W odróżnieniu do wcześniej omawianych algorytmów FAST nie dokonuje "globalnej" analizy obrazu w poszukiwaniu cech charakterystycznych. Wykorzystując algorytmy uczenia maszynowego bada małe wycinki obrazu.
 
 FAST nie dokonuje wieloskalowego poszukiwania punktów charakterystycznych. Chcąc osiągnąć niezależność od skali z oryginalnego obrazu należy wygenerować piramidę skalową, czyli zbiór obrazów reprezentujących widoki w różnych skalach.
-
-\subsection{Zasady egzaminowania}
+\subsection{Lokalizowanie punktów charakterystycznych}
+\subsubsection{Zasady badania punktów}
 Jak wspomniano we wstępie, algorytm FAST należy do grupy algorytmów badających indywidualnie segmenty obrazu. Segment stanowi punkt $p$ i utworzony wokół niego okrąg składający się z 16 pikseli [rys. \ref{fig:fast_test_segment}]. 
 
 Punkt $p$ jest uznawany jako róg jeżeli istnieje zbiór $n$ sąsiadujących pikseli okręgu, które są jaśniejsze od  intensywności punktu $p$ powiększonej o wartość progu $t$ ($I_p + t$), lub ciemniejsze od intensywności punktu $p$ pomniejszonej o próg $t$ ($I_p - t$). 
@@ -741,7 +741,7 @@ Przytoczona metoda cechuję się dużą wydajnością, aczkolwiek jej autorzy zw
 
 
 
-\subsection{Uczenie maszynowe}
+\subsubsection{Uczenie maszynowe}
 Algorytm FAST w swoim działaniu wykorzystuje metody uczenia maszynowego. Proces ten jest podzielony na dwa etapy:
 \begin{enumerate}
 \item budowa detektora rogów
@@ -841,7 +841,7 @@ S_{ciemne} = \left\lbrace x|I_{p\rightarrow x} \leq I_{p} - t \right\rbrace
 \end{equation}
 
 \subsection{Budowa deskryptora}
-Algorytm FAST rozwiązuje jedynie problem lokalizowania punktów charakterystycznych jakimi są rogi. Nie dostarcza on, żadnego rozwiązania opisującego punkty charakterystyczne. Aby móc w praktyce stosować algorytm należy go połączyć z innym algorytmem dostarczającym deskryptor. Mogą to być deskryptory gradientowe takie jak zastosowano w algorytmach SIFT, SURF lub też opisany w kolejnym pod rozdziale algorytm BRIEF.
+Algorytm FAST rozwiązuje jedynie problem lokalizowania punktów charakterystycznych jakimi są rogi. Nie dostarcza on, żadnego rozwiązania opisującego punkty charakterystyczne. Aby móc w praktyce stosować algorytm należy go połączyć z innym algorytmem dostarczającym deskryptor. Mogą to być deskryptory gradientowe takie jak zastosowano w algorytmach SIFT, SURF lub też opisany w kolejnym podrozdziale algorytm BRIEF.
 \FloatBarrier
 \newpage
 \section{Algorytm BRIEF}
@@ -893,12 +893,12 @@ Zasada działania algorytmu jest bardzo prosta, aczkolwiek do pełnego jego opis
 \end{itemize}
 
 
-\subsection{Wstępne rozmycie obrazu}
+\subsection{Przetwarzanie opisywanego obrazu}
 Dzięki zastosowaniu prostego testu jakim jest porównanie jasności udało się uniknąć nakładu obliczeń jaki towarzyszy deskryptorom gradientowym. Powoduje to jednakże zwiększoną wrażliwość algorytmu na zaszumienie obrazu. Z tego powodu aby poprawić stabilność deskryptora oryginalny obraz przed obliczeniem wskaźników do punktów charakterystycznych należy poddać rozmyciu. 
 
 \begin{figure}
 \centering
-\includegraphics[scale=1]{pict/02/brief/sigma_comp.png}
+\includegraphics[scale=0.8]{pict/02/brief/sigma_comp.png}
 \caption{Skuteczność rozpoznawania deskryptorów w zależności od stopnia wstępnego rozmycia obrazu}
 \label{fig:brief_sigma_comp}
 \end{figure}
@@ -923,19 +923,19 @@ Zaproponowane metody próbkowania zostały przebadane na zbiorze testowym Mikoł
 \centering
 
 \subfigure[G I]{
-\includegraphics{pict/02/brief/G1.png}
+\includegraphics[height=4cm]{pict/02/brief/G1.png}
 }
 \subfigure[G II]{
-\includegraphics{pict/02/brief/G2.png}
+\includegraphics[height=4cm]{pict/02/brief/G2.png}
 }
 \subfigure[G III]{
-\includegraphics{pict/02/brief/G3.png}
+\includegraphics[height=4cm]{pict/02/brief/G3.png}
 }
 \subfigure[G IV]{
-\includegraphics{pict/02/brief/G4.png}
+\includegraphics[height=4cm]{pict/02/brief/G4.png}
 }
 \subfigure[G V]{
-\includegraphics{pict/02/brief/G5.png}
+\includegraphics[height=4cm]{pict/02/brief/G5.png}
 }
 \caption{Przegląd metod losowania par punktów do testu binarnego}
 \label{fig:brief_dist}
@@ -943,7 +943,7 @@ Zaproponowane metody próbkowania zostały przebadane na zbiorze testowym Mikoł
 
 \begin{figure}
 \centering
-\includegraphics[scale=1]{pict/02/brief/G_comp.png}
+\includegraphics[scale=0.8]{pict/02/brief/G_comp.png}
 \caption{Skuteczność metod losowania par badana na zbiorze Mikołajczka WALL}
 \label{fig:brief_G_comp}
 \end{figure}
@@ -960,66 +960,23 @@ Do lokalizowania punktów charakterystycznych algorytm ORB wykorzystuje zmodyfik
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth]{pict/02/orb/orb_wykres_2.png}
-\caption{podpis}
+\caption{Porównanie błędu określenia orientacji punktu w oparciu o środek ciężkości i metod gradientowych}
 \label{fig:orb_wykres_2}
 \end{figure}
 
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{pict/02/orb/orb_wykres_3.png}
-\caption{podpis}
-\label{fig:orb_wykres_3}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{pict/02/orb/orb_wykres_4.png}
-\caption{podpis}
-\label{fig:orb_wykres_4}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{pict/02/orb/orb_wykres_5.png}
-\caption{podpis}
-\label{fig:orb_wykres_5}
-\end{figure}
 
 
 
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{pict/02/orb/orb_wykres_6.png}
-\caption{podpis}
-\label{fig:orb_wykres_6}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{pict/02/orb/orb_wykres_7.png}
-\caption{podpis}
-\label{fig:orb_wykres_7}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{pict/02/orb/orb_wykres_8.png}
-\caption{podpis}
-\label{fig:orb_wykres_8}
-\end{figure}
 
 Pierwszym krokiem w działaniu algorytmu jest "zgrubne" zlokalizowanie punktów charakterystycznych. Realizuje się to za pomocą detektora FAST-9, gdzie 9 oznacza ilość ciągłych pikseli w okręgu lokalizującym róg.
 
+\subsection{Selekcja punktów charakterystycznych}
 Oryginalny algorytm FAST nie dostarcza żadnej miary jakości zlokalizowanego rogu,  skutkiem czego jest dosyć wrażliwy na zakłócenia spowodowane odpowiedzią krawędziową. W efekcie bardzo często dostajemy bardzo dużą liczbę punktów charakterystycznych, niestety o słabej jakości. 
 
 Rozwiązaniem powyższego problemu jest zastosowanie detektora Harrisa do oceniania punktów charakterystycznych. Algorytm ORB jako jeden z argumentów przyjmuje pożądaną liczbę punktów charakterystycznych oznaczoną przez N. Znając liczbę N algorytm tak ustala się wartość progu miary Harrisa aby uzyskać zbiór punktów, których ilość przekracza N. Następnie zbiór ten jest sortowany i wybiera się z niego N najlepszych punktów. W zastosowaniach praktycznych wartość liczby N ustala się najczęściej na 500. Zwiększenie tej liczby powoduje otrzymanie większej liczby punktów charakterystycznych, ale często gorszej jakości i nachodzące na punkty z grupy pięciuset.
 
 Kolejnym wadę algorytmu FAST jest jego wrażliwość na skalowanie obrazu. W przypadku detektora oFAST zastosowano omawiany wcześniej mechanizm piramidy skalo-przestrzennej.
-
+\subsection{Określenie orientacji punktów charakterystycznych}
 Do określenia orientacji rogu będącego punktem charakterystycznym zastosowano miarę intensywności środka ciężkości \cite{centroid}. Metoda ta zakłada, że intensywność rogu jest przesunięta względem jego środka. Wektor przesunięcia jest używany do określenie orientacji punktu charakterystycznego. 
 
 Definiując dla badanego wycinka momenty jako:
@@ -1060,13 +1017,38 @@ Otrzymany zbiór jest poddawany temu samemu testowi jak w przypadku oryginalnego
 
 W celu usprawnienia pracy algorytmu orientacje punktów charakterystycznych poddawane są kwantyzacji. Dla zakresu $360^o$ przyjęto się 30 przedziałów $12^o$ do których może zostać zakwalifikowana orientacja punktu. Każdy z przedziałów posiada własny wzorzec punktów poddawanych testom.
 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{pict/02/orb/orb_wykres_3.png}
+\caption{Rozkład wartości średniej dla wektorów BRIEF, steered BRIEF i rBRIEF}
+\textit{Oś X reprezentuje różnicę od wartości średniej równej $0,5$}
+\label{fig:orb_wykres_3}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{pict/02/orb/orb_wykres_4.png}
+\caption{Rozkład wartości własnych wektorów deskryptorów po dekompozycji metodą PCA}
+\textit{Dekompozycji dokonano dla zbioru 100 tysięcy punktów charakterystycznych}
+\label{fig:orb_wykres_4}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{pict/02/orb/orb_wykres_7.png}
+\caption{Skuteczność dopasowań dla algorytmów SIFT, SURF i FAST-BRIEF i ORB dla programowo obróconego zaszumionego obrazu}
+\label{fig:orb_wykres_7}
+\end{figure}
+
 Jedną z niewątpliwych zalet algorytmu BRIEF jest to że każdy bit jego deskryptora ma dużą wariancje i wartość średnią na poziomie $0,5$. Wykres \ref{fig:orb_wykres_3} prezentuje rozrzut wartości średniej dla typowego gaussowskiego wzorca 256 bitowego deskryptora BRIEF dla zbioru 100 tysięcy punktów charakterystycznych. Wartość średnia $0,5$ daje największą wariancje próbkowania na poziomie $0,25$ dla pojedynczego bitu. Zastosowanie "ukierunkowanego" algorytmu BRIEF powoduje przesunięcie wartości średniej w stronę rozkładu typowego dla wzorca odpowiadającego danemu kątowi orientacji. Powoduje to zbytnie upodobnienie się deskryptorów punktów zakwalifikowanych do tego samego przedziału orientacji.
 
 Wysoka wariancje czyni deskryptory bardziej dyskryminacyjnymi co jest pożądanym zjawiskiem, gdyż generuje bardziej zróżnicowane odpowiedzi dla punktów o podobnych parametrach. 
 
-Kolejnym ważnym aspektem  jest również to aby kolejne bity deskryptora były ze sobą nieskorelowane. Autorzy algorytmu dla badanego zbioru 100 tysięcy punktów dokonali analizy głównych składowych (ang. PCA) otrzymywanych deskryptorów. Wyniki tego badania przedstawia wykres \ref{fig:orb_wykres_4}. Na podstawie analizy wykreślono 40 najwyższych wartości własnych, po których zarówno deskryptory BRIEF jak steered BRIEF się pokrywają. Obie motody wykazują wysokie wejściowe wartości własne, wskazujące na korelacje testów binarnych. Większość informacji jest zawarta w pierwszych 15 komponentach. Algorytm steered BRIEF ma znacznie mniejszą wariancję, aczkolwiek przy mniejszych wartościach własnych przestaje być dyskryminacyjnym. Na podstawie tego można stwierdzić, że BRIEF zawdzięcza swoja dobre wyniki losowej orientacji punktów charakterystycznych.
+Kolejnym ważnym aspektem  jest również to aby kolejne bity deskryptora były ze sobą nieskorelowane. Autorzy algorytmu dla badanego zbioru 100 tysięcy punktów dokonali analizy głównych składowych (ang. PCA) otrzymywanych deskryptorów. Wyniki tego badania przedstawia wykres \ref{fig:orb_wykres_4}. Na podstawie analizy wykreślono 40 najwyższych wartości własnych, po których zarówno deskryptory BRIEF jak steered BRIEF się pokrywają. Obie metody wykazują wysokie wejściowe wartości własne, wskazujące na korelacje testów binarnych. Większość informacji jest zawarta w pierwszych 15 komponentach. Algorytm steered BRIEF ma znacznie mniejszą wariancję, aczkolwiek przy mniejszych wartościach własnych przestaje być dyskryminacyjnym. Na podstawie tego można stwierdzić, że BRIEF zawdzięcza swoja dobre wyniki losowej orientacji punktów charakterystycznych.
 
-Innym niekorzystnym efektem towarzyszącym deskryptorowi steered BRIEF jest zmniejszenie dystansu miedzy punktami pokrywającymi się i odstającymi co przedstawiono na wykresie \ref{fig:orb_wykres_5}. Może to powodować nie pożądane nachodzenie na siebie punktów poprawnych i złych, a co za tym idzie powodować fałszywe dopasowania.
+Innym niekorzystnym efektem towarzyszącym deskryptorowi steered BRIEF jest zmniejszenie dystansu miedzy punktami pokrywającymi się i odstającymi. Może to powodować nie pożądane nachodzenie na siebie punktów poprawnych i złych, a co za tym idzie powodować fałszywe dopasowania.
 
 Aby zapobiec opisanym zjawiskom spadku wariancji i wzrostu korelacji pomiędzy testami, autorzy algorytmu zaproponowali metodę uczenia służącą wyborowi dobrego podzbioru binarnych testów.
 

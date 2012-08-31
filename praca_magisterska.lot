@@ -3,72 +3,72 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces Warto\IeC {\'s}ci charakterystyczne dla okien aproksymowanych filtr\IeC {\'o}w rozmycia}}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces BIKES - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{47}
-\contentsline {table}{\numberline {4.2}{\ignorespaces BIKES - czas lokalizowania pojedynczego punktu charakterystycznego}}{47}
-\contentsline {table}{\numberline {4.3}{\ignorespaces BIKES - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{47}
-\contentsline {table}{\numberline {4.4}{\ignorespaces BIKES - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{48}
-\contentsline {table}{\numberline {4.5}{\ignorespaces BIKES - procent poprawnych dopasowa\IeC {\'n}}}{49}
-\contentsline {table}{\numberline {4.6}{\ignorespaces TREES - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{51}
-\contentsline {table}{\numberline {4.7}{\ignorespaces TREES - czas lokalizowania pojedynczego punktu charakterystycznego w obrazach z zestawu TREES}}{51}
-\contentsline {table}{\numberline {4.8}{\ignorespaces TREES - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{52}
-\contentsline {table}{\numberline {4.9}{\ignorespaces TREES - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{53}
-\contentsline {table}{\numberline {4.10}{\ignorespaces TREES - procent poprawnych dopasowa\IeC {\'n}}}{53}
-\contentsline {table}{\numberline {4.11}{\ignorespaces GRAFFITI - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{56}
-\contentsline {table}{\numberline {4.12}{\ignorespaces GRAFFITI - czas lokalizowania pojedynczego punktu charakterystycznego}}{56}
-\contentsline {table}{\numberline {4.13}{\ignorespaces GRAFFITI - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{57}
-\contentsline {table}{\numberline {4.14}{\ignorespaces GRAFFITI - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{58}
-\contentsline {table}{\numberline {4.15}{\ignorespaces GRAFFITI - procent poprawnych dopasowa\IeC {\'n}}}{58}
-\contentsline {table}{\numberline {4.16}{\ignorespaces WALL - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{59}
-\contentsline {table}{\numberline {4.17}{\ignorespaces WALL - czas lokalizowania pojedynczego punktu charakterystycznego}}{60}
-\contentsline {table}{\numberline {4.18}{\ignorespaces WALL - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{60}
-\contentsline {table}{\numberline {4.19}{\ignorespaces WALL - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{60}
-\contentsline {table}{\numberline {4.20}{\ignorespaces WALL - procent poprawnych dopasowa\IeC {\'n}}}{60}
-\contentsline {table}{\numberline {4.21}{\ignorespaces BARK - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{64}
-\contentsline {table}{\numberline {4.22}{\ignorespaces BARK - czas lokalizowania pojedynczego punktu charakterystycznego}}{65}
-\contentsline {table}{\numberline {4.23}{\ignorespaces BARK - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{65}
+\contentsline {table}{\numberline {4.1}{\ignorespaces BIKES - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{44}
+\contentsline {table}{\numberline {4.2}{\ignorespaces BIKES - czas lokalizowania pojedynczego punktu charakterystycznego}}{44}
+\contentsline {table}{\numberline {4.3}{\ignorespaces BIKES - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{44}
+\contentsline {table}{\numberline {4.4}{\ignorespaces BIKES - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{45}
+\contentsline {table}{\numberline {4.5}{\ignorespaces BIKES - procent poprawnych dopasowa\IeC {\'n}}}{46}
+\contentsline {table}{\numberline {4.6}{\ignorespaces TREES - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{48}
+\contentsline {table}{\numberline {4.7}{\ignorespaces TREES - czas lokalizowania pojedynczego punktu charakterystycznego w obrazach z zestawu TREES}}{48}
+\contentsline {table}{\numberline {4.8}{\ignorespaces TREES - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{49}
+\contentsline {table}{\numberline {4.9}{\ignorespaces TREES - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{50}
+\contentsline {table}{\numberline {4.10}{\ignorespaces TREES - procent poprawnych dopasowa\IeC {\'n}}}{50}
+\contentsline {table}{\numberline {4.11}{\ignorespaces GRAFFITI - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{53}
+\contentsline {table}{\numberline {4.12}{\ignorespaces GRAFFITI - czas lokalizowania pojedynczego punktu charakterystycznego}}{53}
+\contentsline {table}{\numberline {4.13}{\ignorespaces GRAFFITI - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{54}
+\contentsline {table}{\numberline {4.14}{\ignorespaces GRAFFITI - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{55}
+\contentsline {table}{\numberline {4.15}{\ignorespaces GRAFFITI - procent poprawnych dopasowa\IeC {\'n}}}{55}
+\contentsline {table}{\numberline {4.16}{\ignorespaces WALL - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{56}
+\contentsline {table}{\numberline {4.17}{\ignorespaces WALL - czas lokalizowania pojedynczego punktu charakterystycznego}}{57}
+\contentsline {table}{\numberline {4.18}{\ignorespaces WALL - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{57}
+\contentsline {table}{\numberline {4.19}{\ignorespaces WALL - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{57}
+\contentsline {table}{\numberline {4.20}{\ignorespaces WALL - procent poprawnych dopasowa\IeC {\'n}}}{57}
+\contentsline {table}{\numberline {4.21}{\ignorespaces BARK - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{63}
+\contentsline {table}{\numberline {4.22}{\ignorespaces BARK - czas lokalizowania pojedynczego punktu charakterystycznego}}{63}
+\contentsline {table}{\numberline {4.23}{\ignorespaces BARK - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{64}
 \contentsline {table}{\numberline {4.24}{\ignorespaces BARK - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{65}
 \contentsline {table}{\numberline {4.25}{\ignorespaces BARK - procent poprawnych dopasowa\IeC {\'n}}}{65}
-\contentsline {table}{\numberline {4.26}{\ignorespaces BOAT - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{70}
-\contentsline {table}{\numberline {4.27}{\ignorespaces BOAT - czas lokalizowania pojedynczego punktu charakterystycznego}}{70}
-\contentsline {table}{\numberline {4.28}{\ignorespaces BOAT - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{71}
-\contentsline {table}{\numberline {4.29}{\ignorespaces BOAT - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{72}
-\contentsline {table}{\numberline {4.30}{\ignorespaces BOAT - procent poprawnych dopasowa\IeC {\'n}}}{72}
-\contentsline {table}{\numberline {4.31}{\ignorespaces CARS -ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{74}
-\contentsline {table}{\numberline {4.32}{\ignorespaces CARS - czas lokalizowania pojedynczego punktu charakterystycznego}}{74}
+\contentsline {table}{\numberline {4.26}{\ignorespaces BOAT - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{66}
+\contentsline {table}{\numberline {4.27}{\ignorespaces BOAT - czas lokalizowania pojedynczego punktu charakterystycznego}}{67}
+\contentsline {table}{\numberline {4.28}{\ignorespaces BOAT - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{67}
+\contentsline {table}{\numberline {4.29}{\ignorespaces BOAT - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{67}
+\contentsline {table}{\numberline {4.30}{\ignorespaces BOAT - procent poprawnych dopasowa\IeC {\'n}}}{67}
+\contentsline {table}{\numberline {4.31}{\ignorespaces CARS -ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{73}
+\contentsline {table}{\numberline {4.32}{\ignorespaces CARS - czas lokalizowania pojedynczego punktu charakterystycznego}}{73}
 \contentsline {table}{\numberline {4.33}{\ignorespaces CARS - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{74}
-\contentsline {table}{\numberline {4.34}{\ignorespaces CARS - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{74}
-\contentsline {table}{\numberline {4.35}{\ignorespaces CARS - procent poprawnych dopasowa\IeC {\'n}}}{76}
+\contentsline {table}{\numberline {4.34}{\ignorespaces CARS - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{75}
+\contentsline {table}{\numberline {4.35}{\ignorespaces CARS - procent poprawnych dopasowa\IeC {\'n}}}{75}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces R1 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{80}
-\contentsline {table}{\numberline {5.2}{\ignorespaces R1 - czas lokalizowania pojedynczego punktu charakterystycznego}}{80}
-\contentsline {table}{\numberline {5.3}{\ignorespaces R1 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{81}
-\contentsline {table}{\numberline {5.4}{\ignorespaces R1 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{82}
-\contentsline {table}{\numberline {5.5}{\ignorespaces R1 - procent poprawnych dopasowa\IeC {\'n}}}{83}
-\contentsline {table}{\numberline {5.6}{\ignorespaces ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{84}
-\contentsline {table}{\numberline {5.7}{\ignorespaces R2 - czas lokalizowania pojedynczego punktu charakterystycznego w obrazach z zestawu R2}}{85}
-\contentsline {table}{\numberline {5.8}{\ignorespaces R2 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{85}
-\contentsline {table}{\numberline {5.9}{\ignorespaces R2 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{85}
-\contentsline {table}{\numberline {5.10}{\ignorespaces R2 - procent poprawnych dopasowa\IeC {\'n}}}{85}
-\contentsline {table}{\numberline {5.11}{\ignorespaces R3 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{89}
-\contentsline {table}{\numberline {5.12}{\ignorespaces R3 - czas lokalizowania pojedynczego punktu charakterystycznego}}{90}
-\contentsline {table}{\numberline {5.13}{\ignorespaces R3 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{90}
-\contentsline {table}{\numberline {5.14}{\ignorespaces R3 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech dla obraz\IeC {\'o}w z zestawu R3}}{90}
-\contentsline {table}{\numberline {5.15}{\ignorespaces R3 - procent poprawnych dopasowa\IeC {\'n}}}{90}
-\contentsline {table}{\numberline {5.16}{\ignorespaces V1 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{96}
-\contentsline {table}{\numberline {5.17}{\ignorespaces V1 - czas lokalizowania pojedynczego punktu charakterystycznego}}{96}
-\contentsline {table}{\numberline {5.18}{\ignorespaces V1 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{97}
-\contentsline {table}{\numberline {5.19}{\ignorespaces V1 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{98}
-\contentsline {table}{\numberline {5.20}{\ignorespaces V1 - procent poprawnych dopasowa\IeC {\'n}}}{98}
-\contentsline {table}{\numberline {5.21}{\ignorespaces V2 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{99}
-\contentsline {table}{\numberline {5.22}{\ignorespaces V2 - czas lokalizowania pojedynczego punktu charakterystycznego}}{100}
-\contentsline {table}{\numberline {5.23}{\ignorespaces V2 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{100}
-\contentsline {table}{\numberline {5.24}{\ignorespaces V2 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{100}
-\contentsline {table}{\numberline {5.25}{\ignorespaces V2 - procent poprawnych dopasowa\IeC {\'n}}}{100}
+\contentsline {table}{\numberline {5.1}{\ignorespaces R1 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{78}
+\contentsline {table}{\numberline {5.2}{\ignorespaces R1 - czas lokalizowania pojedynczego punktu charakterystycznego}}{78}
+\contentsline {table}{\numberline {5.3}{\ignorespaces R1 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{79}
+\contentsline {table}{\numberline {5.4}{\ignorespaces R1 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{80}
+\contentsline {table}{\numberline {5.5}{\ignorespaces R1 - procent poprawnych dopasowa\IeC {\'n}}}{81}
+\contentsline {table}{\numberline {5.6}{\ignorespaces ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{82}
+\contentsline {table}{\numberline {5.7}{\ignorespaces R2 - czas lokalizowania pojedynczego punktu charakterystycznego w obrazach z zestawu R2}}{83}
+\contentsline {table}{\numberline {5.8}{\ignorespaces R2 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{83}
+\contentsline {table}{\numberline {5.9}{\ignorespaces R2 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{83}
+\contentsline {table}{\numberline {5.10}{\ignorespaces R2 - procent poprawnych dopasowa\IeC {\'n}}}{83}
+\contentsline {table}{\numberline {5.11}{\ignorespaces R3 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{87}
+\contentsline {table}{\numberline {5.12}{\ignorespaces R3 - czas lokalizowania pojedynczego punktu charakterystycznego}}{88}
+\contentsline {table}{\numberline {5.13}{\ignorespaces R3 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{88}
+\contentsline {table}{\numberline {5.14}{\ignorespaces R3 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech dla obraz\IeC {\'o}w z zestawu R3}}{88}
+\contentsline {table}{\numberline {5.15}{\ignorespaces R3 - procent poprawnych dopasowa\IeC {\'n}}}{88}
+\contentsline {table}{\numberline {5.16}{\ignorespaces V1 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{94}
+\contentsline {table}{\numberline {5.17}{\ignorespaces V1 - czas lokalizowania pojedynczego punktu charakterystycznego}}{94}
+\contentsline {table}{\numberline {5.18}{\ignorespaces V1 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{95}
+\contentsline {table}{\numberline {5.19}{\ignorespaces V1 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{96}
+\contentsline {table}{\numberline {5.20}{\ignorespaces V1 - procent poprawnych dopasowa\IeC {\'n}}}{96}
+\contentsline {table}{\numberline {5.21}{\ignorespaces V2 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{97}
+\contentsline {table}{\numberline {5.22}{\ignorespaces V2 - czas lokalizowania pojedynczego punktu charakterystycznego}}{98}
+\contentsline {table}{\numberline {5.23}{\ignorespaces V2 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{98}
+\contentsline {table}{\numberline {5.24}{\ignorespaces V2 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{98}
+\contentsline {table}{\numberline {5.25}{\ignorespaces V2 - procent poprawnych dopasowa\IeC {\'n}}}{98}
 \contentsline {table}{\numberline {5.26}{\ignorespaces Z1 - ilo\IeC {\'s}\IeC {\'c} wyszukanych cech}}{104}
-\contentsline {table}{\numberline {5.27}{\ignorespaces Z1 - czas lokalizowania pojedynczego punktu charakterystycznego}}{105}
+\contentsline {table}{\numberline {5.27}{\ignorespaces Z1 - czas lokalizowania pojedynczego punktu charakterystycznego}}{104}
 \contentsline {table}{\numberline {5.28}{\ignorespaces Z1 - czas generowania pojedynczego deskryptora punktu charakterystycznego}}{105}
-\contentsline {table}{\numberline {5.29}{\ignorespaces Z1 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{105}
-\contentsline {table}{\numberline {5.30}{\ignorespaces Z1 - procent poprawnych dopasowa\IeC {\'n}}}{105}
+\contentsline {table}{\numberline {5.29}{\ignorespaces Z1 - powtarzalno\IeC {\'s}\IeC {\'c} wykrywanych cech}}{106}
+\contentsline {table}{\numberline {5.30}{\ignorespaces Z1 - procent poprawnych dopasowa\IeC {\'n}}}{106}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
